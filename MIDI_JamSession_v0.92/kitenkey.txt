@@ -1,0 +1,7 @@
+kitenkey.zip contains two MIDI files for "Kitten on the Keys" by Zez Confrey,
+and sequenced by John E. Roache. This is a great piece written in 1921
+during the ragtime era, and is an excellent illustration of the "stride"
+piano style.
+
+Unpack the .zip file for the MIDI files, and also read about the piece.
+
