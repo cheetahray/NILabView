@@ -31,9 +31,11 @@
 	<Property Name="varPersistentID:{3B3A8361-52B5-4177-8086-06D06407612E}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod2/DO1</Property>
 	<Property Name="varPersistentID:{3DD76B58-C7C0-4FAF-8F79-2B501A01F80B}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod2/DO16</Property>
 	<Property Name="varPersistentID:{4153696F-DC8E-4FC1-B8C9-0C67145F8220}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod2/DO14</Property>
+	<Property Name="varPersistentID:{415B4206-1CBB-42AC-B78E-FF1AF14CA3C8}" Type="Ref">/NI-cRIO-9068-18D2C6B/testmode.lvlib/wtf</Property>
 	<Property Name="varPersistentID:{419EC189-53A5-41A4-BD0A-50043FF66CAF}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod3/DO29</Property>
 	<Property Name="varPersistentID:{426C2536-5661-423B-B29C-0F6880D938BC}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod3/DO4</Property>
 	<Property Name="varPersistentID:{42A8A380-C667-46BA-9255-A9E7EC1D688C}" Type="Ref">/NI-cRIO-9068-18D2C6B/testmode.lvlib/array</Property>
+	<Property Name="varPersistentID:{46B58A2D-AF41-4AB7-A3B5-B8508596B3D0}" Type="Ref">/NI-cRIO-9068-18D2C6B/testmode.lvlib/wth</Property>
 	<Property Name="varPersistentID:{48585B6B-2BF4-4B98-9487-5D598142EBDB}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod1/DO2</Property>
 	<Property Name="varPersistentID:{48CB5FEF-C893-4DB2-BE49-CEA8D974190A}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod2/DO3</Property>
 	<Property Name="varPersistentID:{4AB2AE2A-F711-4B50-96B5-29D9C6B3D3A8}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod2/DO23</Property>
@@ -1900,13 +1902,13 @@ AddOutputFilter chunkFilter
 				<Property Name="crio.SDCounterTimebase7INTMod3" Type="Str">0</Property>
 				<Property Name="crio.SDInputFilter" Type="Str">128</Property>
 				<Property Name="crio.SDPWMPeriod0" Type="Str">4</Property>
-				<Property Name="crio.SDPWMPeriod1" Type="Str">0</Property>
-				<Property Name="crio.SDPWMPeriod2" Type="Str">0</Property>
-				<Property Name="crio.SDPWMPeriod3" Type="Str">0</Property>
-				<Property Name="crio.SDPWMPeriod4" Type="Str">0</Property>
-				<Property Name="crio.SDPWMPeriod5" Type="Str">0</Property>
-				<Property Name="crio.SDPWMPeriod6" Type="Str">0</Property>
-				<Property Name="crio.SDPWMPeriod7" Type="Str">0</Property>
+				<Property Name="crio.SDPWMPeriod1" Type="Str">4</Property>
+				<Property Name="crio.SDPWMPeriod2" Type="Str">4</Property>
+				<Property Name="crio.SDPWMPeriod3" Type="Str">4</Property>
+				<Property Name="crio.SDPWMPeriod4" Type="Str">4</Property>
+				<Property Name="crio.SDPWMPeriod5" Type="Str">4</Property>
+				<Property Name="crio.SDPWMPeriod6" Type="Str">4</Property>
+				<Property Name="crio.SDPWMPeriod7" Type="Str">4</Property>
 				<Property Name="crio.SDQuadIndexMode0" Type="Str">0</Property>
 				<Property Name="crio.SDQuadIndexMode1" Type="Str">0</Property>
 				<Property Name="crio.SDQuadTimebase0" Type="Str">0</Property>

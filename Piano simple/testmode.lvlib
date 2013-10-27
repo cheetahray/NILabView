@@ -11,4 +11,22 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%B(1%!!"-!A!!!!!!$!+]!.`````]!"2-!A!!!!!!"!!1!!!!"!!!!!!!$!!!!$5Z*8V:"5F^"1U.&amp;5V-4!)!!!!!!!1!&amp;!!=!!!%!!!!!-!-!!!!!!!!!$UZ*8V:"5F^%162"6&amp;F122-!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!&amp;%Z*8V:"5F^325&amp;%6%F.26.515V1%Q#!!!!!!!%!"!!B!!%!!!!!!!!!#&amp;:B=GFB9GRF!!"/1(!!&amp;1J*4V:B=GFB9GRF!!!"!!!)6G&amp;S;7&amp;C&lt;'5!%Q#!!!!!!!%!"!!!!!%!!!!!!!!:=WBB=G6E)(:B=GFB9GRF)(*F:GZV&lt;3"J&lt;A!-!%!!!@````]!!1!"!!)!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="wtf" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"-!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="wth" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
 </Library>
