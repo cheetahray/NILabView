@@ -2169,7 +2169,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="midi test.vi" Type="VI" URL="../midi test.vi"/>
 		<Item Name="midi_ToMinSec.vi" Type="VI" URL="../../../MIDI_JamSession_v0.92/midi_ToMinSec.vi"/>
-		<Item Name="OSC UDP Receiver.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/NIOSC/OSC UDP Receiver.vi"/>
+		<Item Name="OSC UDP Receiver.vi" Type="VI" URL="../../OSC UDP Receiver.vi"/>
 		<Item Name="testmode.lvlib" Type="Library" URL="../../testmode.lvlib"/>
 		<Item Name="testRTDO.vi" Type="VI" URL="../../testRTDO.vi"/>
 		<Item Name="testscanmode.lvlib" Type="Library" URL="../../testscanmode.lvlib"/>
