@@ -5,30 +5,32 @@
 	<Property Name="varPersistentID:{0355FB50-7D96-403C-AEE7-80EDD617D2EF}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod1/PWM3</Property>
 	<Property Name="varPersistentID:{04DEA590-8897-45E8-BAF5-34DA317EEF8D}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod1/PWM4</Property>
 	<Property Name="varPersistentID:{068D84E5-ABA4-4130-B3D7-0770EBE4FB9D}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod5/PWM1</Property>
-	<Property Name="varPersistentID:{07338EED-3440-43C4-B60A-ADD7F6637D0F}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod3/PWM7</Property>
 	<Property Name="varPersistentID:{074743B0-3338-4518-91DA-39F83310B7F6}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod8/PWM6</Property>
 	<Property Name="varPersistentID:{08CCFA2D-CAFA-40E5-AE8F-AF946C05F4A6}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod1/PWM2</Property>
-	<Property Name="varPersistentID:{0CBD1042-DAE0-4E96-A4DD-F2A9A3837140}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod3/PWM0</Property>
 	<Property Name="varPersistentID:{0F1D6A29-B10D-4E3E-98C7-FF1BECEB0BC4}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod6/PWM0</Property>
 	<Property Name="varPersistentID:{1245009C-E6A9-4E41-AE08-C40D411864F6}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod2/PWM7</Property>
 	<Property Name="varPersistentID:{1511378E-3801-4632-BF84-2DF34199B4B5}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod4/PWM3</Property>
 	<Property Name="varPersistentID:{158ADACA-816E-4EEB-8833-56EEABC9DCD2}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod1/PWM5</Property>
 	<Property Name="varPersistentID:{1FF724ED-B5F3-4F29-A621-1AAE6F771141}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod4/PWM4</Property>
-	<Property Name="varPersistentID:{254ADF18-359D-4295-A8C0-AE53EE0C6693}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod3/PWM5</Property>
 	<Property Name="varPersistentID:{2550C2CC-F874-4D35-9E0E-A6EAAE34C508}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod8/PWM2</Property>
 	<Property Name="varPersistentID:{2A3B1C12-0611-497F-AF65-771B6E8D00B4}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod7/PWM0</Property>
 	<Property Name="varPersistentID:{2C427B43-CE1E-4ECE-AFE2-37CDF1D4EA57}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod4/PWM5</Property>
+	<Property Name="varPersistentID:{2CB74975-A89C-4626-9E70-CE946711B711}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod3/PWM7</Property>
 	<Property Name="varPersistentID:{303E2924-3D68-457A-90CC-35BF583FE8AE}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod2/PWM3</Property>
 	<Property Name="varPersistentID:{308AD242-53FA-433D-A29B-95F69B7D1D67}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod6/PWM2</Property>
 	<Property Name="varPersistentID:{356A7F51-DD34-45E3-B141-7AA05186B6E0}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod2/PWM5</Property>
 	<Property Name="varPersistentID:{3A1C9D3A-22F0-497B-9848-3F27832A2DC2}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod8/PWM5</Property>
+	<Property Name="varPersistentID:{3DD0CFF5-9570-444D-B52D-D08929049F3D}" Type="Ref">/NI-cRIO-9068-18D2C6B/testmode.lvlib/arrayray</Property>
 	<Property Name="varPersistentID:{3E639A19-4AD3-4246-A786-69664880F5BA}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod1/PWM0</Property>
+	<Property Name="varPersistentID:{3F1A10F3-8261-4B59-9BDE-4D45375C312B}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod3/PWM4</Property>
 	<Property Name="varPersistentID:{44867376-4093-4216-8B7B-8927ABEC5E8F}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod5/PWM2</Property>
 	<Property Name="varPersistentID:{463B4309-38A8-4C80-8D6D-26106FF9DDCD}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod6/PWM4</Property>
 	<Property Name="varPersistentID:{4F907752-040A-4B1F-B409-6B14385ABB80}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod7/PWM1</Property>
-	<Property Name="varPersistentID:{5731CBF7-B634-4F6F-96ED-2ECE3BE410D5}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod3/PWM6</Property>
+	<Property Name="varPersistentID:{565318BD-57DA-437A-A88D-F350F28659A6}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod3/PWM5</Property>
+	<Property Name="varPersistentID:{570FCA08-F914-4BF1-B9D4-9A7D435D54FD}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod3/PWM0</Property>
 	<Property Name="varPersistentID:{5DD36A81-68CD-4A09-B203-081E098CFA4C}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod2/PWM4</Property>
 	<Property Name="varPersistentID:{5E40BC2E-6A26-4BFF-A259-F8EEEC4B55AD}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod5/PWM7</Property>
+	<Property Name="varPersistentID:{5F7E4329-CC20-4C01-A047-CE98DEA131C1}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod3/PWM1</Property>
 	<Property Name="varPersistentID:{6149605A-C53D-4199-AC02-20BDD16DA83D}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod5/PWM5</Property>
 	<Property Name="varPersistentID:{61F60CF2-6BDB-4771-B848-5223AB717F34}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod7/PWM4</Property>
 	<Property Name="varPersistentID:{626538D8-9E9C-48C3-B4AB-DB00DA91C669}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod7/PWM5</Property>
@@ -37,6 +39,7 @@
 	<Property Name="varPersistentID:{745F05C0-2578-4D7B-9DE3-677E3C7C1F89}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod2/PWM1</Property>
 	<Property Name="varPersistentID:{7B95652A-E6F2-4AC4-A904-963F8478E2F5}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod4/PWM2</Property>
 	<Property Name="varPersistentID:{7E6D22C7-01DE-409B-A9AC-3E8ED2432F98}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod2/PWM2</Property>
+	<Property Name="varPersistentID:{7EBBE33A-7E08-44F6-92DB-763D47FCCD0B}" Type="Ref">/NI-cRIO-9068-18D2C6B/testscanmode.lvlib/note events</Property>
 	<Property Name="varPersistentID:{8106360A-1442-4133-BBE3-587AC8A02177}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod8/PWM7</Property>
 	<Property Name="varPersistentID:{858081E4-2FF7-4EF8-86CB-D3F7B589E3C0}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod7/PWM2</Property>
 	<Property Name="varPersistentID:{861AE3F4-7AF7-4E63-A0AD-5DBD12C5F74D}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod7/PWM6</Property>
@@ -51,19 +54,18 @@
 	<Property Name="varPersistentID:{B14195A3-B969-4A95-B59D-3BDB8C89124D}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod6/PWM3</Property>
 	<Property Name="varPersistentID:{B68180B9-DDFA-4228-ABBC-2F787EB25A70}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod1/PWM6</Property>
 	<Property Name="varPersistentID:{B83D2B66-B804-4C8B-9B29-3A35EEE9F345}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod1/PWM1</Property>
+	<Property Name="varPersistentID:{B8CED781-EC70-40AA-8C1E-0E865371432D}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod3/PWM2</Property>
+	<Property Name="varPersistentID:{B98B34D5-BA22-4A29-B2BD-470BA1A94C34}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod3/PWM3</Property>
 	<Property Name="varPersistentID:{BA20BF70-9819-4A9A-8440-3A8B55E081E4}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod2/PWM0</Property>
 	<Property Name="varPersistentID:{BE855E97-D6AA-4C62-9016-32D0EF627B29}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod4/PWM6</Property>
-	<Property Name="varPersistentID:{BED17260-9CB3-4D06-B94A-A39E2F134A5C}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod3/PWM2</Property>
+	<Property Name="varPersistentID:{C29D03CC-EDED-4065-A138-75735CA51B6E}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod3/PWM6</Property>
 	<Property Name="varPersistentID:{CAE700C6-18C7-4D87-9F17-9E39686A757E}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod5/PWM3</Property>
 	<Property Name="varPersistentID:{CD2AE751-1815-4DA3-84D9-49E20D43553E}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod6/PWM6</Property>
 	<Property Name="varPersistentID:{D0E298DA-0B55-4C4C-A171-7CA3B5EFF6D2}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod2/PWM6</Property>
 	<Property Name="varPersistentID:{D50C1797-662F-4CD1-A986-ACB8BFC232E5}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod5/PWM4</Property>
 	<Property Name="varPersistentID:{DC1F17AC-18DF-42EA-B9AE-35CDCF1F342C}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod8/PWM1</Property>
-	<Property Name="varPersistentID:{DC84D6D8-F8F2-45A0-8324-C7146BA2EF0B}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod3/PWM3</Property>
 	<Property Name="varPersistentID:{E9A7EB77-D328-4617-9CA9-0A85403DFF10}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod6/PWM1</Property>
-	<Property Name="varPersistentID:{F48E6DE5-A453-4356-BDE2-EFCA758B154D}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod3/PWM4</Property>
 	<Property Name="varPersistentID:{F99295AD-AC83-4E83-A50C-6BECF7D47C3D}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod5/PWM0</Property>
-	<Property Name="varPersistentID:{FFCB73F8-DACF-4FC5-8192-B297E6F54DA1}" Type="Ref">/NI-cRIO-9068-18D2C6B/Chassis/Mod3/PWM1</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -284,143 +286,9 @@ AddOutputFilter chunkFilter
 		<Item Name="9401PWM with Midi.vi" Type="VI" URL="../9401PWM with Midi.vi"/>
 		<Item Name="9474PWM.vi" Type="VI" URL="../../9474PWM.vi"/>
 		<Item Name="Chassis" Type="cRIO Chassis">
-			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
+			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
 			<Property Name="crio.Type" Type="Str">cRIO-9068</Property>
-			<Item Name="FPGA Target" Type="FPGA Target">
-				<Property Name="AutoRun" Type="Bool">false</Property>
-				<Property Name="configString.guid" Type="Str">{06BEA8D7-D1E9-4C45-AD5D-8FD290DDD653}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E{0B83BEF8-34FB-4A53-A394-4F65EF1D056F}[crioConfig.Begin]crio.Location=Slot 6,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]{0D3908AB-4359-4448-9CF9-68CDC3D19882}[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]{1A326855-E82B-4886-93FC-7FC1A0AA3EAD}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{304DBCBA-08D0-4395-BE76-33B7C6F1E4E4}resource=/Scan Clock;0;ReadMethodType=bool{3CAC3AAC-EC56-4F67-AAE8-5233A71915FF}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=1000800000000001003C005F035100400000000B000100010000000BFFFFFFFFFFFFFFFF0000003F0000000A7FFFFFFFFFFFFFFF00000001FFFFFFCC000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{4A756166-816A-48D0-98B0-9DCCAB0FE7BF}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{7511AA2B-C714-49CD-A1B1-F20933F58445}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8{7C9E8176-D79A-41F2-B4D7-261876E73A56}resource=/Chassis Temperature;0;ReadMethodType=i16{9EBA9213-82F0-45BF-BC32-18F8A930A858}[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]{BF0CDCE3-F7D1-44FC-B7C2-063D42D73C42}[crioConfig.Begin]crio.Location=Slot 4,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]{CBEB58F0-44BE-440C-8FD3-85DE2E5B2479}[crioConfig.Begin]crio.Location=Slot 8,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]{D1E527FC-7AEE-4C88-99B4-52517C8B4F2B}[crioConfig.Begin]crio.Location=Slot 5,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]{D63AB327-D3E3-4544-AEE4-985D0EFCBD3C}[crioConfig.Begin]crio.Location=Slot 7,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]{F7060C4C-3ABF-4779-8AA5-161ABB329E7F}[crioConfig.Begin]crio.Location=Slot 3,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]cRIO-9068/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9068FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
-				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9068/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9068FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]FIFO"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=1000800000000001003C005F035100400000000B000100010000000BFFFFFFFFFFFFFFFF0000003F0000000A7FFFFFFFFFFFFFFF00000001FFFFFFCC000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"Mod1[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]Mod2[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]Mod3[crioConfig.Begin]crio.Location=Slot 3,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]Mod4[crioConfig.Begin]crio.Location=Slot 4,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]Mod5[crioConfig.Begin]crio.Location=Slot 5,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]Mod6[crioConfig.Begin]crio.Location=Slot 6,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]Mod7[crioConfig.Begin]crio.Location=Slot 7,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]Mod8[crioConfig.Begin]crio.Location=Slot 8,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8</Property>
-				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">cRIO-9068/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9068FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA</Property>
-				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
-				<Property Name="NI.SortType" Type="Int">3</Property>
-				<Property Name="Resource Name" Type="Str">RIO0</Property>
-				<Property Name="Target Class" Type="Str">cRIO-9068</Property>
-				<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
-				<Property Name="Top-Level Timing Source Is Default" Type="Bool">true</Property>
-				<Item Name="Chassis I/O" Type="Folder">
-					<Item Name="Chassis Temperature" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="resource">
-   <Value>/Chassis Temperature</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{7C9E8176-D79A-41F2-B4D7-261876E73A56}</Property>
-					</Item>
-					<Item Name="Scan Clock" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="resource">
-   <Value>/Scan Clock</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{304DBCBA-08D0-4395-BE76-33B7C6F1E4E4}</Property>
-					</Item>
-					<Item Name="Sleep" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="resource">
-   <Value>/Sleep</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{1A326855-E82B-4886-93FC-7FC1A0AA3EAD}</Property>
-					</Item>
-					<Item Name="System Reset" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="resource">
-   <Value>/System Reset</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{4A756166-816A-48D0-98B0-9DCCAB0FE7BF}</Property>
-					</Item>
-					<Item Name="USER FPGA LED" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="resource">
-   <Value>/USER FPGA LED</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{7511AA2B-C714-49CD-A1B1-F20933F58445}</Property>
-					</Item>
-				</Item>
-				<Item Name="40 MHz Onboard Clock" Type="FPGA Base Clock">
-					<Property Name="FPGA.PersistentID" Type="Str">{06BEA8D7-D1E9-4C45-AD5D-8FD290DDD653}</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.Accuracy" Type="Dbl">100</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.ClockSignalName" Type="Str">Clk40</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.MaxDutyCycle" Type="Dbl">50</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.MaxFrequency" Type="Dbl">40000000</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.MinDutyCycle" Type="Dbl">50</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.MinFrequency" Type="Dbl">40000000</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.NominalFrequency" Type="Dbl">40000000</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.PeakPeriodJitter" Type="Dbl">250</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.ResourceName" Type="Str">40 MHz Onboard Clock</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.SupportAndRequireRuntimeEnableDisable" Type="Bool">false</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.TopSignalConnect" Type="Str">Clk40</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.VariableFrequency" Type="Bool">false</Property>
-					<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
-					<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
-				</Item>
-				<Item Name="FIFO" Type="FPGA FIFO">
-					<Property Name="Actual Number of Elements" Type="UInt">1023</Property>
-					<Property Name="Arbitration for Read" Type="UInt">1</Property>
-					<Property Name="Arbitration for Write" Type="UInt">1</Property>
-					<Property Name="Control Logic" Type="UInt">0</Property>
-					<Property Name="Data Type" Type="UInt">9</Property>
-					<Property Name="Disable on Overflow/Underflow" Type="Bool">false</Property>
-					<Property Name="fifo.configuration" Type="Str">"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=1000800000000001003C005F035100400000000B000100010000000BFFFFFFFFFFFFFFFF0000003F0000000A7FFFFFFFFFFFFFFF00000001FFFFFFCC000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"</Property>
-					<Property Name="fifo.configured" Type="Bool">true</Property>
-					<Property Name="fifo.projectItemValid" Type="Bool">true</Property>
-					<Property Name="fifo.valid" Type="Bool">true</Property>
-					<Property Name="fifo.version" Type="Int">12</Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{3CAC3AAC-EC56-4F67-AAE8-5233A71915FF}</Property>
-					<Property Name="Local" Type="Bool">false</Property>
-					<Property Name="Memory Type" Type="UInt">2</Property>
-					<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
-					<Property Name="Number Of Elements Per Write" Type="UInt">1</Property>
-					<Property Name="Requested Number of Elements" Type="UInt">1023</Property>
-					<Property Name="Type" Type="UInt">2</Property>
-					<Property Name="Type Descriptor" Type="Str">1000800000000001003C005F035100400000000B000100010000000BFFFFFFFFFFFFFFFF0000003F0000000A7FFFFFFFFFFFFFFF00000001FFFFFFCC000000000000000100010000000000000000000000000000</Property>
-				</Item>
-				<Item Name="HybirdFPGA.vi" Type="VI" URL="../HybirdFPGA.vi">
-					<Property Name="configString.guid" Type="Str">{06BEA8D7-D1E9-4C45-AD5D-8FD290DDD653}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E{0B83BEF8-34FB-4A53-A394-4F65EF1D056F}[crioConfig.Begin]crio.Location=Slot 6,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]{0D3908AB-4359-4448-9CF9-68CDC3D19882}[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]{1A326855-E82B-4886-93FC-7FC1A0AA3EAD}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{304DBCBA-08D0-4395-BE76-33B7C6F1E4E4}resource=/Scan Clock;0;ReadMethodType=bool{3CAC3AAC-EC56-4F67-AAE8-5233A71915FF}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=1000800000000001003C005F035100400000000B000100010000000BFFFFFFFFFFFFFFFF0000003F0000000A7FFFFFFFFFFFFFFF00000001FFFFFFCC000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{4A756166-816A-48D0-98B0-9DCCAB0FE7BF}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{7511AA2B-C714-49CD-A1B1-F20933F58445}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8{7C9E8176-D79A-41F2-B4D7-261876E73A56}resource=/Chassis Temperature;0;ReadMethodType=i16{9EBA9213-82F0-45BF-BC32-18F8A930A858}[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]{BF0CDCE3-F7D1-44FC-B7C2-063D42D73C42}[crioConfig.Begin]crio.Location=Slot 4,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]{CBEB58F0-44BE-440C-8FD3-85DE2E5B2479}[crioConfig.Begin]crio.Location=Slot 8,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]{D1E527FC-7AEE-4C88-99B4-52517C8B4F2B}[crioConfig.Begin]crio.Location=Slot 5,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]{D63AB327-D3E3-4544-AEE4-985D0EFCBD3C}[crioConfig.Begin]crio.Location=Slot 7,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]{F7060C4C-3ABF-4779-8AA5-161ABB329E7F}[crioConfig.Begin]crio.Location=Slot 3,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]cRIO-9068/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9068FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
-					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9068/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9068FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]FIFO"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=1000800000000001003C005F035100400000000B000100010000000BFFFFFFFFFFFFFFFF0000003F0000000A7FFFFFFFFFFFFFFF00000001FFFFFFCC000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"Mod1[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]Mod2[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]Mod3[crioConfig.Begin]crio.Location=Slot 3,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]Mod4[crioConfig.Begin]crio.Location=Slot 4,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]Mod5[crioConfig.Begin]crio.Location=Slot 5,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]Mod6[crioConfig.Begin]crio.Location=Slot 6,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]Mod7[crioConfig.Begin]crio.Location=Slot 7,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]Mod8[crioConfig.Begin]crio.Location=Slot 8,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8</Property>
-				</Item>
-				<Item Name="Dependencies" Type="Dependencies">
-					<Item Name="vi.lib" Type="Folder">
-						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-					</Item>
-					<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
-					<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
-					<Item Name="niFpgaSetErrorForExecOnDevCompSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaSetErrorForExecOnDevCompSimple.vi"/>
-					<Item Name="nirviCleanSpecificError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/nirviCleanSpecificError.vi"/>
-					<Item Name="nirviTopLevelTSIsDefaultTag.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/TimingSources/Configuration/Private/nirviTopLevelTSIsDefaultTag.vi"/>
-					<Item Name="nirviTopLevelTSTag.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/TimingSources/Configuration/Private/nirviTopLevelTSTag.vi"/>
-					<Item Name="nirviGetToplevelTsByTargetItem.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/TimingSources/Configuration/Private/nirviGetToplevelTsByTargetItem.vi"/>
-					<Item Name="niFpgaGetClockAttributesFromContext.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaGetClockAttributesFromContext.vi"/>
-					<Item Name="niFpgaGetClockAttributes.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaGetClockAttributes.vi"/>
-					<Item Name="niFpgaSctlEmulationGetInTimedLoop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaSctlEmulationGetInTimedLoop.vi"/>
-					<Item Name="niFpgaCriticalErrorInLSC.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaCriticalErrorInLSC.vi"/>
-					<Item Name="niFpgaGenCallStack.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaGenCallStack.vi"/>
-					<Item Name="nirviFillInErrorInfo.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviFillInErrorInfo.vi"/>
-					<Item Name="nirviReportUnexpectedCaseInternalErrorHelper.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalErrorHelper.vi"/>
-					<Item Name="nirviReportUnexpectedCaseInternalError (U32).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError (U32).vi"/>
-					<Item Name="nirviReportUnexpectedCaseInternalError (String).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError (String).vi"/>
-					<Item Name="nirviReportUnexpectedCaseInternalError (Bool).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError (Bool).vi"/>
-					<Item Name="nirviReportUnexpectedCaseInternalError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError.vi"/>
-					<Item Name="niFpgaEmulError.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/niFpgaEmulError.ctl"/>
-					<Item Name="niFpgaProcessEmulError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaProcessEmulError.vi"/>
-					<Item Name="niFpgaEmulationReportErrorSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaEmulationReportErrorSimple.vi"/>
-					<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
-					<Item Name="nirvififoEmulationReleaseLock.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Resource/nirvififoEmulationReleaseLock.vi"/>
-					<Item Name="nirvififoEmulationCreateLock.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Resource/nirvififoEmulationCreateLock.vi"/>
-					<Item Name="nirviWaitOnOccurrenceBase.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/occurrence/nirviWaitOnOccurrenceBase.vi"/>
-					<Item Name="niFpgaEmulationVisToLoad.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaEmulationVisToLoad.vi"/>
-				</Item>
-				<Item Name="Build Specifications" Type="Build"/>
-			</Item>
 			<Item Name="Mod1" Type="RIO C Series Module">
 				<Property Name="crio.Calibration" Type="Str">1</Property>
 				<Property Name="crio.Location" Type="Str">Slot 1</Property>
