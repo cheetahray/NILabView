@@ -4,11 +4,12 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="arrayray" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%B(1%!!"-!A!!!!!!$!+]!.`````]!"2-!A!!!!!!"!!1!!!!"!!!!!!!$!!!!$5Z*8V:"5F^"1U.&amp;5V-4!)!!!!!!!1!&amp;!!=!!!%!!!!!-!-!!!!!!!!!$UZ*8V:"5F^%162"6&amp;F122-!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!&amp;%Z*8V:"5F^325&amp;%6%F.26.515V1%Q#!!!!!!!%!"!!B!!%!!!!!!!!!#&amp;:B=GFB9GRF!!"/1(!!&amp;1J*4V:B=GFB9GRF!!!"!!!)6G&amp;S;7&amp;C&lt;'5!%Q#!!!!!!!%!"!!!!!%!!!!!!!!:=WBB=G6E)(:B=GFB9GRF)(*F:GZV&lt;3"J&lt;A!-!%!!!@````]!!1!"!!)!!!!!!!!!!!!!!!!</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"%1!!!!"-!A!!!!!!#!""!-0````]'5X2S;7ZH!!!=1%!!!@````]!!!^"=H*B?3"P:C"4&gt;(*J&lt;G=!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
