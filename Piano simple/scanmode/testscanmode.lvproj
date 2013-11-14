@@ -3439,6 +3439,7 @@ AddOutputFilter chunkFilter
 		<Item Name="midi_ToMinSec.vi" Type="VI" URL="../../../MIDI_JamSession_v0.92/midi_ToMinSec.vi"/>
 		<Item Name="OSC UDP Receiver.vi" Type="VI" URL="../../OSC UDP Receiver.vi"/>
 		<Item Name="RT Host.vi" Type="VI" URL="../RT Host.vi"/>
+		<Item Name="RT target - PWM Example.vi" Type="VI" URL="../RT target - PWM Example.vi"/>
 		<Item Name="testmode.lvlib" Type="Library" URL="../../testmode.lvlib"/>
 		<Item Name="testRTDO.vi" Type="VI" URL="../../testRTDO.vi"/>
 		<Item Name="testscanmode.lvlib" Type="Library" URL="../../testscanmode.lvlib"/>
@@ -3516,7 +3517,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C28CA6F4-BCD6-4064-A664-1D4E995E7D84}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
