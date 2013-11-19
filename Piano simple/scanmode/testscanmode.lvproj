@@ -1,6 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="13008000">
-	<Property Name="varPersistentID:{3DD0CFF5-9570-444D-B52D-D08929049F3D}" Type="Ref">/NI-cRIO-9068-18D2C6B/testmode.lvlib/arrayray</Property>
 	<Property Name="varPersistentID:{7EBBE33A-7E08-44F6-92DB-763D47FCCD0B}" Type="Ref">/NI-cRIO-9068-18D2C6B/testscanmode.lvlib/note events</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -220,7 +219,6 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="9401PWM with Midi.vi" Type="VI" URL="../9401PWM with Midi.vi"/>
-		<Item Name="9474PWM.vi" Type="VI" URL="../../9474PWM.vi"/>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -3435,13 +3433,7 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="midi test.vi" Type="VI" URL="../midi test.vi"/>
-		<Item Name="midi_ToMinSec.vi" Type="VI" URL="../../../MIDI_JamSession_v0.92/midi_ToMinSec.vi"/>
-		<Item Name="OSC UDP Receiver.vi" Type="VI" URL="../../OSC UDP Receiver.vi"/>
-		<Item Name="RT Host.vi" Type="VI" URL="../RT Host.vi"/>
 		<Item Name="RT target - PWM Example.vi" Type="VI" URL="../RT target - PWM Example.vi"/>
-		<Item Name="testmode.lvlib" Type="Library" URL="../../testmode.lvlib"/>
-		<Item Name="testRTDO.vi" Type="VI" URL="../../testRTDO.vi"/>
 		<Item Name="testscanmode.lvlib" Type="Library" URL="../../testscanmode.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -3485,7 +3477,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Angle to Pulse Width.vi" Type="VI" URL="../Angle to Pulse Width.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="midi_GetBytes.vi" Type="VI" URL="../../../MIDI_JamSession_v0.92/midi_GetBytes.vi"/>
 			<Item Name="midi_HandleEvent.vi" Type="VI" URL="../../../MIDI_JamSession_v0.92/midi_HandleEvent.vi"/>
@@ -3494,21 +3485,11 @@ AddOutputFilter chunkFilter
 			<Item Name="midi_ParseHeader.vi" Type="VI" URL="../../../MIDI_JamSession_v0.92/midi_ParseHeader.vi"/>
 			<Item Name="midi_ParseTracks.vi" Type="VI" URL="../../../MIDI_JamSession_v0.92/midi_ParseTracks.vi"/>
 			<Item Name="midi_TicsToTime.vi" Type="VI" URL="../../../MIDI_JamSession_v0.92/midi_TicsToTime.vi"/>
+			<Item Name="midi_ToMinSec.vi" Type="VI" URL="../../../MIDI_JamSession_v0.92/midi_ToMinSec.vi"/>
 			<Item Name="midi_UniqueChannels.vi" Type="VI" URL="../../../MIDI_JamSession_v0.92/midi_UniqueChannels.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
-			<Item Name="niLvFpga_Close_cRIO-9068.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9068/niLvFpga_Close_cRIO-9068.vi"/>
-			<Item Name="niLvFpga_Open_cRIO-9068.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9068/niLvFpga_Open_cRIO-9068.vi"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
-			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
-			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Organ Bike" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -3546,10 +3527,10 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/NI-cRIO-9068-18D2C6B/9474PWM.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/NI-cRIO-9068-18D2C6B/testmode.lvlib</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
