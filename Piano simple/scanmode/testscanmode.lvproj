@@ -219,7 +219,6 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="9401PWM with Midi.vi" Type="VI" URL="../9401PWM with Midi.vi"/>
-		<Item Name="9401PWM+with+Midi.vi" Type="VI" URL="../../../../../Downloads/9401PWM+with+Midi.vi"/>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -3492,6 +3491,17 @@ AddOutputFilter chunkFilter
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
+			<Item Name="niLvFpga_Close_cRIO-9068.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9068/niLvFpga_Close_cRIO-9068.vi"/>
+			<Item Name="niLvFpga_Open_cRIO-9068.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9068/niLvFpga_Open_cRIO-9068.vi"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
+			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
+			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Organ Bike" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -3525,7 +3535,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[0].itemID" Type="Str">{362CF9C4-BA7D-44E7-BBE8-757DC26C28B1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/NI-cRIO-9068-18D2C6B/9401PWM with Midi.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
