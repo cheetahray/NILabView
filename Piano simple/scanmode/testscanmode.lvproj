@@ -219,6 +219,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="9401PWM with Midi.vi" Type="VI" URL="../9401PWM with Midi.vi"/>
+		<Item Name="9401PWM+with+Midi.vi" Type="VI" URL="../../../../../Downloads/9401PWM+with+Midi.vi"/>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -3433,6 +3434,7 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="midi test.vi" Type="VI" URL="../midi test.vi"/>
 		<Item Name="RT target - PWM Example.vi" Type="VI" URL="../RT target - PWM Example.vi"/>
 		<Item Name="testscanmode.lvlib" Type="Library" URL="../../testscanmode.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -3509,7 +3511,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C28CA6F4-BCD6-4064-A664-1D4E995E7D84}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
