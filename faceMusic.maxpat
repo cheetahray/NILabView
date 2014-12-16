@@ -32,11 +32,2038 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-157",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 628.0, 642.0, 39.0, 18.0 ],
+					"text" : "/D1 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-155",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 605.0, 699.0, 172.0, 20.0 ],
+					"text" : "udpsend 192.168.11.72 12345"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-154",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 612.0, 350.600037, 69.0, 20.0 ],
+					"text" : "unpack 0 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-153",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 612.0, 449.5, 119.0, 20.0 ],
+					"presentation_rect" : [ 608.0, 449.0, 0.0, 0.0 ],
+					"text" : "flush"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-151",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "float" ],
+					"patching_rect" : [ 612.0, 412.0, 119.0, 20.0 ],
+					"text" : "makenote"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 0.0, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 19.385944,
+					"id" : "obj-149",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
+						}
+,
+						"rect" : [ 25.0, 70.0, 1597.0, 567.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-68",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1447.543945, 215.0, 57.0, 20.0 ],
+									"text" : "pak 79 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-69",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1422.587769, 186.0, 57.0, 20.0 ],
+									"text" : "pak 78 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-53",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1397.63147, 311.0, 57.0, 20.0 ],
+									"text" : "pak 77 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-54",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1372.675293, 281.0, 57.0, 20.0 ],
+									"text" : "pak 76 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-55",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1347.719238, 246.0, 57.0, 20.0 ],
+									"text" : "pak 75 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-56",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1322.763062, 215.0, 57.0, 20.0 ],
+									"text" : "pak 74 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-57",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1297.806885, 186.0, 57.0, 20.0 ],
+									"text" : "pak 73 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-58",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1273.289429, 311.0, 57.0, 20.0 ],
+									"text" : "pak 72 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-59",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1248.333252, 281.0, 57.0, 20.0 ],
+									"text" : "pak 71 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-60",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1223.377197, 246.0, 57.0, 20.0 ],
+									"text" : "pak 70 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-61",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1198.421021, 215.0, 57.0, 20.0 ],
+									"text" : "pak 69 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-62",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1173.464844, 186.0, 57.0, 20.0 ],
+									"text" : "pak 68 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-63",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1148.070068, 311.0, 57.0, 20.0 ],
+									"text" : "pak 67 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-64",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1123.114014, 281.0, 57.0, 20.0 ],
+									"text" : "pak 66 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-65",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1098.157837, 246.0, 57.0, 20.0 ],
+									"text" : "pak 65 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-66",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1073.20166, 215.0, 57.0, 20.0 ],
+									"text" : "pak 64 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-67",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1048.245605, 186.0, 57.0, 20.0 ],
+									"text" : "pak 63 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-33",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1023.289429, 311.0, 57.0, 20.0 ],
+									"text" : "pak 62 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-34",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 998.333313, 281.0, 57.0, 20.0 ],
+									"text" : "pak 61 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-35",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 973.377197, 246.0, 57.0, 20.0 ],
+									"text" : "pak 60 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-36",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 948.421021, 215.0, 57.0, 20.0 ],
+									"text" : "pak 59 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-37",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 923.464905, 186.0, 57.0, 20.0 ],
+									"text" : "pak 58 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-38",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 898.947388, 311.0, 57.0, 20.0 ],
+									"text" : "pak 57 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-39",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 873.991211, 281.0, 57.0, 20.0 ],
+									"text" : "pak 56 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-40",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 849.035095, 246.0, 57.0, 20.0 ],
+									"text" : "pak 55 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-41",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 824.078979, 215.0, 57.0, 20.0 ],
+									"text" : "pak 54 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-42",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 799.122803, 186.0, 57.0, 20.0 ],
+									"text" : "pak 53 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-43",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 773.728027, 311.0, 57.0, 20.0 ],
+									"text" : "pak 52 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-44",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 748.771912, 281.0, 57.0, 20.0 ],
+									"text" : "pak 51 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-45",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 723.815796, 246.0, 57.0, 20.0 ],
+									"text" : "pak 50 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-46",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 698.859619, 215.0, 57.0, 20.0 ],
+									"text" : "pak 49 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-47",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 673.903503, 186.0, 57.0, 20.0 ],
+									"text" : "pak 48 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-48",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 648.947388, 311.0, 57.0, 20.0 ],
+									"text" : "pak 47 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-49",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 623.991211, 281.0, 57.0, 20.0 ],
+									"text" : "pak 46 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-50",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 599.035095, 246.0, 57.0, 20.0 ],
+									"text" : "pak 45 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-51",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 574.078918, 215.0, 57.0, 20.0 ],
+									"text" : "pak 44 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-52",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 549.122803, 186.0, 57.0, 20.0 ],
+									"text" : "pak 43 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 524.166626, 311.0, 57.0, 20.0 ],
+									"text" : "pak 42 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-24",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 499.21051, 281.0, 57.0, 20.0 ],
+									"text" : "pak 41 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-25",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 474.254395, 246.0, 57.0, 20.0 ],
+									"text" : "pak 40 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-26",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 449.298248, 215.0, 57.0, 20.0 ],
+									"text" : "pak 39 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-27",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 424.342102, 186.0, 57.0, 20.0 ],
+									"text" : "pak 38 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-28",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 399.824554, 311.0, 57.0, 20.0 ],
+									"text" : "pak 37 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-29",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 374.868408, 281.0, 57.0, 20.0 ],
+									"text" : "pak 36 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-30",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 349.912292, 246.0, 57.0, 20.0 ],
+									"text" : "pak 35 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-31",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 324.956146, 215.0, 57.0, 20.0 ],
+									"text" : "pak 34 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-32",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 300.0, 186.0, 57.0, 20.0 ],
+									"text" : "pak 33 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 274.605255, 311.0, 57.0, 20.0 ],
+									"text" : "pak 32 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-19",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 249.649124, 281.0, 57.0, 20.0 ],
+									"text" : "pak 31 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 224.692978, 246.0, 57.0, 20.0 ],
+									"text" : "pak 30 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-21",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 199.736847, 215.0, 57.0, 20.0 ],
+									"text" : "pak 29 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-22",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 174.780701, 186.0, 57.0, 20.0 ],
+									"text" : "pak 28 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 149.824554, 311.0, 57.0, 20.0 ],
+									"text" : "pak 27 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 124.868423, 281.0, 57.0, 20.0 ],
+									"text" : "pak 26 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 99.912277, 246.0, 57.0, 20.0 ],
+									"text" : "pak 25 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 74.956139, 215.0, 57.0, 20.0 ],
+									"text" : "pak 24 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-13",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 186.0, 57.0, 20.0 ],
+									"text" : "pak 23 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-4",
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 50.0, 478.0, 25.0, 25.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-146",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 58,
+									"numoutlets" : 58,
+									"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+									"patching_rect" : [ 88.000084, 130.0, 1441.5, 33.0 ],
+									"text" : "route /D1 /D2 /D3 /D4 /D5 /D6 /D7 /D8 /D9 /D10 /D11 /D12 /D13 /D14 /D15 /D16 /D17 /D18 /D19 /D20 /D21 /D22 /D23 /D24 /D25 /D26 /D27 /D28 /D29 /D30 /D31 /D32 /D33 /D34 /D35 /D36 /D37 /D38 /D39 /D40 /D41 /D42 /D43 /D44 /D45 /D46 /D47 /D48 /D49 /D50 /D51 /D52 /D53 /D54 /D55 /D56 /D57"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-118",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 223.000092, 93.0, 121.0, 18.0 ],
+									"text" : "/D22 0."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-97",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 88.000084, 93.0, 106.0, 20.0 ],
+									"text" : "udpreceive 54321"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 9 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 8 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 7 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 6 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 5 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 19 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 18 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 17 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-26", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 16 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-27", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 15 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-28", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 14 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 13 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 12 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-31", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 11 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 10 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-33", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 39 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-34", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 38 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 37 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-36", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 36 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-37", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 35 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-38", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 34 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-39", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 33 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 32 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-41", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 31 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-42", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 30 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-43", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 29 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-44", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 28 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-45", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 27 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-46", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 26 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-47", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 25 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-48", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 24 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-49", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 23 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-50", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 22 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-51", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 21 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-52", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 20 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-53", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 54 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-54", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 53 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-55", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 52 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-56", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 51 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-57", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 50 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-58", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 49 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-59", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 48 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-60", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 47 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-61", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 46 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-62", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 45 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-63", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 44 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-64", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 43 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-65", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 42 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-66", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 41 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-67", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 40 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-68", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 56 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-69", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-146", 55 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-26", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-27", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-31", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-32", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-33", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-34", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-35", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-36", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-37", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-38", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-39", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-40", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-41", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-42", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-43", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-44", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-45", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-46", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-47", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-48", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-49", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-50", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-51", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-52", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-53", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-54", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-55", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-56", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-57", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-58", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-59", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-60", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-61", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-62", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-63", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-64", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-65", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-66", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-67", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-68", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-69", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-118", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-97", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-146", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-97", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 612.0, 285.600006, 143.0, 28.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p ROUTE-IPAD"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-27",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1359.0, 558.75, 51.0, 20.0 ],
+					"patching_rect" : [ 612.0, 574.02124, 132.0, 20.0 ],
 					"text" : "noteout"
 				}
 
@@ -1170,7 +3197,7 @@
 					"numoutlets" : 8,
 					"outlettype" : [ "int", "int", "int", "int", "int", "int", "int", "int" ],
 					"patching_rect" : [ 833.714233, 314.5, 197.785706, 21.0 ],
-					"save" : [ "#N", "detonate", "u434001013", ";", "#X", "setparam", 0, "Time", 0, 0, 999999, 0, 1000, 200, 0, ";", "#X", "setparam", 1, "Pitch", 0, 0, 127, 60, 12, 4, 0, ";", "#X", "setparam", 2, "Vel", 0, 0, 127, 64, 12, 4, 0, ";", "#X", "setparam", 3, "Dur", 0, 1, 99999, 200, 800, 200, 0, ";", "#X", "setparam", 4, "Chan", 0, 1, 16, 1, 8, 1, 0, ";", "#X", "setparam", 5, "Track", 0, 1, 32, 1, 8, 1, 0, ";", "#X", "setparam", 6, "X1", 0, 0, 999, 0, 80, 20, 0, ";", "#X", "setparam", 7, "X2", 0, 0, 999, 0, 80, 20, 0, ";", "#X", "restore", ";", "#X", 3999, 64, 127, 500, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 464, 6, 7, 0, 0, ";", "#X", 1, 40, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 59, 85, 171880, 5, 6, 0, 0, ";", "#X", 0, 64, 89, 2994, 5, 6, 0, 0, ";", "#X", 0, 68, 97, 54505, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 49, 111, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 49098, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 70598, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 6098, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 49098, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 70598, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 61, 127, 204, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 214, 6, 7, 0, 0, ";", "#X", 1, 40, 92, 156, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130005, 10, 10, 0, 0, ";", "#X", 249, 59, 114, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 214, 6, 7, 0, 0, ";", "#X", 1, 52, 92, 62, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 49098, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 70348, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 49098, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 70348, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 64, 127, 480, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 464, 6, 7, 0, 0, ";", "#X", 1, 40, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 49348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 70348, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 59, 66, 49348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 70348, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 49598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 70598, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 49598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 70598, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 61, 127, 224, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 214, 6, 7, 0, 0, ";", "#X", 1, 40, 92, 145, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 59, 118, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 214, 6, 7, 0, 0, ";", "#X", 1, 52, 92, 46, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 49348, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 74598, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130005, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 49348, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 74598, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 166, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 52, 92, 62, 2, 3, 0, 0, ";", "#X", 0, 80, 105, 463, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 463, 3, 4, 0, 0, ";", "#X", 0, 59, 67, 49098, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 74598, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 3973, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 49098, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 74598, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130005, 10, 10, 0, 0, ";", "#X", 250, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 78, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 59, 68, 49098, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 74598, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 52, 92, 105, 2, 3, 0, 0, ";", "#X", 1, 59, 67, 49098, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 74598, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 59, 78, 169922, 5, 6, 0, 0, ";", "#X", 0, 66, 96, 995, 5, 6, 0, 0, ";", "#X", 1, 40, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 76, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 59, 63, 49348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 74848, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 49348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 78854, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 76, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 59, 66, 49598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 80729, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 49598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 86604, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 78, 105, 463, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 463, 3, 4, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 49348, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 88229, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130005, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 44973, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 49348, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 100104, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 61, 96, 2995, 5, 6, 0, 0, ";", "#X", 0, 64, 89, 2995, 5, 6, 0, 0, ";", "#X", 1, 37, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 76, 105, 447, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 447, 3, 4, 0, 0, ";", "#X", 0, 64, 127, 479, 6, 7, 0, 0, ";", "#X", 0, 76, 109, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 49, 92, 1723, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 49098, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 103729, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 49098, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 107973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 156, 2, 3, 0, 0, ";", "#X", 0, 61, 126, 203, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130005, 10, 10, 0, 0, ";", "#X", 250, 49, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 49098, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 107723, 4, 5, 0, 0, ";", "#X", 0, 59, 112, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 108, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 49098, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 107973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 43473, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 49348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 107973, 4, 5, 0, 0, ";", "#X", 0, 64, 127, 484, 6, 7, 0, 0, ";", "#X", 0, 76, 111, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 59, 66, 49348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 107973, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 49598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 107973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 473, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 49598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 107973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 151, 2, 3, 0, 0, ";", "#X", 0, 61, 126, 234, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 49, 92, 52, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 49348, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 107723, 4, 5, 0, 0, ";", "#X", 0, 59, 114, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130005, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 49348, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 107973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 42348, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 49, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 80, 105, 463, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 463, 3, 4, 0, 0, ";", "#X", 0, 59, 67, 49098, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 107723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 49098, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 107973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 182, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130005, 10, 10, 0, 0, ";", "#X", 250, 49, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 78, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 59, 68, 49098, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 107723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 49098, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 107973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 10, 10, 10, 0, 0, ";", "#X", 124, 59, 81, 168990, 5, 6, 0, 0, ";", "#X", 0, 63, 96, 995, 5, 6, 0, 0, ";", "#X", 1, 37, 92, 36979, 2, 3, 0, 0, ";", "#X", 0, 76, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 59, 63, 57348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 107973, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 57348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 107973, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 76, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 59, 66, 57598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 107973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 57598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 107973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 78, 105, 463, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 463, 3, 4, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 49, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 57348, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 107723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130005, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 119, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 57348, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 107973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 61, 88, 1995, 5, 6, 0, 0, ";", "#X", 0, 64, 93, 1995, 5, 6, 0, 0, ";", "#X", 0, 69, 93, 1980, 5, 6, 0, 0, ";", "#X", 1, 33, 92, 31979, 2, 3, 0, 0, ";", "#X", 0, 76, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 64, 127, 468, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 45, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 33, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 61, 126, 229, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130005, 10, 10, 0, 0, ";", "#X", 250, 45, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 59, 112, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 108, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 33, 92, 18979, 2, 3, 0, 0, ";", "#X", 0, 61, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 127, 473, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 119, 2, 3, 0, 0, ";", "#X", 0, 61, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 33, 92, 161, 2, 3, 0, 0, ";", "#X", 0, 61, 127, 270, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 45, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 83, 105, 463, 3, 4, 0, 0, ";", "#X", 0, 95, 105, 463, 3, 4, 0, 0, ";", "#X", 0, 61, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130005, 10, 10, 0, 0, ";", "#X", 125, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 63, 94, 1995, 5, 6, 0, 0, ";", "#X", 0, 66, 96, 1995, 5, 6, 0, 0, ";", "#X", 0, 71, 97, 1980, 5, 6, 0, 0, ";", "#X", 1, 35, 106, 223, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 47, 86, 98, 2, 3, 0, 0, ";", "#X", 0, 83, 105, 463, 3, 4, 0, 0, ";", "#X", 0, 95, 105, 463, 3, 4, 0, 0, ";", "#X", 0, 59, 70, 55098, 4, 5, 0, 0, ";", "#X", 0, 63, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 94, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 55098, 4, 5, 0, 0, ";", "#X", 0, 63, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 102, 223, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130005, 10, 10, 0, 0, ";", "#X", 250, 47, 90, 0, 2, 3, 0, 0, ";", "#X", 0, 85, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 97, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 59, 68, 55098, 4, 5, 0, 0, ";", "#X", 0, 63, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 62, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 55098, 4, 5, 0, 0, ";", "#X", 0, 63, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 223, 2, 3, 0, 0, ";", "#X", 0, 80, 105, 463, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 463, 3, 4, 0, 0, ";", "#X", 0, 59, 69, 55348, 4, 5, 0, 0, ";", "#X", 0, 63, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 59, 67, 55348, 4, 5, 0, 0, ";", "#X", 0, 63, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 88, 144062, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 55598, 4, 5, 0, 0, ";", "#X", 0, 63, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 78, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 55598, 4, 5, 0, 0, ";", "#X", 0, 63, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 223, 2, 3, 0, 0, ";", "#X", 0, 78, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 47, 80, 98, 2, 3, 0, 0, ";", "#X", 0, 78, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 59, 69, 55348, 4, 5, 0, 0, ";", "#X", 0, 63, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130005, 10, 10, 0, 0, ";", "#X", 125, 59, 70, 55348, 4, 5, 0, 0, ";", "#X", 0, 63, 75, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 64, 107, 250, 5, 6, 0, 0, ";", "#X", 1, 64, 88, 213, 2, 3, 0, 0, ";", "#X", 0, 76, 86, 213, 2, 3, 0, 0, ";", "#X", 0, 64, 105, 98, 3, 4, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 5, 52, 91, 213, 7, 8, 0, 0, ";", "#X", 0, 64, 91, 213, 7, 8, 0, 0, ";", "#X", 120, 76, 105, 98, 3, 4, 0, 0, ";", "#X", 124, 66, 113, 250, 5, 6, 0, 0, ";", "#X", 1, 66, 92, 213, 2, 3, 0, 0, ";", "#X", 0, 78, 96, 213, 2, 3, 0, 0, ";", "#X", 0, 66, 105, 98, 3, 4, 0, 0, ";", "#X", 5, 54, 111, 213, 7, 8, 0, 0, ";", "#X", 0, 66, 114, 213, 7, 8, 0, 0, ";", "#X", 120, 78, 105, 98, 3, 4, 0, 0, ";", "#X", 124, 68, 120, 43256, 5, 6, 0, 0, ";", "#X", 1, 68, 110, 37973, 2, 3, 0, 0, ";", "#X", 0, 80, 108, 213, 2, 3, 0, 0, ";", "#X", 0, 68, 105, 38723, 3, 4, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 5, 56, 123, 213, 7, 8, 0, 0, ";", "#X", 0, 68, 122, 91250, 7, 8, 0, 0, ";", "#X", 120, 80, 105, 98, 3, 4, 0, 0, ";", "#X", 124, 69, 107, 250, 5, 6, 0, 0, ";", "#X", 1, 69, 88, 213, 2, 3, 0, 0, ";", "#X", 0, 81, 94, 0, 2, 3, 0, 0, ";", "#X", 0, 69, 105, 98, 3, 4, 0, 0, ";", "#X", 5, 57, 108, 213, 7, 8, 0, 0, ";", "#X", 0, 69, 112, 213, 7, 8, 0, 0, ";", "#X", 120, 81, 105, 98, 3, 4, 0, 0, ";", "#X", 124, 71, 107, 250, 5, 6, 0, 0, ";", "#X", 1, 71, 96, 213, 2, 3, 0, 0, ";", "#X", 0, 83, 88, 213, 2, 3, 0, 0, ";", "#X", 0, 71, 105, 98, 3, 4, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 5, 59, 114, -1, 7, 8, 0, 0, ";", "#X", 0, 71, 108, 213, 7, 8, 0, 0, ";", "#X", 120, 83, 105, 98, 3, 4, 0, 0, ";", "#X", 124, 69, 105, 250, 5, 6, 0, 0, ";", "#X", 1, 69, 96, 213, 2, 3, 0, 0, ";", "#X", 0, 81, 84, 213, 2, 3, 0, 0, ";", "#X", 0, 69, 105, 98, 3, 4, 0, 0, ";", "#X", 5, 57, 114, 213, 7, 8, 0, 0, ";", "#X", 0, 69, 105, 213, 7, 8, 0, 0, ";", "#X", 120, 81, 105, 98, 3, 4, 0, 0, ";", "#X", 124, 68, 118, 43006, 5, 6, 0, 0, ";", "#X", 1, 68, 112, 37348, 2, 3, 0, 0, ";", "#X", 0, 80, 106, 213, 2, 3, 0, 0, ";", "#X", 0, 68, 105, 37848, 3, 4, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 5, 56, 125, 213, 7, 8, 0, 0, ";", "#X", 0, 68, 121, 91000, 7, 8, 0, 0, ";", "#X", 120, 80, 105, 98, 3, 4, 0, 0, ";", "#X", 124, 66, 114, 250, 5, 6, 0, 0, ";", "#X", 1, 66, 96, 213, 2, 3, 0, 0, ";", "#X", 0, 78, 96, 0, 2, 3, 0, 0, ";", "#X", 0, 66, 105, 98, 3, 4, 0, 0, ";", "#X", 5, 54, 114, 213, 7, 8, 0, 0, ";", "#X", 0, 66, 114, 213, 7, 8, 0, 0, ";", "#X", 120, 78, 105, 98, 3, 4, 0, 0, ";", "#X", 124, 64, 108, 250, 5, 6, 0, 0, ";", "#X", 1, 64, 84, 213, 2, 3, 0, 0, ";", "#X", 0, 76, 90, 213, 2, 3, 0, 0, ";", "#X", 0, 64, 105, 98, 3, 4, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 5, 52, 105, 213, 7, 8, 0, 0, ";", "#X", 0, 64, 109, 213, 7, 8, 0, 0, ";", "#X", 120, 76, 105, 98, 3, 4, 0, 0, ";", "#X", 124, 68, 119, 43506, 5, 6, 0, 0, ";", "#X", 1, 68, 110, 36723, 2, 3, 0, 0, ";", "#X", 0, 80, 104, 213, 2, 3, 0, 0, ";", "#X", 0, 68, 105, 37223, 3, 4, 0, 0, ";", "#X", 5, 56, 123, 213, 7, 8, 0, 0, ";", "#X", 0, 68, 119, 91500, 7, 8, 0, 0, ";", "#X", 120, 80, 105, 98, 3, 4, 0, 0, ";", "#X", 124, 71, 108, 250, 5, 6, 0, 0, ";", "#X", 1, 71, 88, 213, 2, 3, 0, 0, ";", "#X", 0, 83, 86, 213, 2, 3, 0, 0, ";", "#X", 0, 71, 105, 98, 3, 4, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 5, 59, 108, -1, 7, 8, 0, 0, ";", "#X", 0, 71, 107, 213, 7, 8, 0, 0, ";", "#X", 120, 83, 105, 98, 3, 4, 0, 0, ";", "#X", 124, 68, 118, 43756, 5, 6, 0, 0, ";", "#X", 1, 68, 112, 36348, 2, 3, 0, 0, ";", "#X", 0, 80, 106, 213, 2, 3, 0, 0, ";", "#X", 0, 68, 105, 37098, 3, 4, 0, 0, ";", "#X", 5, 56, 125, 213, 7, 8, 0, 0, ";", "#X", 0, 68, 121, 91750, 7, 8, 0, 0, ";", "#X", 120, 80, 105, 98, 3, 4, 0, 0, ";", "#X", 124, 71, 110, 365, 6, 7, 0, 0, ";", "#X", 0, 78, 111, 365, 6, 7, 0, 0, ";", "#X", 0, 83, 110, 365, 6, 7, 0, 0, ";", "#X", 1, 46, 104, 5, 10, 10, 0, 0, ";", "#X", 250, 42, 17, 5, 10, 10, 0, 0, ";", "#X", 249, 71, 110, 365, 6, 7, 0, 0, ";", "#X", 0, 78, 111, 365, 6, 7, 0, 0, ";", "#X", 0, 83, 110, 365, 6, 7, 0, 0, ";", "#X", 1, 46, 104, 5, 10, 10, 0, 0, ";", "#X", 250, 42, 17, 5, 10, 10, 0, 0, ";", "#X", 249, 59, 77, 160964, 5, 6, 0, 0, ";", "#X", 0, 64, 71, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 79, 43756, 5, 6, 0, 0, ";", "#X", 1, 40, 92, 156, 2, 3, 0, 0, ";", "#X", 0, 59, 94, 51348, 4, 5, 0, 0, ";", "#X", 0, 64, 95, 1979, 4, 5, 0, 0, ";", "#X", 0, 68, 96, 99973, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 49, 111, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 71, 113, 203, 1, 2, 0, 0, ";", "#X", 120, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 71, 99, 172, 1, 2, 0, 0, ";", "#X", 120, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 71, 121, 193, 1, 2, 0, 0, ";", "#X", 1, 40, 92, 166, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 133005, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 71, 105, 178, 1, 2, 0, 0, ";", "#X", 1, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 71, 109, 219, 1, 2, 0, 0, ";", "#X", 1, 40, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 119, 71, 105, 177, 1, 2, 0, 0, ";", "#X", 6, 52, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 114, 71, 117, 214, 1, 2, 0, 0, ";", "#X", 11, 40, 92, 8479, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 71, 114, 214, 1, 2, 0, 0, ";", "#X", 1, 52, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 133005, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 119, 73, 125, 224, 1, 2, 0, 0, ";", "#X", 5, 61, 84, 1980, 5, 6, 0, 0, ";", "#X", 0, 64, 78, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 83, 42506, 5, 6, 0, 0, ";", "#X", 1, 37, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 61, 96, 1979, 4, 5, 0, 0, ";", "#X", 0, 64, 95, 1979, 4, 5, 0, 0, ";", "#X", 0, 68, 96, 98348, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 15, 75, 122, 448, 1, 2, 0, 0, ";", "#X", 110, 49, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 133005, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 123, 766, 1, 2, 0, 0, ";", "#X", 1, 49, 92, 1229, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 104, 68, 127, 88526, 7, 8, 0, 0, ";", "#X", 21, 49, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 182, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 125, 422, 1, 2, 0, 0, ";", "#X", 1, 49, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 133005, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 61, 86, 1980, 5, 6, 0, 0, ";", "#X", 0, 64, 81, 1980, 5, 6, 0, 0, ";", "#X", 0, 69, 75, 1980, 5, 6, 0, 0, ";", "#X", 1, 33, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 57, 92, 1979, 4, 5, 0, 0, ";", "#X", 0, 61, 96, 1979, 4, 5, 0, 0, ";", "#X", 0, 64, 95, 1979, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 119, 73, 115, 177, 1, 2, 0, 0, ";", "#X", 6, 45, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 109, 73, 112, 193, 1, 2, 0, 0, ";", "#X", 16, 33, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 133005, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 114, 73, 114, 193, 1, 2, 0, 0, ";", "#X", 11, 45, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 119, 73, 117, 172, 1, 2, 0, 0, ";", "#X", 6, 33, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 109, 73, 107, 140, 1, 2, 0, 0, ";", "#X", 16, 45, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 67, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 98, 73, 115, 198, 1, 2, 0, 0, ";", "#X", 27, 33, 92, 182, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 119, 76, 109, 271, 1, 2, 0, 0, ";", "#X", 6, 45, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 133005, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 75, 115, 245, 1, 2, 0, 0, ";", "#X", 0, 59, 80, 161876, 5, 6, 0, 0, ";", "#X", 0, 63, 89, 1980, 5, 6, 0, 0, ";", "#X", 0, 66, 81, 1980, 5, 6, 0, 0, ";", "#X", 1, 35, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 59, 92, 45473, 4, 5, 0, 0, ";", "#X", 0, 63, 96, 1979, 4, 5, 0, 0, ";", "#X", 0, 66, 96, 1979, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 10, 73, 121, 432, 1, 2, 0, 0, ";", "#X", 115, 47, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 133005, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 5, 71, 122, 880, 1, 2, 0, 0, ";", "#X", 120, 47, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 229, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 133005, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 131270, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 59, 74, 160917, 5, 6, 0, 0, ";", "#X", 0, 64, 77, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 85, 37756, 5, 6, 0, 0, ";", "#X", 1, 40, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 59, 94, 43848, 4, 5, 0, 0, ";", "#X", 0, 64, 95, 1979, 4, 5, 0, 0, ";", "#X", 0, 68, 96, 92473, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 71, 117, 203, 1, 2, 0, 0, ";", "#X", 120, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 10, 71, 104, 187, 1, 2, 0, 0, ";", "#X", 115, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 119, 71, 101, 193, 1, 2, 0, 0, ";", "#X", 6, 40, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 133005, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 109, 71, 101, 213, 1, 2, 0, 0, ";", "#X", 16, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 104, 71, 104, 198, 1, 2, 0, 0, ";", "#X", 21, 40, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 104, 71, 97, 198, 1, 2, 0, 0, ";", "#X", 21, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 98, 71, 104, 224, 1, 2, 0, 0, ";", "#X", 27, 40, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 114, 71, 107, 219, 1, 2, 0, 0, ";", "#X", 10, 52, 92, 73, 2, 3, 0, 0, ";", "#X", 1, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 133005, 10, 10, 0, 0, ";", "#X", 124, 52, 92, 110, 2, 3, 0, 0, ";", "#X", 1, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 104, 61, 127, 229, 7, 8, 0, 0, ";", "#X", 20, 61, 83, 1980, 5, 6, 0, 0, ";", "#X", 0, 64, 79, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 80, 36506, 5, 6, 0, 0, ";", "#X", 1, 37, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 61, 96, 1979, 4, 5, 0, 0, ";", "#X", 0, 64, 95, 1979, 4, 5, 0, 0, ";", "#X", 0, 68, 96, 90848, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 67, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 26, 63, 127, 286, 7, 8, 0, 0, ";", "#X", 99, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 133005, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 15, 61, 127, 594, 7, 8, 0, 0, ";", "#X", 110, 49, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 76, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 81, 105, 213, 3, 4, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 229, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 83, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 124, 49, 92, 105, 2, 3, 0, 0, ";", "#X", 1, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 37, 92, 0, 2, 3, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 49, 92, 89, 2, 3, 0, 0, ";", "#X", 1, 76, 105, 416, 3, 4, 0, 0, ";", "#X", 0, 81, 105, 416, 3, 4, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 133005, 10, 10, 0, 0, ";", "#X", 15, 73, 117, 375, 1, 2, 0, 0, ";", "#X", 109, 49, 92, 146, 2, 3, 0, 0, ";", "#X", 1, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 61, 77, 1980, 5, 6, 0, 0, ";", "#X", 0, 64, 78, 1980, 5, 6, 0, 0, ";", "#X", 0, 69, 77, 1980, 5, 6, 0, 0, ";", "#X", 1, 33, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 57, 92, 1979, 4, 5, 0, 0, ";", "#X", 0, 61, 96, 1979, 4, 5, 0, 0, ";", "#X", 0, 64, 95, 1979, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 119, 73, 109, 162, 1, 2, 0, 0, ";", "#X", 6, 45, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 81, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 119, 73, 109, 162, 1, 2, 0, 0, ";", "#X", 6, 33, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 133005, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 109, 73, 109, 167, 1, 2, 0, 0, ";", "#X", 16, 45, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 104, 73, 114, 177, 1, 2, 0, 0, ";", "#X", 21, 33, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 109, 73, 109, 156, 1, 2, 0, 0, ";", "#X", 16, 45, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 104, 73, 107, 140, 1, 2, 0, 0, ";", "#X", 21, 33, 92, 182, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 109, 73, 106, 187, 1, 2, 0, 0, ";", "#X", 15, 45, 92, 224, 2, 3, 0, 0, ";", "#X", 1, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 133005, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 119, 75, 123, 250, 1, 2, 0, 0, ";", "#X", 5, 35, 92, 193, 2, 3, 0, 0, ";", "#X", 0, 59, 79, 157907, 5, 6, 0, 0, ";", "#X", 0, 63, 90, 1980, 5, 6, 0, 0, ";", "#X", 0, 66, 90, 1980, 5, 6, 0, 0, ";", "#X", 1, 59, 92, 37973, 4, 5, 0, 0, ";", "#X", 0, 63, 96, 1979, 4, 5, 0, 0, ";", "#X", 0, 66, 96, 1979, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 90, 5, 10, 10, 0, 0, ";", "#X", 249, 47, 92, 68, 2, 3, 0, 0, ";", "#X", 1, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 43, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 90, 5, 10, 10, 0, 0, ";", "#X", 26, 76, 113, 9703, 1, 2, 0, 0, ";", "#X", 98, 47, 92, 0, 2, 3, 0, 0, ";", "#X", 1, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 43, 5, 10, 10, 0, 0, ";", "#X", 124, 35, 92, 167, 2, 3, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 64, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 90, 5, 10, 10, 0, 0, ";", "#X", 125, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 124, 47, 92, 0, 2, 3, 0, 0, ";", "#X", 1, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 22, 5, 10, 10, 0, 0, ";", "#X", 20, 78, 123, 688, 1, 2, 0, 0, ";", "#X", 104, 47, 92, 63, 2, 3, 0, 0, ";", "#X", 1, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 64, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 90, 5, 10, 10, 0, 0, ";", "#X", 124, 35, 92, 63, 2, 3, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 124, 47, 92, 209, 2, 3, 0, 0, ";", "#X", 1, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 90, 10, 10, 10, 0, 0, ";", "#X", 125, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 47, 92, 0, 2, 3, 0, 0, ";", "#X", 1, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 90, 5, 10, 10, 0, 0, ";", "#X", 124, 35, 92, 183, 2, 3, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 64, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 90, 5, 10, 10, 0, 0, ";", "#X", 10, 66, 106, 5, 10, 10, 0, 0, ";", "#X", 239, 76, 115, 407, 1, 2, 0, 0, ";", "#X", 0, 47, 92, 0, 2, 3, 0, 0, ";", "#X", 1, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 64, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 90, 5, 10, 10, 0, 0, ";", "#X", 10, 66, 64, 5, 10, 10, 0, 0, ";", "#X", 114, 47, 92, 131, 2, 3, 0, 0, ";", "#X", 1, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 0, 57, 81, 1980, 5, 6, 0, 0, ";", "#X", 0, 61, 91, 1980, 5, 6, 0, 0, ";", "#X", 0, 64, 82, 1980, 5, 6, 0, 0, ";", "#X", 1, 33, 92, 166, 2, 3, 0, 0, ";", "#X", 0, 57, 90, 3979, 4, 5, 0, 0, ";", "#X", 0, 61, 94, 3979, 4, 5, 0, 0, ";", "#X", 0, 64, 92, 3979, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 57, 111, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 83, 69, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 112, 151, 1, 2, 0, 0, ";", "#X", 78, 73, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 76, 109, 245, 1, 2, 0, 0, ";", "#X", 0, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 33, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 131005, 10, 10, 0, 0, ";", "#X", 83, 69, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 68, 73, 120, 208, 1, 2, 0, 0, ";", "#X", 15, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 83, 73, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 68, 76, 112, 448, 1, 2, 0, 0, ";", "#X", 15, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 33, 92, 223, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 83, 69, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 39, 106, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 83, 73, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 33, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 39, 106, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 83, 69, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 130880, 10, 10, 0, 0, ";", "#X", 83, 73, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 76, 123, 172, 1, 2, 0, 0, ";", "#X", 0, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 0, 57, 78, 1980, 5, 6, 0, 0, ";", "#X", 0, 61, 92, 1980, 5, 6, 0, 0, ";", "#X", 0, 64, 83, 1980, 5, 6, 0, 0, ";", "#X", 1, 33, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 83, 69, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 78, 76, 106, 120, 1, 2, 0, 0, ";", "#X", 5, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 83, 73, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 63, 76, 104, 203, 1, 2, 0, 0, ";", "#X", 20, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 33, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 131005, 10, 10, 0, 0, ";", "#X", 83, 69, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 78, 125, 0, 1, 2, 0, 0, ";", "#X", 0, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 83, 73, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 75, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 33, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 83, 71, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 75, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 15, 76, 117, 386, 1, 2, 0, 0, ";", "#X", 68, 75, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 76, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 33, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 83, 73, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 76, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 62, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 131755, 10, 10, 0, 0, ";", "#X", 31, 76, 122, 406, 1, 2, 0, 0, ";", "#X", 52, 76, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 0, 56, 84, 1980, 5, 6, 0, 0, ";", "#X", 0, 59, 84, 152907, 5, 6, 0, 0, ";", "#X", 0, 64, 77, 1980, 5, 6, 0, 0, ";", "#X", 1, 40, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 59, 91, 32348, 4, 5, 0, 0, ";", "#X", 0, 64, 92, 3979, 4, 5, 0, 0, ";", "#X", 0, 68, 95, 80973, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 97, 5, 10, 10, 0, 0, ";", "#X", 83, 68, 105, 15890, 3, 4, 0, 0, ";", "#X", 83, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 68, 105, 16099, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 97, 5, 10, 10, 0, 0, ";", "#X", 15, 76, 111, 120, 1, 2, 0, 0, ";", "#X", 68, 71, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 52, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 68, 105, 16057, 3, 4, 0, 0, ";", "#X", 83, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 118479, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 91, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 97, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 115, 255, 1, 2, 0, 0, ";", "#X", 78, 68, 105, 16265, 3, 4, 0, 0, ";", "#X", 83, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 68, 105, 16224, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 73, 101, 192, 1, 2, 0, 0, ";", "#X", 78, 71, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 97, 5, 10, 10, 0, 0, ";", "#X", 41, 68, 105, 16182, 3, 4, 0, 0, ";", "#X", 83, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 218, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 10, 76, 114, 375, 1, 2, 0, 0, ";", "#X", 73, 68, 105, 16140, 3, 4, 0, 0, ";", "#X", 42, 67, 97, 5, 10, 10, 0, 0, ";", "#X", 41, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 68, 105, 16099, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 39, 106, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 83, 71, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 97, 5, 10, 10, 0, 0, ";", "#X", 41, 68, 105, 16057, 3, 4, 0, 0, ";", "#X", 83, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 91, 5, 10, 10, 0, 0, ";", "#X", 0, 39, 106, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 97, 5, 10, 10, 0, 0, ";", "#X", 83, 68, 105, 16265, 3, 4, 0, 0, ";", "#X", 83, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 68, 105, 16224, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 97, 5, 10, 10, 0, 0, ";", "#X", 83, 71, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 68, 105, 16432, 3, 4, 0, 0, ";", "#X", 83, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 0, 56, 83, 1980, 5, 6, 0, 0, ";", "#X", 0, 59, 87, 153907, 5, 6, 0, 0, ";", "#X", 0, 64, 81, 1980, 5, 6, 0, 0, ";", "#X", 1, 40, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 117, 156, 1, 2, 0, 0, ";", "#X", 78, 68, 105, 16390, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 76, 104, 125, 1, 2, 0, 0, ";", "#X", 0, 68, 105, 16599, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 83, 71, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 52, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 68, 105, 16557, 3, 4, 0, 0, ";", "#X", 78, 76, 109, 224, 1, 2, 0, 0, ";", "#X", 5, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 130255, 10, 10, 0, 0, ";", "#X", 83, 68, 105, 16515, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 68, 105, 16474, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 125, 448, 1, 2, 0, 0, ";", "#X", 78, 71, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 68, 105, 16432, 3, 4, 0, 0, ";", "#X", 83, 80, 127, 495, 3, 4, 0, 0, ";", "#X", 0, 92, 127, 495, 3, 4, 0, 0, ";", "#X", 0, 80, 84, 495, 5, 6, 0, 0, ";", "#X", 1, 40, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 117, 0, 1, 2, 0, 0, ";", "#X", 1, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 127, 495, 3, 4, 0, 0, ";", "#X", 0, 90, 127, 495, 3, 4, 0, 0, ";", "#X", 0, 78, 79, 495, 5, 6, 0, 0, ";", "#X", 1, 39, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 51, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 129755, 10, 10, 0, 0, ";", "#X", 125, 51, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 127, 1995, 3, 4, 0, 0, ";", "#X", 0, 88, 121, 1995, 3, 4, 0, 0, ";", "#X", 0, 56, 86, 1980, 5, 6, 0, 0, ";", "#X", 0, 61, 96, 1980, 5, 6, 0, 0, ";", "#X", 0, 64, 84, 1980, 5, 6, 0, 0, ";", "#X", 0, 76, 75, 495, 5, 6, 0, 0, ";", "#X", 1, 37, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 61, 94, 3979, 4, 5, 0, 0, ";", "#X", 0, 64, 92, 3979, 4, 5, 0, 0, ";", "#X", 0, 68, 94, 77098, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 161, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 130255, 10, 10, 0, 0, ";", "#X", 10, 73, 125, 479, 1, 2, 0, 0, ";", "#X", 5, 61, 127, 495, 7, 8, 0, 0, ";", "#X", 110, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 75, 111, 261, 1, 2, 0, 0, ";", "#X", 1, 37, 92, 218, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 31, 63, 125, 239, 7, 8, 0, 0, ";", "#X", 94, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 10, 76, 117, 422, 1, 2, 0, 0, ";", "#X", 36, 64, 109, 448, 7, 8, 0, 0, ";", "#X", 79, 49, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 129755, 10, 10, 0, 0, ";", "#X", 5, 78, 118, 672, 1, 2, 0, 0, ";", "#X", 41, 66, 127, 615, 7, 8, 0, 0, ";", "#X", 79, 49, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 56, 87, 1980, 5, 6, 0, 0, ";", "#X", 0, 61, 97, 1980, 5, 6, 0, 0, ";", "#X", 0, 64, 86, 1980, 5, 6, 0, 0, ";", "#X", 1, 37, 92, 213, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 125, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 83, 64, 116, 500, 7, 8, 0, 0, ";", "#X", 36, 76, 112, 474, 1, 2, 0, 0, ";", "#X", 6, 37, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 130255, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 78, 63, 123, 270, 7, 8, 0, 0, ";", "#X", 36, 75, 111, 276, 1, 2, 0, 0, ";", "#X", 11, 37, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 104, 64, 107, 458, 7, 8, 0, 0, ";", "#X", 21, 49, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 108, 489, 1, 2, 0, 0, ";", "#X", 120, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 129755, 10, 10, 0, 0, ";", "#X", 10, 78, 118, 0, 1, 2, 0, 0, ";", "#X", 5, 66, 123, 953, 7, 8, 0, 0, ";", "#X", 110, 49, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 105, 495, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 495, 3, 4, 0, 0, ";", "#X", 0, 59, 88, 155849, 5, 6, 0, 0, ";", "#X", 0, 63, 96, 1980, 5, 6, 0, 0, ";", "#X", 0, 66, 94, 1980, 5, 6, 0, 0, ";", "#X", 1, 35, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 59, 86, 24473, 4, 5, 0, 0, ";", "#X", 0, 63, 91, 1979, 4, 5, 0, 0, ";", "#X", 0, 66, 90, 1979, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 130255, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 72, 62, 109, 94, 7, 8, 0, 0, ";", "#X", 53, 47, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 52, 61, 102, 78, 7, 8, 0, 0, ";", "#X", 73, 35, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 10, 59, 108, -1, 7, 8, 0, 0, ";", "#X", 115, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 67, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 100927, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 182, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 129755, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 135, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 59, 84, 154902, 5, 6, 0, 0, ";", "#X", 0, 63, 91, 495, 5, 6, 0, 0, ";", "#X", 0, 66, 94, 495, 5, 6, 0, 0, ";", "#X", 1, 35, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 71, 102, 411, 4, 5, 0, 0, ";", "#X", 0, 83, 102, 411, 4, 5, 0, 0, ";", "#X", 0, 71, 101, 364, 6, 7, 0, 0, ";", "#X", 0, 83, 101, 364, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 83, 98, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 250, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 83, 98, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 15, 80, 125, 261, 1, 2, 0, 0, ";", "#X", 235, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 83, 98, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 130255, 10, 10, 0, 0, ";", "#X", 124, 65, 81, 99, 10, 10, 0, 0, ";", "#X", 125, 78, 125, 198, 1, 2, 0, 0, ";", "#X", 0, 35, 108, 6, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 6, 10, 10, 0, 0, ";", "#X", 126, 65, 83, 98, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 119, 80, 111, 219, 1, 2, 0, 0, ";", "#X", 5, 35, 108, 6, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 6, 10, 10, 0, 0, ";", "#X", 0, 65, 79, 99, 10, 10, 0, 0, ";", "#X", 125, 65, 62, 99, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 6, 10, 10, 0, 0, ";", "#X", 125, 83, 113, 266, 1, 2, 0, 0, ";", "#X", 0, 35, 108, 6, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 6, 10, 10, 0, 0, ";", "#X", 0, 65, 83, 99, 10, 10, 0, 0, ";", "#X", 125, 65, 83, 99, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 6, 10, 10, 0, 0, ";", "#X", 125, 80, 109, 245, 1, 2, 0, 0, ";", "#X", 0, 35, 108, 6, 10, 10, 0, 0, ";", "#X", 0, 38, 89, 6, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 6, 10, 10, 0, 0, ";", "#X", 0, 65, 83, 99, 10, 10, 0, 0, ";", "#X", 125, 68, 79, 129881, 10, 10, 0, 0, ";", "#X", 125, 78, 114, 230, 1, 2, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 89, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 83, 98, 10, 10, 0, 0, ";", "#X", 124, 65, 83, 99, 10, 10, 0, 0, ";", "#X", 120, 80, 123, 500, 1, 2, 0, 0, ";", "#X", 5, 76, 117, 474, 1, 2, 0, 0, ";", "#X", 0, 64, 85, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 96, 15631, 5, 6, 0, 0, ";", "#X", 0, 71, 77, 1980, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 6, 10, 10, 0, 0, ";", "#X", 0, 49, 101, 6, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 6, 10, 10, 0, 0, ";", "#X", 1, 40, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 64, 118, 500, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 96052, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68973, 4, 5, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68973, 4, 5, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 117, 240, 1, 2, 0, 0, ";", "#X", 0, 78, 118, 266, 1, 2, 0, 0, ";", "#X", 1, 40, 92, 182, 2, 3, 0, 0, ";", "#X", 0, 61, 120, 213, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 130255, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 71, 114, 235, 1, 2, 0, 0, ";", "#X", 1, 52, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 68723, 4, 5, 0, 0, ";", "#X", 0, 59, 99, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 15, 76, 107, 0, 1, 2, 0, 0, ";", "#X", 110, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68973, 4, 5, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 68973, 4, 5, 0, 0, ";", "#X", 0, 64, 121, 484, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 10, 76, 112, 469, 1, 2, 0, 0, ";", "#X", 0, 80, 125, 463, 1, 2, 0, 0, ";", "#X", 115, 59, 66, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 69223, 4, 5, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 69223, 4, 5, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 92927, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 69473, 4, 5, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 124, 240, 1, 2, 0, 0, ";", "#X", 1, 40, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 61, 123, 250, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 122, 244, 1, 2, 0, 0, ";", "#X", 120, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 62, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 69223, 4, 5, 0, 0, ";", "#X", 0, 59, 107, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 129755, 10, 10, 0, 0, ";", "#X", 5, 71, 118, 224, 1, 2, 0, 0, ";", "#X", 0, 76, 117, 229, 1, 2, 0, 0, ";", "#X", 120, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 69223, 4, 5, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 64, 71, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 86, 14506, 5, 6, 0, 0, ";", "#X", 0, 71, 80, 1980, 5, 6, 0, 0, ";", "#X", 1, 40, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 80, 125, 204, 1, 2, 0, 0, ";", "#X", 0, 80, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130255, 10, 10, 0, 0, ";", "#X", 244, 78, 125, 229, 1, 2, 0, 0, ";", "#X", 5, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 234, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 68723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 59, 67, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 115, 146, 1, 2, 0, 0, ";", "#X", 0, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 223, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 68973, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 59, 66, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 77223, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 119, 76, 106, 209, 1, 2, 0, 0, ";", "#X", 5, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 77223, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 77473, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 119, 78, 125, 427, 1, 2, 0, 0, ";", "#X", 5, 78, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 52, 92, 244, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 77223, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 129755, 10, 10, 0, 0, ";", "#X", 125, 59, 68, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 77223, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 80, 124, 480, 1, 2, 0, 0, ";", "#X", 0, 64, 82, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 88, 13756, 5, 6, 0, 0, ";", "#X", 0, 73, 82, 1980, 5, 6, 0, 0, ";", "#X", 1, 37, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 64, 124, 463, 6, 7, 0, 0, ";", "#X", 0, 76, 109, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 15, 76, 111, 432, 1, 2, 0, 0, ";", "#X", 235, 49, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 76973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 130, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 76973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 61, 123, 208, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130130, 10, 10, 0, 0, ";", "#X", 5, 73, 122, 224, 1, 2, 0, 0, ";", "#X", 0, 78, 117, 255, 1, 2, 0, 0, ";", "#X", 245, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 22348, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 76723, 4, 5, 0, 0, ";", "#X", 0, 59, 101, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 108, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 71, 105, 208, 1, 2, 0, 0, ";", "#X", 5, 76, 101, 234, 1, 2, 0, 0, ";", "#X", 115, 49, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 22348, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 76973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 22348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 76973, 4, 5, 0, 0, ";", "#X", 0, 64, 127, 494, 6, 7, 0, 0, ";", "#X", 0, 76, 111, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 10, 76, 111, 443, 1, 2, 0, 0, ";", "#X", 0, 80, 124, 469, 1, 2, 0, 0, ";", "#X", 115, 59, 66, 22348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 77223, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 77223, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 77473, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 123, 256, 1, 2, 0, 0, ";", "#X", 1, 37, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 61, 123, 229, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 117, 250, 1, 2, 0, 0, ";", "#X", 245, 49, 92, 67, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 77223, 4, 5, 0, 0, ";", "#X", 0, 59, 109, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 129755, 10, 10, 0, 0, ";", "#X", 5, 71, 117, 192, 1, 2, 0, 0, ";", "#X", 5, 76, 112, 286, 1, 2, 0, 0, ";", "#X", 115, 49, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 77223, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 64, 74, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 87, 12506, 5, 6, 0, 0, ";", "#X", 0, 73, 87, 1980, 5, 6, 0, 0, ";", "#X", 1, 37, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 80, 125, 240, 1, 2, 0, 0, ";", "#X", 0, 80, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 76973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 76973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130255, 10, 10, 0, 0, ";", "#X", 249, 78, 125, 209, 1, 2, 0, 0, ";", "#X", 0, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 76723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 59, 67, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 76973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 112, 152, 1, 2, 0, 0, ";", "#X", 0, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 37, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 22848, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 76973, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 59, 66, 26854, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 77223, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 119, 76, 101, 224, 1, 2, 0, 0, ";", "#X", 5, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 32729, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 77223, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 34604, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 77473, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 125, 365, 1, 2, 0, 0, ";", "#X", 0, 78, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 37, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 49, 92, 260, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 40229, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 77223, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 129755, 10, 10, 0, 0, ";", "#X", 125, 59, 68, 48104, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 77223, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 109, 433, 1, 2, 0, 0, ";", "#X", 0, 81, 118, 454, 1, 2, 0, 0, ";", "#X", 0, 61, 86, 1980, 5, 6, 0, 0, ";", "#X", 0, 64, 89, 1980, 5, 6, 0, 0, ";", "#X", 0, 69, 78, 1980, 5, 6, 0, 0, ";", "#X", 1, 33, 92, 166, 2, 3, 0, 0, ";", "#X", 0, 64, 124, 458, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 45, 111, 114, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 119, 73, 122, 235, 1, 2, 0, 0, ";", "#X", 5, 80, 117, 261, 1, 2, 0, 0, ";", "#X", 0, 61, 123, 235, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 214, 6, 7, 0, 0, ";", "#X", 1, 33, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130255, 10, 10, 0, 0, ";", "#X", 244, 71, 105, 224, 1, 2, 0, 0, ";", "#X", 5, 59, 104, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 214, 6, 7, 0, 0, ";", "#X", 1, 45, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 111, 218, 1, 2, 0, 0, ";", "#X", 120, 45, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 113, 480, 1, 2, 0, 0, ";", "#X", 0, 64, 121, 474, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 464, 6, 7, 0, 0, ";", "#X", 1, 33, 92, 213, 2, 3, 0, 0, ";", "#X", 0, 61, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 81, 112, 468, 1, 2, 0, 0, ";", "#X", 120, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 61, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 120, 256, 1, 2, 0, 0, ";", "#X", 0, 80, 117, 250, 1, 2, 0, 0, ";", "#X", 0, 61, 120, 266, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 214, 6, 7, 0, 0, ";", "#X", 1, 33, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 59, 107, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 214, 6, 7, 0, 0, ";", "#X", 1, 45, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 61, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 129755, 10, 10, 0, 0, ";", "#X", 5, 71, 109, 213, 1, 2, 0, 0, ";", "#X", 0, 78, 118, 250, 1, 2, 0, 0, ";", "#X", 120, 45, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 64, 79, 1980, 5, 6, 0, 0, ";", "#X", 0, 69, 81, 1980, 5, 6, 0, 0, ";", "#X", 0, 73, 81, 1980, 5, 6, 0, 0, ";", "#X", 1, 30, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 81, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 93, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 42, 92, 67, 2, 3, 0, 0, ";", "#X", 0, 57, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 10, 81, 113, 380, 1, 2, 0, 0, ";", "#X", 115, 42, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 57, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 30, 92, 52, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130255, 10, 10, 0, 0, ";", "#X", 125, 42, 92, 104, 2, 3, 0, 0, ";", "#X", 124, 81, 111, 245, 1, 2, 0, 0, ";", "#X", 0, 81, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 93, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 30, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 57, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 57, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 80, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 30, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 57, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 80, 122, 224, 1, 2, 0, 0, ";", "#X", 120, 42, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 57, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 115, 250, 1, 2, 0, 0, ";", "#X", 0, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 30, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 57, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 57, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 106, 224, 1, 2, 0, 0, ";", "#X", 0, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 30, 92, 161, 2, 3, 0, 0, ";", "#X", 124, 80, 124, 282, 1, 2, 0, 0, ";", "#X", 0, 80, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 42, 92, 62, 2, 3, 0, 0, ";", "#X", 0, 57, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 129755, 10, 10, 0, 0, ";", "#X", 125, 42, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 57, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 75, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 105, 1964, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 1964, 3, 4, 0, 0, ";", "#X", 0, 64, 82, 1980, 5, 6, 0, 0, ";", "#X", 0, 66, 97, 1980, 5, 6, 0, 0, ";", "#X", 0, 71, 85, 1980, 5, 6, 0, 0, ";", "#X", 1, 35, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 118, 1927, 1, 2, 0, 0, ";", "#X", 245, 47, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 76, 92, 98, 4, 5, 0, 0, ";", "#X", 0, 78, 99, 98, 4, 5, 0, 0, ";", "#X", 0, 83, 96, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 76, 94, 98, 4, 5, 0, 0, ";", "#X", 0, 78, 96, 98, 4, 5, 0, 0, ";", "#X", 0, 83, 95, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130255, 10, 10, 0, 0, ";", "#X", 250, 47, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 76, 93, 98, 4, 5, 0, 0, ";", "#X", 0, 78, 99, 98, 4, 5, 0, 0, ";", "#X", 0, 83, 95, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 76, 93, 98, 4, 5, 0, 0, ";", "#X", 0, 78, 97, 98, 4, 5, 0, 0, ";", "#X", 0, 83, 95, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 223, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 76, 93, 98, 4, 5, 0, 0, ";", "#X", 0, 78, 99, 98, 4, 5, 0, 0, ";", "#X", 0, 83, 96, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 76, 93, 98, 4, 5, 0, 0, ";", "#X", 0, 78, 97, 98, 4, 5, 0, 0, ";", "#X", 0, 83, 95, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 76, 93, 98, 4, 5, 0, 0, ";", "#X", 0, 78, 99, 98, 4, 5, 0, 0, ";", "#X", 0, 83, 98, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 129755, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 140, 2, 3, 0, 0, ";", "#X", 0, 76, 94, 98, 4, 5, 0, 0, ";", "#X", 0, 78, 98, 98, 4, 5, 0, 0, ";", "#X", 0, 83, 97, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 59, 93, 141886, 5, 6, 0, 0, ";", "#X", 0, 63, 103, 495, 5, 6, 0, 0, ";", "#X", 0, 66, 101, 495, 5, 6, 0, 0, ";", "#X", 1, 35, 92, 411, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 250, 71, 92, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 94, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 100, 213, 6, 7, 0, 0, ";", "#X", 0, 95, 100, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 64, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 68, 127, 46250, 7, 8, 0, 0, ";", "#X", 120, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 130255, 10, 10, 0, 0, ";", "#X", 125, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 125, 71, 92, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 93, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 100, 213, 6, 7, 0, 0, ";", "#X", 0, 95, 100, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 20, 66, 127, 271, 7, 8, 0, 0, ";", "#X", 105, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 26, 68, 127, 46729, 7, 8, 0, 0, ";", "#X", 99, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 71, 93, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 95, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 100, 213, 6, 7, 0, 0, ";", "#X", 0, 95, 100, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 20, 71, 122, 318, 7, 8, 0, 0, ";", "#X", 105, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 89, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 106, 5, 10, 10, 0, 0, ";", "#X", 0, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 57, 68, 127, 46948, 7, 8, 0, 0, ";", "#X", 68, 68, 79, 129880, 10, 10, 0, 0, ";", "#X", 125, 71, 92, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 92, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 100, 213, 6, 7, 0, 0, ";", "#X", 0, 95, 100, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 89, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 106, 5, 10, 10, 0, 0, ";", "#X", 0, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 46, 66, 127, 271, 7, 8, 0, 0, ";", "#X", 203, 64, 79, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 94, 3756, 5, 6, 0, 0, ";", "#X", 0, 71, 76, 1980, 5, 6, 0, 0, ";", "#X", 0, 64, 118, 501, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 464, 6, 7, 0, 0, ";", "#X", 1, 40, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 49, 101, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 80, 124, 448, 1, 2, 0, 0, ";", "#X", 5, 76, 117, 422, 1, 2, 0, 0, ";", "#X", 240, 52, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 45729, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 125, 230, 1, 2, 0, 0, ";", "#X", 1, 40, 92, 166, 2, 3, 0, 0, ";", "#X", 0, 61, 123, 218, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130255, 10, 10, 0, 0, ";", "#X", 5, 78, 115, 234, 1, 2, 0, 0, ";", "#X", 244, 71, 111, 193, 1, 2, 0, 0, ";", "#X", 1, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 47723, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 68723, 4, 5, 0, 0, ";", "#X", 0, 59, 101, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 100, 224, 1, 2, 0, 0, ";", "#X", 120, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 122, 454, 1, 2, 0, 0, ";", "#X", 1, 40, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 68973, 4, 5, 0, 0, ";", "#X", 0, 64, 118, 500, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 80, 118, 489, 1, 2, 0, 0, ";", "#X", 120, 59, 66, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 69223, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 69223, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 69473, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 125, 250, 1, 2, 0, 0, ";", "#X", 1, 40, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 61, 123, 223, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 117, 250, 1, 2, 0, 0, ";", "#X", 244, 71, 120, 245, 1, 2, 0, 0, ";", "#X", 1, 52, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 47723, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 69223, 4, 5, 0, 0, ";", "#X", 0, 59, 109, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 129755, 10, 10, 0, 0, ";", "#X", 15, 76, 112, 219, 1, 2, 0, 0, ";", "#X", 110, 52, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 69223, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 64, 90, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 97, 2506, 5, 6, 0, 0, ";", "#X", 0, 71, 88, 1980, 5, 6, 0, 0, ";", "#X", 1, 40, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 80, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 47723, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 80, 125, 239, 1, 2, 0, 0, ";", "#X", 41, 68, 127, 45334, 7, 8, 0, 0, ";", "#X", 79, 52, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130255, 10, 10, 0, 0, ";", "#X", 249, 78, 125, 240, 1, 2, 0, 0, ";", "#X", 0, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 47723, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 68723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 66, 127, 218, 7, 8, 0, 0, ";", "#X", 120, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 218, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 68973, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 115, 187, 1, 2, 0, 0, ";", "#X", 5, 64, 116, 161, 7, 8, 0, 0, ";", "#X", 115, 59, 66, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 73223, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 119, 64, 108, 193, 7, 8, 0, 0, ";", "#X", 5, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 73223, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 104, 187, 1, 2, 0, 0, ";", "#X", 120, 52, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 73473, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 125, 412, 1, 2, 0, 0, ";", "#X", 0, 78, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 66, 127, 443, 7, 8, 0, 0, ";", "#X", 1, 40, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 47723, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 73223, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 129755, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 73473, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 80, 117, 474, 1, 2, 0, 0, ";", "#X", 0, 68, 95, 1756, 5, 6, 0, 0, ";", "#X", 0, 71, 91, 1980, 5, 6, 0, 0, ";", "#X", 0, 76, 85, 1980, 5, 6, 0, 0, ";", "#X", 1, 37, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 64, 124, 500, 6, 7, 0, 0, ";", "#X", 0, 76, 109, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 114, 474, 1, 2, 0, 0, ";", "#X", 245, 49, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 47723, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 73223, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 73473, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 61, 123, 223, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130255, 10, 10, 0, 0, ";", "#X", 5, 73, 123, 224, 1, 2, 0, 0, ";", "#X", 0, 78, 101, 213, 1, 2, 0, 0, ";", "#X", 245, 49, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 47723, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 88229, 4, 5, 0, 0, ";", "#X", 0, 59, 104, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 108, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 71, 105, 229, 1, 2, 0, 0, ";", "#X", 0, 76, 94, 208, 1, 2, 0, 0, ";", "#X", 120, 49, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 92104, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 98348, 4, 5, 0, 0, ";", "#X", 0, 64, 127, 505, 6, 7, 0, 0, ";", "#X", 0, 76, 111, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 115, 468, 1, 2, 0, 0, ";", "#X", 0, 80, 112, 474, 1, 2, 0, 0, ";", "#X", 120, 59, 66, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 98348, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 98598, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 98598, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 15, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 123, 266, 1, 2, 0, 0, ";", "#X", 1, 37, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 61, 116, 239, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 99, 239, 1, 2, 0, 0, ";", "#X", 245, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 47723, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 98348, 4, 5, 0, 0, ";", "#X", 0, 59, 107, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 129755, 10, 10, 0, 0, ";", "#X", 5, 71, 117, 234, 1, 2, 0, 0, ";", "#X", 5, 76, 106, 182, 1, 2, 0, 0, ";", "#X", 115, 49, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 98348, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 68, 90, 506, 5, 6, 0, 0, ";", "#X", 0, 71, 92, 1980, 5, 6, 0, 0, ";", "#X", 0, 76, 83, 1980, 5, 6, 0, 0, ";", "#X", 1, 37, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 80, 125, 178, 1, 2, 0, 0, ";", "#X", 0, 80, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 47723, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 98098, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 15, 68, 127, 42240, 7, 8, 0, 0, ";", "#X", 110, 49, 92, 119, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 98098, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 80, 121, 214, 1, 2, 0, 0, ";", "#X", 0, 80, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 37, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130255, 10, 10, 0, 0, ";", "#X", 10, 68, 126, 43245, 7, 8, 0, 0, ";", "#X", 239, 78, 122, 214, 1, 2, 0, 0, ";", "#X", 0, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 66, 126, 204, 7, 8, 0, 0, ";", "#X", 1, 49, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 47723, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 98098, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 98098, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 114, 64, 114, 203, 7, 8, 0, 0, ";", "#X", 5, 76, 114, 177, 1, 2, 0, 0, ";", "#X", 5, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 37, 92, 218, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 98348, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 59, 66, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 98348, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 112, 68, 1, 2, 0, 0, ";", "#X", 0, 76, 105, 99, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 99, 3, 4, 0, 0, ";", "#X", 0, 64, 109, 89, 7, 8, 0, 0, ";", "#X", 1, 49, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 98598, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 105, 99, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 99, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 98598, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 109, 83, 1, 2, 0, 0, ";", "#X", 5, 64, 114, 99, 7, 8, 0, 0, ";", "#X", 114, 78, 125, 0, 1, 2, 0, 0, ";", "#X", 0, 78, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 37, 92, 182, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 10, 66, 127, 437, 7, 8, 0, 0, ";", "#X", 240, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 47723, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 98348, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 129755, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 98348, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 119, 80, 100, 37, 1, 2, 0, 0, ";", "#X", 5, 81, 98, 448, 1, 2, 0, 0, ";", "#X", 0, 64, 80, 1980, 5, 6, 0, 0, ";", "#X", 0, 69, 84, 1980, 5, 6, 0, 0, ";", "#X", 0, 73, 86, 1980, 5, 6, 0, 0, ";", "#X", 1, 33, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 64, 121, 489, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 117, 442, 1, 2, 0, 0, ";", "#X", 245, 45, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 125, 224, 1, 2, 0, 0, ";", "#X", 0, 80, 111, 250, 1, 2, 0, 0, ";", "#X", 1, 33, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 61, 123, 229, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130255, 10, 10, 0, 0, ";", "#X", 244, 71, 107, 188, 1, 2, 0, 0, ";", "#X", 6, 45, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 59, 97, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 108, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 89, 198, 1, 2, 0, 0, ";", "#X", 120, 45, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 119, 76, 120, 490, 1, 2, 0, 0, ";", "#X", 5, 81, 104, 396, 1, 2, 0, 0, ";", "#X", 1, 33, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 61, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 121, 494, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 61, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 33, 92, 166, 2, 3, 0, 0, ";", "#X", 0, 61, 126, 307, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 83, 121, 438, 1, 2, 0, 0, ";", "#X", 0, 83, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 95, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 67, 2, 3, 0, 0, ";", "#X", 0, 61, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 129755, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 63, 93, 1980, 5, 6, 0, 0, ";", "#X", 0, 66, 93, 1980, 5, 6, 0, 0, ";", "#X", 0, 71, 85, 1980, 5, 6, 0, 0, ";", "#X", 1, 35, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 83, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 95, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 47, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 70, 45723, 4, 5, 0, 0, ";", "#X", 0, 63, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 83, 109, 203, 1, 2, 0, 0, ";", "#X", 120, 47, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 53973, 4, 5, 0, 0, ";", "#X", 0, 63, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 83, 78, 250, 1, 2, 0, 0, ";", "#X", 0, 83, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 95, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 35, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130255, 10, 10, 0, 0, ";", "#X", 249, 85, 125, 0, 1, 2, 0, 0, ";", "#X", 0, 85, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 97, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 53723, 4, 5, 0, 0, ";", "#X", 0, 63, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 53973, 4, 5, 0, 0, ";", "#X", 0, 63, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 80, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 35, 92, 223, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 53973, 4, 5, 0, 0, ";", "#X", 0, 63, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 15, 79, 121, 344, 1, 2, 0, 0, ";", "#X", 110, 59, 67, 53973, 4, 5, 0, 0, ";", "#X", 0, 63, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 53973, 4, 5, 0, 0, ";", "#X", 0, 63, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 53973, 4, 5, 0, 0, ";", "#X", 0, 63, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 125, 240, 1, 2, 0, 0, ";", "#X", 0, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 35, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 76, 112, 2120, 1, 2, 0, 0, ";", "#X", 0, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 47, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 53723, 4, 5, 0, 0, ";", "#X", 0, 63, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 129755, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 140, 2, 3, 0, 0, ";", "#X", 0, 59, 70, 53973, 4, 5, 0, 0, ";", "#X", 0, 63, 75, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 105, 1964, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 1459, 3, 4, 0, 0, ";", "#X", 0, 59, 86, 128902, 5, 6, 0, 0, ";", "#X", 0, 64, 88, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 96, 0, 5, 6, 0, 0, ";", "#X", 1, 40, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 52, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 53723, 4, 5, 0, 0, ";", "#X", 0, 64, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 73, 94098, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 53973, 4, 5, 0, 0, ";", "#X", 0, 64, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 73, 94098, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 130255, 10, 10, 0, 0, ";", "#X", 250, 52, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 53723, 4, 5, 0, 0, ";", "#X", 0, 64, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 74, 94098, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 53973, 4, 5, 0, 0, ";", "#X", 0, 64, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 94098, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 53723, 4, 5, 0, 0, ";", "#X", 0, 64, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 74, 94098, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 70, 53723, 4, 5, 0, 0, ";", "#X", 0, 64, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 73, 94098, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 52, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 71, 53473, 4, 5, 0, 0, ";", "#X", 0, 64, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 75, 94098, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, 129755, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 127, 250, 3, 4, 0, 0, ";", "#X", 1, 76, 78, 213, 4, 5, 0, 0, ";", "#X", 0, 42, 21, 5, 10, 10, 0, 0, ";", "#X", 249, 78, 127, 250, 3, 4, 0, 0, ";", "#X", 1, 78, 78, 213, 4, 5, 0, 0, ";", "#X", 249, 80, 127, 250, 3, 4, 0, 0, ";", "#X", 1, 80, 78, 213, 4, 5, 0, 0, ";", "#X", 249, 81, 105, 250, 3, 4, 0, 0, ";", "#X", 1, 81, 78, 213, 4, 5, 0, 0, ";", "#X", 249, 83, 127, 313, 3, 4, 0, 0, ";", "#X", 1, 83, 82, 364, 4, 5, 0, 0, ";", "#X", 0, 71, 101, 364, 6, 7, 0, 0, ";", "#X", 0, 78, 101, 364, 6, 7, 0, 0, ";", "#X", 0, 83, 101, 364, 6, 7, 0, 0, ";", "#X", 499, 83, 127, 313, 3, 4, 0, 0, ";", "#X", 0, 71, 101, 365, 6, 7, 0, 0, ";", "#X", 0, 78, 101, 365, 6, 7, 0, 0, ";", "#X", 0, 83, 101, 365, 6, 7, 0, 0, ";", "#X", 1, 83, 82, 364, 4, 5, 0, 0, ";", "#X", 499, 59, 77, 127969, 5, 6, 0, 0, ";", "#X", 0, 64, 71, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 79, 0, 5, 6, 0, 0, ";", "#X", 1, 40, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 59, 74, 51348, 4, 5, 0, 0, ";", "#X", 0, 64, 75, 1979, 4, 5, 0, 0, ";", "#X", 0, 68, 76, 91973, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 49, 101, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 10, 71, 121, 182, 1, 2, 0, 0, ";", "#X", 115, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 71, 105, 177, 1, 2, 0, 0, ";", "#X", 120, 52, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 71, 108, 193, 1, 2, 0, 0, ";", "#X", 1, 40, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 128255, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 5, 71, 106, 187, 1, 2, 0, 0, ";", "#X", 120, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 5, 71, 113, 177, 1, 2, 0, 0, ";", "#X", 120, 52, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 5, 71, 109, 333, 1, 2, 0, 0, ";", "#X", 120, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 10, 10, 10, 0, 0, ";", "#X", 124, 71, 117, 188, 1, 2, 0, 0, ";", "#X", 1, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 127755, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 117, 256, 1, 2, 0, 0, ";", "#X", 0, 61, 84, 1980, 5, 6, 0, 0, ";", "#X", 0, 64, 78, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 83, 0, 5, 6, 0, 0, ";", "#X", 1, 37, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 61, 76, 1979, 4, 5, 0, 0, ";", "#X", 0, 64, 75, 1979, 4, 5, 0, 0, ";", "#X", 0, 68, 76, 90098, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 10, 75, 125, 432, 1, 2, 0, 0, ";", "#X", 115, 49, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 182, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 128255, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 125, 829, 1, 2, 0, 0, ";", "#X", 1, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 78, 68, 127, 31302, 7, 8, 0, 0, ";", "#X", 47, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 166, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 46, 66, 127, 292, 7, 8, 0, 0, ";", "#X", 78, 73, 125, 443, 1, 2, 0, 0, ";", "#X", 1, 49, 92, 67, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 127755, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 88, 64, 123, 724, 7, 8, 0, 0, ";", "#X", 36, 61, 86, 1980, 5, 6, 0, 0, ";", "#X", 0, 64, 81, 1980, 5, 6, 0, 0, ";", "#X", 0, 69, 75, 1980, 5, 6, 0, 0, ";", "#X", 1, 33, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 57, 72, 1979, 4, 5, 0, 0, ";", "#X", 0, 61, 76, 1979, 4, 5, 0, 0, ";", "#X", 0, 64, 75, 1979, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 73, 115, 151, 1, 2, 0, 0, ";", "#X", 120, 45, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 114, 178, 1, 2, 0, 0, ";", "#X", 1, 33, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, 128255, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 119, 73, 108, 188, 1, 2, 0, 0, ";", "#X", 6, 45, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 113, 193, 1, 2, 0, 0, ";", "#X", 1, 33, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 107, 131, 1, 2, 0, 0, ";", "#X", 1, 45, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 119, 73, 105, 203, 1, 2, 0, 0, ";", "#X", 6, 33, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 111, 266, 1, 2, 0, 0, ";", "#X", 1, 45, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 140, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 59, 80, 127995, 5, 6, 0, 0, ";", "#X", 0, 63, 89, 1980, 5, 6, 0, 0, ";", "#X", 0, 66, 81, 1980, 5, 6, 0, 0, ";", "#X", 1, 35, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 59, 72, 45473, 4, 5, 0, 0, ";", "#X", 0, 63, 76, 1979, 4, 5, 0, 0, ";", "#X", 0, 66, 76, 1979, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 75, 124, 255, 1, 2, 0, 0, ";", "#X", 120, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 10, 73, 125, 417, 1, 2, 0, 0, ";", "#X", 115, 47, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 5, 71, 122, 786, 1, 2, 0, 0, ";", "#X", 120, 47, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 71, 122, 224, 1, 2, 0, 0, ";", "#X", 0, 59, 74, 126995, 5, 6, 0, 0, ";", "#X", 0, 64, 77, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 85, 0, 5, 6, 0, 0, ";", "#X", 1, 40, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 59, 74, 43848, 4, 5, 0, 0, ";", "#X", 0, 64, 75, 1979, 4, 5, 0, 0, ";", "#X", 0, 68, 76, 84223, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 67, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 10, 71, 111, 198, 1, 2, 0, 0, ";", "#X", 115, 52, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 10, 71, 118, 219, 1, 2, 0, 0, ";", "#X", 115, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 5, 71, 109, 213, 1, 2, 0, 0, ";", "#X", 120, 52, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 223, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 5, 71, 118, 192, 1, 2, 0, 0, ";", "#X", 120, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 119, 71, 100, 224, 1, 2, 0, 0, ";", "#X", 6, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 71, 115, 230, 1, 2, 0, 0, ";", "#X", 1, 40, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 71, 115, 188, 1, 2, 0, 0, ";", "#X", 1, 52, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 140, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 119, 73, 125, 245, 1, 2, 0, 0, ";", "#X", 5, 61, 83, 1980, 5, 6, 0, 0, ";", "#X", 0, 64, 79, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 80, 0, 5, 6, 0, 0, ";", "#X", 1, 37, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 61, 76, 1979, 4, 5, 0, 0, ";", "#X", 0, 64, 75, 1979, 4, 5, 0, 0, ";", "#X", 0, 68, 76, 82348, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 10, 75, 125, 338, 1, 2, 0, 0, ";", "#X", 115, 49, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 5, 73, 125, 760, 1, 2, 0, 0, ";", "#X", 120, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 213, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 182, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 125, 402, 1, 2, 0, 0, ";", "#X", 1, 49, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 61, 77, 1980, 5, 6, 0, 0, ";", "#X", 0, 64, 78, 1980, 5, 6, 0, 0, ";", "#X", 0, 69, 77, 1980, 5, 6, 0, 0, ";", "#X", 1, 33, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 57, 76, 1979, 4, 5, 0, 0, ";", "#X", 0, 61, 76, 1979, 4, 5, 0, 0, ";", "#X", 0, 64, 76, 1979, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 119, 73, 118, 188, 1, 2, 0, 0, ";", "#X", 6, 45, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 120, 178, 1, 2, 0, 0, ";", "#X", 1, 33, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 109, 183, 1, 2, 0, 0, ";", "#X", 1, 45, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 117, 167, 1, 2, 0, 0, ";", "#X", 1, 33, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 107, 152, 1, 2, 0, 0, ";", "#X", 1, 45, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 106, 193, 1, 2, 0, 0, ";", "#X", 1, 33, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 94, 198, 1, 2, 0, 0, ";", "#X", 1, 45, 92, 250, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 119, 75, 120, 240, 1, 2, 0, 0, ";", "#X", 5, 59, 79, 0, 5, 6, 0, 0, ";", "#X", 0, 63, 90, 1980, 5, 6, 0, 0, ";", "#X", 0, 66, 90, 1980, 5, 6, 0, 0, ";", "#X", 1, 35, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 59, 76, 37973, 4, 5, 0, 0, ";", "#X", 0, 63, 76, 1979, 4, 5, 0, 0, ";", "#X", 0, 66, 76, 1979, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 90, 5, 10, 10, 0, 0, ";", "#X", 250, 47, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 43, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 90, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 114, 369, 1, 2, 0, 0, ";", "#X", 5, 68, 127, 21495, 7, 8, 0, 0, ";", "#X", 115, 47, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 43, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 64, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 90, 5, 10, 10, 0, 0, ";", "#X", 125, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 22, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 125, 849, 1, 2, 0, 0, ";", "#X", 10, 68, 127, 21740, 7, 8, 0, 0, ";", "#X", 110, 47, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 64, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 90, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 90, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 15, 68, 127, 22490, 7, 8, 0, 0, ";", "#X", 110, 47, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 90, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 161, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 64, 5, 10, 10, 0, 0, ";", "#X", 0, 66, 106, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 90, 5, 10, 10, 0, 0, ";", "#X", 5, 66, 127, 484, 7, 8, 0, 0, ";", "#X", 245, 47, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 64, 5, 10, 10, 0, 0, ";", "#X", 0, 66, 64, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 90, 5, 10, 10, 0, 0, ";", "#X", 10, 76, 120, 422, 1, 2, 0, 0, ";", "#X", 115, 47, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 0, 57, 81, 1980, 5, 6, 0, 0, ";", "#X", 0, 61, 91, 1980, 5, 6, 0, 0, ";", "#X", 0, 64, 82, 1980, 5, 6, 0, 0, ";", "#X", 1, 33, 92, 166, 2, 3, 0, 0, ";", "#X", 0, 57, 76, 3979, 4, 5, 0, 0, ";", "#X", 0, 61, 76, 3979, 4, 5, 0, 0, ";", "#X", 0, 64, 76, 3979, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 49, 101, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 83, 69, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 113, 125, 1, 2, 0, 0, ";", "#X", 78, 73, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 33, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 5, 76, 106, 239, 1, 2, 0, 0, ";", "#X", 78, 69, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 73, 122, 178, 1, 2, 0, 0, ";", "#X", 0, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 83, 73, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 76, 120, 527, 1, 2, 0, 0, ";", "#X", 0, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 33, 92, 223, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 83, 69, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 39, 106, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 83, 73, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 33, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 39, 106, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 83, 69, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 83, 73, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 0, 57, 78, 1980, 5, 6, 0, 0, ";", "#X", 0, 61, 92, 1980, 5, 6, 0, 0, ";", "#X", 0, 64, 83, 1980, 5, 6, 0, 0, ";", "#X", 1, 33, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 124, 213, 1, 2, 0, 0, ";", "#X", 78, 69, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 10, 76, 103, 120, 1, 2, 0, 0, ";", "#X", 73, 73, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 76, 111, 235, 1, 2, 0, 0, ";", "#X", 0, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 33, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 83, 69, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 125, 463, 1, 2, 0, 0, ";", "#X", 78, 73, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 75, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 33, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 83, 71, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 75, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 76, 117, 396, 1, 2, 0, 0, ";", "#X", 0, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 83, 75, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 76, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 33, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 83, 73, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 76, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 62, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 10, 76, 124, 401, 1, 2, 0, 0, ";", "#X", 73, 76, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 0, 56, 84, 1980, 5, 6, 0, 0, ";", "#X", 0, 59, 84, 0, 5, 6, 0, 0, ";", "#X", 0, 64, 77, 1980, 5, 6, 0, 0, ";", "#X", 1, 40, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 59, 76, 32348, 4, 5, 0, 0, ";", "#X", 0, 64, 76, 3979, 4, 5, 0, 0, ";", "#X", 0, 68, 76, 72473, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 83, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 42, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 111, 130, 1, 2, 0, 0, ";", "#X", 78, 71, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 52, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 83, 76, 111, 230, 1, 2, 0, 0, ";", "#X", 0, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 83, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 73, 122, 188, 1, 2, 0, 0, ";", "#X", 0, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 83, 71, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 83, 76, 118, 553, 1, 2, 0, 0, ";", "#X", 0, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 218, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 83, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 39, 106, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 83, 71, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 83, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 39, 106, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 83, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 83, 71, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 83, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 0, 56, 83, 1980, 5, 6, 0, 0, ";", "#X", 0, 59, 87, 0, 5, 6, 0, 0, ";", "#X", 0, 64, 81, 1980, 5, 6, 0, 0, ";", "#X", 1, 40, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 10, 76, 125, 167, 1, 2, 0, 0, ";", "#X", 73, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 10, 76, 117, 187, 1, 2, 0, 0, ";", "#X", 73, 71, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 52, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 83, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 5, 76, 117, 208, 1, 2, 0, 0, ";", "#X", 78, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 125, 453, 1, 2, 0, 0, ";", "#X", 78, 71, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 20, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 80, 105, 495, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 495, 3, 4, 0, 0, ";", "#X", 0, 80, 84, 495, 5, 6, 0, 0, ";", "#X", 1, 40, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 118, 693, 1, 2, 0, 0, ";", "#X", 1, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 105, 495, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 495, 3, 4, 0, 0, ";", "#X", 0, 78, 79, 495, 5, 6, 0, 0, ";", "#X", 1, 39, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 51, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 125, 51, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 105, 1995, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 1995, 3, 4, 0, 0, ";", "#X", 0, 56, 86, 1980, 5, 6, 0, 0, ";", "#X", 0, 61, 96, 1980, 5, 6, 0, 0, ";", "#X", 0, 64, 84, 1980, 5, 6, 0, 0, ";", "#X", 0, 76, 75, 495, 5, 6, 0, 0, ";", "#X", 1, 37, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 61, 75, 3979, 4, 5, 0, 0, ";", "#X", 0, 64, 74, 3979, 4, 5, 0, 0, ";", "#X", 0, 68, 75, 68848, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 61, 127, 474, 7, 8, 0, 0, ";", "#X", 1, 37, 92, 161, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 5, 73, 125, 484, 1, 2, 0, 0, ";", "#X", 120, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 75, 125, 235, 1, 2, 0, 0, ";", "#X", 1, 37, 92, 218, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 31, 63, 126, 239, 7, 8, 0, 0, ";", "#X", 94, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 122, 448, 1, 2, 0, 0, ";", "#X", 36, 64, 115, 438, 7, 8, 0, 0, ";", "#X", 84, 49, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 125, 709, 1, 2, 0, 0, ";", "#X", 1, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 52, 66, 127, 671, 7, 8, 0, 0, ";", "#X", 73, 49, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 56, 87, 1980, 5, 6, 0, 0, ";", "#X", 0, 61, 97, 1980, 5, 6, 0, 0, ";", "#X", 0, 64, 86, 1980, 5, 6, 0, 0, ";", "#X", 1, 37, 92, 213, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 125, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 119, 76, 117, 521, 1, 2, 0, 0, ";", "#X", 0, 64, 121, 453, 7, 8, 0, 0, ";", "#X", 6, 37, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 104, 63, 126, 281, 7, 8, 0, 0, ";", "#X", 15, 75, 124, 261, 1, 2, 0, 0, ";", "#X", 6, 37, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 117, 443, 1, 2, 0, 0, ";", "#X", 0, 64, 111, 443, 7, 8, 0, 0, ";", "#X", 1, 49, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 5, 78, 125, 2177, 1, 2, 0, 0, ";", "#X", 15, 66, 127, 1151, 7, 8, 0, 0, ";", "#X", 105, 49, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 105, 495, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 495, 3, 4, 0, 0, ";", "#X", 0, 59, 88, 39974, 5, 6, 0, 0, ";", "#X", 0, 63, 96, 1980, 5, 6, 0, 0, ";", "#X", 0, 66, 94, 1980, 5, 6, 0, 0, ";", "#X", 1, 35, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 59, 72, 24473, 4, 5, 0, 0, ";", "#X", 0, 63, 76, 1979, 4, 5, 0, 0, ";", "#X", 0, 66, 76, 1979, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 67, 83, 114, 1188, 7, 8, 0, 0, ";", "#X", 58, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 67, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 182, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 135, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 59, 84, 99115, 5, 6, 0, 0, ";", "#X", 0, 63, 91, 495, 5, 6, 0, 0, ";", "#X", 0, 66, 94, 495, 5, 6, 0, 0, ";", "#X", 1, 35, 92, 437, 2, 3, 0, 0, ";", "#X", 0, 71, 102, 411, 4, 5, 0, 0, ";", "#X", 0, 83, 102, 411, 4, 5, 0, 0, ";", "#X", 0, 71, 91, 416, 6, 7, 0, 0, ";", "#X", 0, 83, 91, 416, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 83, 98, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 250, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 83, 98, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 15, 80, 125, 208, 1, 2, 0, 0, ";", "#X", 235, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 83, 98, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 124, 65, 81, 99, 10, 10, 0, 0, ";", "#X", 125, 35, 108, 6, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 6, 10, 10, 0, 0, ";", "#X", 6, 78, 125, 229, 1, 2, 0, 0, ";", "#X", 120, 65, 83, 98, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 80, 120, 214, 1, 2, 0, 0, ";", "#X", 0, 35, 108, 6, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 6, 10, 10, 0, 0, ";", "#X", 0, 65, 79, 99, 10, 10, 0, 0, ";", "#X", 125, 65, 62, 99, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 6, 10, 10, 0, 0, ";", "#X", 125, 35, 108, 6, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 6, 10, 10, 0, 0, ";", "#X", 0, 65, 83, 99, 10, 10, 0, 0, ";", "#X", 6, 83, 113, 276, 1, 2, 0, 0, ";", "#X", 119, 65, 83, 99, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 6, 10, 10, 0, 0, ";", "#X", 125, 35, 108, 6, 10, 10, 0, 0, ";", "#X", 0, 38, 89, 6, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 6, 10, 10, 0, 0, ";", "#X", 0, 65, 83, 99, 10, 10, 0, 0, ";", "#X", 6, 80, 123, 239, 1, 2, 0, 0, ";", "#X", 119, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 125, 78, 115, 198, 1, 2, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 89, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 83, 98, 10, 10, 0, 0, ";", "#X", 124, 65, 83, 99, 10, 10, 0, 0, ";", "#X", 125, 64, 85, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 96, 0, 5, 6, 0, 0, ";", "#X", 0, 71, 77, 1980, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 6, 10, 10, 0, 0, ";", "#X", 0, 49, 101, 6, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 6, 10, 10, 0, 0, ";", "#X", 1, 40, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 64, 118, 494, 6, 7, 0, 0, ";", "#X", 0, 76, 111, 463, 6, 7, 0, 0, ";", "#X", 5, 76, 122, 453, 1, 2, 0, 0, ";", "#X", 0, 80, 115, 463, 1, 2, 0, 0, ";", "#X", 120, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 60723, 4, 5, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 60973, 4, 5, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 125, 250, 1, 2, 0, 0, ";", "#X", 1, 40, 92, 182, 2, 3, 0, 0, ";", "#X", 0, 61, 120, 229, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 5, 78, 112, 244, 1, 2, 0, 0, ";", "#X", 120, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 60723, 4, 5, 0, 0, ";", "#X", 0, 59, 99, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 5, 71, 115, 0, 1, 2, 0, 0, ";", "#X", 10, 76, 98, 203, 1, 2, 0, 0, ";", "#X", 110, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 60973, 4, 5, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 60973, 4, 5, 0, 0, ";", "#X", 0, 64, 114, 510, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 118, 458, 1, 2, 0, 0, ";", "#X", 5, 80, 115, 495, 1, 2, 0, 0, ";", "#X", 115, 59, 66, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 60973, 4, 5, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 60973, 4, 5, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 60973, 4, 5, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 125, 256, 1, 2, 0, 0, ";", "#X", 1, 40, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 61, 120, 281, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 10, 78, 109, 229, 1, 2, 0, 0, ";", "#X", 115, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 62, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 60723, 4, 5, 0, 0, ";", "#X", 0, 59, 109, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 5, 71, 120, 224, 1, 2, 0, 0, ";", "#X", 0, 76, 106, 203, 1, 2, 0, 0, ";", "#X", 120, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 60973, 4, 5, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 64, 71, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 86, 0, 5, 6, 0, 0, ";", "#X", 0, 71, 80, 1980, 5, 6, 0, 0, ";", "#X", 1, 40, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 80, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 60723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 15, 80, 125, 203, 1, 2, 0, 0, ";", "#X", 110, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 249, 78, 125, 235, 1, 2, 0, 0, ";", "#X", 0, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 234, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 68723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 59, 67, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 118, 198, 1, 2, 0, 0, ";", "#X", 0, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 223, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 68973, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 59, 66, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 68973, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 111, 0, 1, 2, 0, 0, ";", "#X", 0, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 119, 78, 125, 453, 1, 2, 0, 0, ";", "#X", 5, 78, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 52, 92, 244, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 59, 68, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 64, 82, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 88, 0, 5, 6, 0, 0, ";", "#X", 0, 73, 82, 1980, 5, 6, 0, 0, ";", "#X", 1, 37, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 64, 118, 505, 6, 7, 0, 0, ";", "#X", 0, 76, 109, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 80, 118, 442, 1, 2, 0, 0, ";", "#X", 10, 76, 118, 422, 1, 2, 0, 0, ";", "#X", 235, 49, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 130, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 61, 123, 239, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 78, 99, 224, 1, 2, 0, 0, ";", "#X", 5, 73, 125, 245, 1, 2, 0, 0, ";", "#X", 240, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 22348, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 68723, 4, 5, 0, 0, ";", "#X", 0, 59, 99, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 108, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 98, 229, 1, 2, 0, 0, ";", "#X", 5, 71, 111, 182, 1, 2, 0, 0, ";", "#X", 115, 49, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 22348, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 22348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 68973, 4, 5, 0, 0, ";", "#X", 0, 64, 121, 515, 6, 7, 0, 0, ";", "#X", 0, 76, 111, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 122, 0, 1, 2, 0, 0, ";", "#X", 0, 80, 115, 458, 1, 2, 0, 0, ";", "#X", 120, 59, 66, 22348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 68973, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 61, 116, 239, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 73, 125, 255, 1, 2, 0, 0, ";", "#X", 0, 78, 102, 234, 1, 2, 0, 0, ";", "#X", 245, 49, 92, 67, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68723, 4, 5, 0, 0, ";", "#X", 0, 59, 109, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 71, 120, 271, 1, 2, 0, 0, ";", "#X", 0, 76, 100, 218, 1, 2, 0, 0, ";", "#X", 120, 49, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 64, 74, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 87, 0, 5, 6, 0, 0, ";", "#X", 0, 73, 87, 1980, 5, 6, 0, 0, ";", "#X", 1, 37, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 80, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 80, 125, 265, 1, 2, 0, 0, ";", "#X", 120, 49, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 249, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 68723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 125, 234, 1, 2, 0, 0, ";", "#X", 120, 59, 67, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 37, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 22848, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 68973, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 121, 151, 1, 2, 0, 0, ";", "#X", 120, 59, 66, 37854, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 68973, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 109, 219, 1, 2, 0, 0, ";", "#X", 0, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 43729, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 37, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 125, 406, 1, 2, 0, 0, ";", "#X", 245, 49, 92, 260, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 47723, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 68723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 59, 68, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 68973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 81, 113, 443, 1, 2, 0, 0, ";", "#X", 0, 61, 86, 1980, 5, 6, 0, 0, ";", "#X", 0, 64, 89, 1980, 5, 6, 0, 0, ";", "#X", 0, 69, 78, 1980, 5, 6, 0, 0, ";", "#X", 1, 33, 92, 166, 2, 3, 0, 0, ";", "#X", 0, 64, 121, 473, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 122, 0, 1, 2, 0, 0, ";", "#X", 120, 45, 111, 114, 2, 3, 0, 0, ";", "#X", 125, 45, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 119, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 125, 230, 1, 2, 0, 0, ";", "#X", 0, 80, 102, 256, 1, 2, 0, 0, ";", "#X", 1, 33, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 61, 120, 218, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 249, 71, 112, 214, 1, 2, 0, 0, ";", "#X", 0, 78, 109, 204, 1, 2, 0, 0, ";", "#X", 1, 45, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 59, 87, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 122, 464, 1, 2, 0, 0, ";", "#X", 1, 33, 92, 213, 2, 3, 0, 0, ";", "#X", 0, 61, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 118, 468, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 81, 104, 448, 1, 2, 0, 0, ";", "#X", 120, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 61, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 119, 73, 125, 261, 1, 2, 0, 0, ";", "#X", 0, 80, 112, 255, 1, 2, 0, 0, ";", "#X", 6, 33, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 61, 123, 260, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 71, 123, 240, 1, 2, 0, 0, ";", "#X", 0, 78, 112, 209, 1, 2, 0, 0, ";", "#X", 1, 45, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 61, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 59, 104, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 64, 79, 1980, 5, 6, 0, 0, ";", "#X", 0, 69, 81, 1980, 5, 6, 0, 0, ";", "#X", 0, 73, 81, 1980, 5, 6, 0, 0, ";", "#X", 1, 30, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 81, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 93, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 42, 92, 67, 2, 3, 0, 0, ";", "#X", 0, 57, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 81, 124, 364, 1, 2, 0, 0, ";", "#X", 120, 42, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 57, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 30, 92, 52, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 42, 92, 104, 2, 3, 0, 0, ";", "#X", 114, 81, 115, 245, 1, 2, 0, 0, ";", "#X", 10, 81, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 93, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 30, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 57, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 57, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 80, 125, 250, 1, 2, 0, 0, ";", "#X", 0, 80, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 30, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 57, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 57, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 118, 230, 1, 2, 0, 0, ";", "#X", 0, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 30, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 57, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 57, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 119, 76, 109, 240, 1, 2, 0, 0, ";", "#X", 5, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 30, 92, 161, 2, 3, 0, 0, ";", "#X", 119, 80, 125, 308, 1, 2, 0, 0, ";", "#X", 5, 80, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 42, 92, 62, 2, 3, 0, 0, ";", "#X", 0, 57, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 42, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 57, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 75, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 105, 1964, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 1964, 3, 4, 0, 0, ";", "#X", 0, 64, 82, 1980, 5, 6, 0, 0, ";", "#X", 0, 66, 97, 1980, 5, 6, 0, 0, ";", "#X", 0, 71, 85, 1980, 5, 6, 0, 0, ";", "#X", 1, 35, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 10, 78, 123, 1953, 1, 2, 0, 0, ";", "#X", 240, 47, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 76, 84, 98, 4, 5, 0, 0, ";", "#X", 0, 78, 91, 98, 4, 5, 0, 0, ";", "#X", 0, 83, 88, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 76, 86, 98, 4, 5, 0, 0, ";", "#X", 0, 78, 88, 98, 4, 5, 0, 0, ";", "#X", 0, 83, 87, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 250, 47, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 76, 85, 98, 4, 5, 0, 0, ";", "#X", 0, 78, 91, 98, 4, 5, 0, 0, ";", "#X", 0, 83, 87, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 76, 85, 98, 4, 5, 0, 0, ";", "#X", 0, 78, 89, 98, 4, 5, 0, 0, ";", "#X", 0, 83, 87, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 223, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 76, 85, 98, 4, 5, 0, 0, ";", "#X", 0, 78, 91, 98, 4, 5, 0, 0, ";", "#X", 0, 83, 88, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 76, 85, 98, 4, 5, 0, 0, ";", "#X", 0, 78, 89, 98, 4, 5, 0, 0, ";", "#X", 0, 83, 87, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 76, 85, 98, 4, 5, 0, 0, ";", "#X", 0, 78, 91, 98, 4, 5, 0, 0, ";", "#X", 0, 83, 90, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 140, 2, 3, 0, 0, ";", "#X", 0, 76, 86, 98, 4, 5, 0, 0, ";", "#X", 0, 78, 90, 98, 4, 5, 0, 0, ";", "#X", 0, 83, 89, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 59, 93, 83407, 5, 6, 0, 0, ";", "#X", 0, 63, 103, 495, 5, 6, 0, 0, ";", "#X", 0, 66, 101, 495, 5, 6, 0, 0, ";", "#X", 1, 35, 92, 411, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 250, 71, 94, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 102, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 81, 213, 6, 7, 0, 0, ";", "#X", 0, 95, 81, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 64, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 10, 68, 127, 0, 7, 8, 0, 0, ";", "#X", 115, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 125, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 125, 71, 102, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 102, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 81, 213, 6, 7, 0, 0, ";", "#X", 0, 95, 81, 213, 6, 7, 0, 0, ";", "#X", 0, 66, 123, 244, 7, 8, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 125, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 68, 123, 0, 7, 8, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 125, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 109, 71, 127, 281, 7, 8, 0, 0, ";", "#X", 16, 71, 102, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 102, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 81, 213, 6, 7, 0, 0, ";", "#X", 0, 95, 81, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 125, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 119, 68, 127, 0, 7, 8, 0, 0, ";", "#X", 6, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 89, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 106, 5, 10, 10, 0, 0, ";", "#X", 0, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 125, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 124, 66, 127, 261, 7, 8, 0, 0, ";", "#X", 1, 71, 102, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 102, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 81, 213, 6, 7, 0, 0, ";", "#X", 0, 95, 81, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 89, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 106, 5, 10, 10, 0, 0, ";", "#X", 0, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 249, 64, 79, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 94, 0, 5, 6, 0, 0, ";", "#X", 0, 71, 76, 1980, 5, 6, 0, 0, ";", "#X", 0, 64, 118, 490, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 464, 6, 7, 0, 0, ";", "#X", 1, 40, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 49, 101, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 118, 463, 1, 2, 0, 0, ";", "#X", 0, 80, 115, 458, 1, 2, 0, 0, ";", "#X", 245, 52, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 39723, 4, 5, 0, 0, ";", "#X", 0, 64, 102, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 60723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 39723, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 60973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 166, 2, 3, 0, 0, ";", "#X", 0, 61, 120, 223, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 73, 125, 208, 1, 2, 0, 0, ";", "#X", 0, 78, 101, 239, 1, 2, 0, 0, ";", "#X", 244, 71, 111, 240, 1, 2, 0, 0, ";", "#X", 1, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 39473, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 60723, 4, 5, 0, 0, ";", "#X", 0, 59, 97, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 98, 234, 1, 2, 0, 0, ";", "#X", 120, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 39473, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 60973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 39473, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 60973, 4, 5, 0, 0, ";", "#X", 0, 64, 121, 500, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 118, 458, 1, 2, 0, 0, ";", "#X", 5, 80, 114, 458, 1, 2, 0, 0, ";", "#X", 115, 59, 66, 39723, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 60973, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 39723, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 60973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 39973, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 60973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 125, 235, 1, 2, 0, 0, ";", "#X", 1, 40, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 61, 123, 234, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 101, 224, 1, 2, 0, 0, ";", "#X", 244, 71, 117, 214, 1, 2, 0, 0, ";", "#X", 1, 52, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 39723, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 60723, 4, 5, 0, 0, ";", "#X", 0, 59, 104, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 76, 104, 213, 1, 2, 0, 0, ";", "#X", 120, 52, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 39973, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 60973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 64, 90, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 97, 0, 5, 6, 0, 0, ";", "#X", 0, 71, 88, 1980, 5, 6, 0, 0, ";", "#X", 1, 40, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 80, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 39723, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 60723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 80, 125, 229, 1, 2, 0, 0, ";", "#X", 10, 68, 127, 0, 7, 8, 0, 0, ";", "#X", 110, 52, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 39723, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 64973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 249, 78, 125, 230, 1, 2, 0, 0, ";", "#X", 0, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 39473, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 64723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 66, 127, 218, 7, 8, 0, 0, ";", "#X", 120, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 39473, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 64973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 115, 204, 1, 2, 0, 0, ";", "#X", 0, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 218, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 39473, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 64973, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 10, 64, 115, 193, 7, 8, 0, 0, ";", "#X", 115, 59, 66, 39723, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 64973, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 39723, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 64973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 106, 229, 1, 2, 0, 0, ";", "#X", 10, 64, 111, 198, 7, 8, 0, 0, ";", "#X", 110, 52, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 39973, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 64973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 125, 448, 1, 2, 0, 0, ";", "#X", 0, 78, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 66, 127, 437, 7, 8, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 39723, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 64723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 39973, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 64973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 68, 95, 0, 5, 6, 0, 0, ";", "#X", 0, 71, 91, 1980, 5, 6, 0, 0, ";", "#X", 0, 76, 85, 1980, 5, 6, 0, 0, ";", "#X", 1, 37, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 64, 121, 468, 6, 7, 0, 0, ";", "#X", 0, 76, 109, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 80, 113, 442, 1, 2, 0, 0, ";", "#X", 10, 76, 114, 438, 1, 2, 0, 0, ";", "#X", 235, 49, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 39723, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 64723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 39723, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 66973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 101, 214, 1, 2, 0, 0, ";", "#X", 1, 37, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 61, 123, 218, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 73, 125, 224, 1, 2, 0, 0, ";", "#X", 244, 71, 108, 209, 1, 2, 0, 0, ";", "#X", 0, 76, 98, 214, 1, 2, 0, 0, ";", "#X", 1, 49, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 39473, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 66723, 4, 5, 0, 0, ";", "#X", 0, 59, 97, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 108, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 39473, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 66973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 39473, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 66973, 4, 5, 0, 0, ";", "#X", 0, 64, 121, 520, 6, 7, 0, 0, ";", "#X", 0, 76, 111, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 118, 463, 1, 2, 0, 0, ";", "#X", 0, 80, 115, 468, 1, 2, 0, 0, ";", "#X", 120, 59, 66, 39723, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 66973, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 39723, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 66973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 39973, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 66973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 125, 250, 1, 2, 0, 0, ";", "#X", 1, 37, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 61, 120, 218, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 104, 234, 1, 2, 0, 0, ";", "#X", 244, 71, 118, 245, 1, 2, 0, 0, ";", "#X", 1, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 39723, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 66723, 4, 5, 0, 0, ";", "#X", 0, 59, 104, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 76, 102, 224, 1, 2, 0, 0, ";", "#X", 120, 49, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 39973, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 66973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 68, 90, 0, 5, 6, 0, 0, ";", "#X", 0, 71, 92, 1980, 5, 6, 0, 0, ";", "#X", 0, 76, 83, 1980, 5, 6, 0, 0, ";", "#X", 1, 37, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 80, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 39723, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 66723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 80, 125, 192, 1, 2, 0, 0, ";", "#X", 31, 68, 127, 0, 7, 8, 0, 0, ";", "#X", 89, 49, 92, 119, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 39723, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 66973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 80, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 37, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 80, 114, 234, 1, 2, 0, 0, ";", "#X", 31, 68, 122, 0, 7, 8, 0, 0, ";", "#X", 213, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 39473, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 66723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 122, 229, 1, 2, 0, 0, ";", "#X", 5, 66, 127, 208, 7, 8, 0, 0, ";", "#X", 115, 49, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 39473, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 66973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 114, 64, 109, 208, 7, 8, 0, 0, ";", "#X", 10, 76, 115, 209, 1, 2, 0, 0, ";", "#X", 0, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 37, 92, 218, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 39473, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 66973, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 59, 66, 39723, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 66973, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 105, 99, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 99, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 39723, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 66973, 4, 5, 0, 0, ";", "#X", 0, 64, 105, 93, 7, 8, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 106, 73, 1, 2, 0, 0, ";", "#X", 119, 76, 105, 99, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 99, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 66973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 10, 76, 105, 83, 1, 2, 0, 0, ";", "#X", 0, 64, 105, 104, 7, 8, 0, 0, ";", "#X", 114, 78, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 37, 92, 182, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 125, 427, 1, 2, 0, 0, ";", "#X", 26, 66, 127, 448, 7, 8, 0, 0, ";", "#X", 219, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 47723, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 66723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 47973, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 66973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 64, 80, 1980, 5, 6, 0, 0, ";", "#X", 0, 69, 84, 1980, 5, 6, 0, 0, ";", "#X", 0, 73, 86, 1980, 5, 6, 0, 0, ";", "#X", 1, 33, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 64, 118, 442, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 120, 448, 1, 2, 0, 0, ";", "#X", 0, 81, 104, 442, 1, 2, 0, 0, ";", "#X", 245, 45, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 124, 224, 1, 2, 0, 0, ";", "#X", 0, 61, 120, 230, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 214, 6, 7, 0, 0, ";", "#X", 1, 33, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 15, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 80, 111, 250, 1, 2, 0, 0, ";", "#X", 239, 71, 113, 235, 1, 2, 0, 0, ";", "#X", 5, 59, 92, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 108, 214, 6, 7, 0, 0, ";", "#X", 1, 45, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 10, 78, 94, 219, 1, 2, 0, 0, ";", "#X", 115, 45, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 120, 480, 1, 2, 0, 0, ";", "#X", 0, 64, 118, 480, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 464, 6, 7, 0, 0, ";", "#X", 1, 33, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 61, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 15, 81, 104, 359, 1, 2, 0, 0, ";", "#X", 110, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 61, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 61, 123, 313, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 214, 6, 7, 0, 0, ";", "#X", 1, 33, 92, 166, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 83, 125, 454, 1, 2, 0, 0, ";", "#X", 0, 83, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 95, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 67, 2, 3, 0, 0, ";", "#X", 0, 61, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 63, 93, 1980, 5, 6, 0, 0, ";", "#X", 0, 66, 93, 1980, 5, 6, 0, 0, ";", "#X", 0, 71, 85, 1980, 5, 6, 0, 0, ";", "#X", 1, 35, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 83, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 95, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 47, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 70, 45723, 4, 5, 0, 0, ";", "#X", 0, 63, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 83, 109, 192, 1, 2, 0, 0, ";", "#X", 120, 47, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 45723, 4, 5, 0, 0, ";", "#X", 0, 63, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 83, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 95, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 35, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 83, 103, 218, 1, 2, 0, 0, ";", "#X", 244, 85, 125, 172, 1, 2, 0, 0, ";", "#X", 0, 85, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 97, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 45473, 4, 5, 0, 0, ";", "#X", 0, 63, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 45473, 4, 5, 0, 0, ";", "#X", 0, 63, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 80, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 35, 92, 223, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 45473, 4, 5, 0, 0, ";", "#X", 0, 63, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 15, 79, 112, 365, 1, 2, 0, 0, ";", "#X", 110, 59, 67, 45723, 4, 5, 0, 0, ";", "#X", 0, 63, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 45723, 4, 5, 0, 0, ";", "#X", 0, 63, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 45973, 4, 5, 0, 0, ";", "#X", 0, 63, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 119, 78, 125, 282, 1, 2, 0, 0, ";", "#X", 5, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 35, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 47, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 45723, 4, 5, 0, 0, ";", "#X", 0, 63, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 76, 113, 2229, 1, 2, 0, 0, ";", "#X", 120, 47, 92, 140, 2, 3, 0, 0, ";", "#X", 0, 59, 70, 45973, 4, 5, 0, 0, ";", "#X", 0, 63, 75, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 105, 1964, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 1459, 3, 4, 0, 0, ";", "#X", 0, 59, 86, 69714, 5, 6, 0, 0, ";", "#X", 0, 64, 88, 1980, 5, 6, 0, 0, ";", "#X", 0, 68, 96, 0, 5, 6, 0, 0, ";", "#X", 1, 40, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 52, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 45723, 4, 5, 0, 0, ";", "#X", 0, 64, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 73, 62723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 45723, 4, 5, 0, 0, ";", "#X", 0, 64, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 73, 62973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 250, 52, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 45473, 4, 5, 0, 0, ";", "#X", 0, 64, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 74, 62723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 45473, 4, 5, 0, 0, ";", "#X", 0, 64, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 62973, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 45223, 4, 5, 0, 0, ";", "#X", 0, 64, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 74, 62723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 70, 45473, 4, 5, 0, 0, ";", "#X", 0, 64, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 73, 62723, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 52, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 71, 45223, 4, 5, 0, 0, ";", "#X", 0, 64, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 75, 62473, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 130, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 59, 125, 0, 3, 4, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 11, 5, 10, 10, 0, 0, ";", "#X", 333, 71, 125, 135, 3, 4, 0, 0, ";", "#X", 166, 71, 125, 136, 3, 4, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 333, 71, 125, 135, 3, 4, 0, 0, ";", "#X", 166, 66, 125, 469, 3, 4, 0, 0, ";", "#X", 0, 69, 125, 469, 3, 4, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 499, 69, 125, 136, 3, 4, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 333, 71, 125, 135, 3, 4, 0, 0, ";", "#X", 166, 59, 125, 0, 3, 4, 0, 0, ";", "#X", 1, 47, 71, 3994, 2, 3, 0, 0, ";", "#X", 0, 47, 74, 3994, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 333, 71, 125, 62, 3, 4, 0, 0, ";", "#X", 83, 73, 125, 63, 3, 4, 0, 0, ";", "#X", 83, 71, 125, 136, 3, 4, 0, 0, ";", "#X", 1, 54, 71, 3494, 2, 3, 0, 0, ";", "#X", 0, 54, 75, 3494, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 333, 71, 125, 135, 3, 4, 0, 0, ";", "#X", 166, 66, 125, 303, 3, 4, 0, 0, ";", "#X", 0, 69, 125, 303, 3, 4, 0, 0, ";", "#X", 1, 59, 109, -1, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 5, 59, 82, -1, 7, 8, 0, 0, ";", "#X", 494, 69, 125, 136, 3, 4, 0, 0, ";", "#X", 1, 63, 120, 2473, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 5, 63, 82, 2474, 7, 8, 0, 0, ";", "#X", 328, 71, 125, 135, 3, 4, 0, 0, ";", "#X", 166, 59, 125, 0, 3, 4, 0, 0, ";", "#X", 1, 66, 71, 2000, 2, 3, 0, 0, ";", "#X", 0, 66, 71, 2000, 4, 5, 0, 0, ";", "#X", 0, 66, 114, 1979, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 5, 66, 82, 1979, 7, 8, 0, 0, ";", "#X", 328, 71, 125, 135, 3, 4, 0, 0, ";", "#X", 166, 71, 125, 136, 3, 4, 0, 0, ";", "#X", 1, 71, 71, 1494, 2, 3, 0, 0, ";", "#X", 0, 71, 72, 1494, 4, 5, 0, 0, ";", "#X", 0, 71, 112, 1458, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 5, 71, 82, 1458, 7, 8, 0, 0, ";", "#X", 328, 71, 125, 135, 3, 4, 0, 0, ";", "#X", 166, 66, 125, 469, 3, 4, 0, 0, ";", "#X", 0, 69, 125, 469, 3, 4, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 499, 69, 125, 136, 3, 4, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 333, 71, 125, 135, 3, 4, 0, 0, ";", "#X", 167, 71, 111, 416, 6, 7, 0, 0, ";", "#X", 0, 78, 111, 416, 6, 7, 0, 0, ";", "#X", 0, 83, 111, 416, 6, 7, 0, 0, ";", "#X", 500, 71, 111, 416, 6, 7, 0, 0, ";", "#X", 0, 78, 111, 416, 6, 7, 0, 0, ";", "#X", 0, 83, 111, 416, 6, 7, 0, 0, ";", "#X", 286, 76, 117, 380, 1, 2, 0, 0, ";", "#X", 213, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 0, 57, 81, 1980, 5, 6, 0, 0, ";", "#X", 0, 61, 91, 1980, 5, 6, 0, 0, ";", "#X", 0, 64, 82, 1980, 5, 6, 0, 0, ";", "#X", 1, 33, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 57, 71, 3979, 4, 5, 0, 0, ";", "#X", 0, 61, 75, 3979, 4, 5, 0, 0, ";", "#X", 0, 64, 74, 3979, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 49, 101, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 83, 69, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 20, 76, 114, 172, 1, 2, 0, 0, ";", "#X", 63, 73, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 33, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 15, 76, 106, 224, 1, 2, 0, 0, ";", "#X", 68, 69, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 5, 73, 122, 192, 1, 2, 0, 0, ";", "#X", 78, 73, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 76, 112, 480, 1, 2, 0, 0, ";", "#X", 0, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 33, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 83, 69, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 67, 2, 3, 0, 0, ";", "#X", 0, 39, 106, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 83, 73, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 39, 106, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 83, 69, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 33, 92, 156, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 62, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 83, 73, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 76, 118, 230, 1, 2, 0, 0, ";", "#X", 0, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 33, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 57, 78, 1979, 5, 6, 0, 0, ";", "#X", 0, 61, 92, 1979, 5, 6, 0, 0, ";", "#X", 0, 64, 83, 1979, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 83, 69, 105, 62, 3, 4, 0, 0, ";", "#X", 83, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 10, 76, 108, 146, 1, 2, 0, 0, ";", "#X", 73, 73, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 41, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 76, 105, 209, 1, 2, 0, 0, ";", "#X", 0, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 33, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 83, 69, 105, 62, 3, 4, 0, 0, ";", "#X", 83, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 78, 123, 433, 1, 2, 0, 0, ";", "#X", 0, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 83, 73, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 41, 69, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 75, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 33, 92, 218, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 83, 71, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 41, 75, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 106, 375, 1, 2, 0, 0, ";", "#X", 78, 75, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 41, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 76, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 33, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 83, 73, 105, 62, 3, 4, 0, 0, ";", "#X", 83, 76, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 76, 114, 432, 1, 2, 0, 0, ";", "#X", 78, 76, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 45, 92, 135, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 41, 73, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 59, 72, 34348, 4, 5, 0, 0, ";", "#X", 0, 64, 74, 3979, 4, 5, 0, 0, ";", "#X", 0, 68, 76, 51348, 4, 5, 0, 0, ";", "#X", 0, 56, 84, 1979, 5, 6, 0, 0, ";", "#X", 0, 59, 84, -1, 5, 6, 0, 0, ";", "#X", 0, 64, 77, 1979, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 83, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 42, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 109, 161, 1, 2, 0, 0, ";", "#X", 78, 71, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 83, 76, 103, 198, 1, 2, 0, 0, ";", "#X", 0, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 182, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 83, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 78, 73, 111, 203, 1, 2, 0, 0, ";", "#X", 5, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 83, 71, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 78, 76, 112, 0, 1, 2, 0, 0, ";", "#X", 5, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 83, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 39, 106, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 83, 71, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 52, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 41, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 83, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 166, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 39, 106, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 83, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 42, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 83, 71, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 41, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 83, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 56, 83, 1979, 5, 6, 0, 0, ";", "#X", 0, 59, 87, -1, 5, 6, 0, 0, ";", "#X", 0, 64, 81, 1979, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 121, 203, 1, 2, 0, 0, ";", "#X", 78, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 83, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 106, 172, 1, 2, 0, 0, ";", "#X", 78, 71, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 41, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 83, 76, 107, 204, 1, 2, 0, 0, ";", "#X", 0, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 166, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 83, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 83, 71, 105, 63, 3, 4, 0, 0, ";", "#X", 83, 78, 121, 474, 1, 2, 0, 0, ";", "#X", 0, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 83, 71, 105, 62, 3, 4, 0, 0, ";", "#X", 42, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 41, 68, 105, 0, 3, 4, 0, 0, ";", "#X", 83, 80, 105, 495, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 495, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 80, 84, 494, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 229, 2, 3, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 115, 541, 1, 2, 0, 0, ";", "#X", 120, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 105, 495, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 495, 3, 4, 0, 0, ";", "#X", 1, 39, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 78, 79, 494, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 51, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 51, 92, 130, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 105, 1995, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 1995, 3, 4, 0, 0, ";", "#X", 1, 37, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 61, 75, 3979, 4, 5, 0, 0, ";", "#X", 0, 64, 74, 3979, 4, 5, 0, 0, ";", "#X", 0, 68, 75, 47473, 4, 5, 0, 0, ";", "#X", 0, 56, 86, 1979, 5, 6, 0, 0, ";", "#X", 0, 61, 96, 1979, 5, 6, 0, 0, ";", "#X", 0, 64, 84, 1979, 5, 6, 0, 0, ";", "#X", 0, 76, 75, 494, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 49, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 119, 61, 127, 469, 7, 8, 0, 0, ";", "#X", 6, 37, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 73, 125, 448, 1, 2, 0, 0, ";", "#X", 245, 49, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 114, 63, 127, 240, 7, 8, 0, 0, ";", "#X", 5, 75, 122, 266, 1, 2, 0, 0, ";", "#X", 6, 37, 92, 213, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 115, 442, 1, 2, 0, 0, ";", "#X", 0, 64, 115, 463, 7, 8, 0, 0, ";", "#X", 120, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 49, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 78, 123, 687, 1, 2, 0, 0, ";", "#X", 47, 66, 127, 651, 7, 8, 0, 0, ";", "#X", 73, 49, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 56, 87, 1979, 5, 6, 0, 0, ";", "#X", 0, 61, 97, 1979, 5, 6, 0, 0, ";", "#X", 0, 64, 86, 1979, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 49, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 93, 64, 121, 438, 7, 8, 0, 0, ";", "#X", 26, 76, 114, 479, 1, 2, 0, 0, ";", "#X", 6, 37, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 250, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 72, 63, 125, 282, 7, 8, 0, 0, ";", "#X", 47, 75, 120, 266, 1, 2, 0, 0, ";", "#X", 6, 37, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 93, 64, 114, 495, 7, 8, 0, 0, ";", "#X", 31, 76, 111, 391, 1, 2, 0, 0, ";", "#X", 1, 49, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 78, 125, 0, 1, 2, 0, 0, ";", "#X", 1, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 26, 66, 127, 1703, 7, 8, 0, 0, ";", "#X", 99, 49, 92, 119, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 105, 495, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 495, 3, 4, 0, 0, ";", "#X", 1, 35, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 59, 72, 26473, 4, 5, 0, 0, ";", "#X", 0, 63, 76, 1979, 4, 5, 0, 0, ";", "#X", 0, 66, 76, 1979, 4, 5, 0, 0, ";", "#X", 0, 59, 88, -1, 5, 6, 0, 0, ";", "#X", 0, 63, 96, 1979, 5, 6, 0, 0, ";", "#X", 0, 66, 94, 1979, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 250, 47, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 223, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 234, 80, 127, 1687, 7, 8, 0, 0, ";", "#X", 16, 47, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 442, 2, 3, 0, 0, ";", "#X", 0, 59, 84, -1, 5, 6, 0, 0, ";", "#X", 0, 63, 91, 494, 5, 6, 0, 0, ";", "#X", 0, 66, 94, 494, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 250, 60, 120, 98, 8, 9, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 64, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 60, 102, 99, 8, 9, 0, 0, ";", "#X", 1, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 124, 60, 118, 224, 8, 9, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 125, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 125, 60, 108, 98, 8, 9, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 125, 60, 112, 223, 8, 9, 0, 0, ";", "#X", 0, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 125, 60, 118, 223, 8, 9, 0, 0, ";", "#X", 0, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 125, 60, 116, 98, 8, 9, 0, 0, ";", "#X", 0, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 60, 118, 98, 8, 9, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 89, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 106, 5, 10, 10, 0, 0, ";", "#X", 0, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 125, 60, 102, 98, 8, 9, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 125, 60, 65, 98, 8, 9, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 89, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 106, 5, 10, 10, 0, 0, ";", "#X", 0, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 125, 60, 118, 98, 8, 9, 0, 0, ";", "#X", 125, 60, 114, 98, 8, 9, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 48, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 90, 5, 10, 10, 0, 0, ";", "#X", 125, 60, 84, 98, 8, 9, 0, 0, ";", "#X", 125, 60, 83, 98, 8, 9, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 48, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 90, 5, 10, 10, 0, 0, ";", "#X", 5, 80, 125, 187, 1, 2, 0, 0, ";", "#X", 120, 60, 82, 98, 8, 9, 0, 0, ";", "#X", 125, 60, 108, 98, 8, 9, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 48, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 90, -1, 10, 10, 0, 0, ";", "#X", 125, 60, 102, 98, 8, 9, 0, 0, ";", "#X", 0, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 123, 230, 1, 2, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 48, 22, 5, 10, 10, 0, 0, ";", "#X", 125, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 124, 80, 122, 219, 1, 2, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 48, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 83, 117, 250, 1, 2, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 48, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 80, 124, 240, 1, 2, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 48, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 117, 204, 1, 2, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 48, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 118, 469, 1, 2, 0, 0, ";", "#X", 1, 40, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 64, 85, 1979, 5, 6, 0, 0, ";", "#X", 0, 68, 96, 0, 5, 6, 0, 0, ";", "#X", 0, 71, 77, 1979, 5, 6, 0, 0, ";", "#X", 0, 64, 124, 489, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 416, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 49, 101, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 80, 113, 432, 1, 2, 0, 0, ";", "#X", 120, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 37598, 4, 5, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 37598, 4, 5, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 182, 2, 3, 0, 0, ";", "#X", 0, 61, 123, 218, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 5, 73, 125, 218, 1, 2, 0, 0, ";", "#X", 0, 78, 105, 244, 1, 2, 0, 0, ";", "#X", 120, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 71, 107, 214, 1, 2, 0, 0, ";", "#X", 1, 52, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 37598, 4, 5, 0, 0, ";", "#X", 0, 59, 107, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 95, 224, 1, 2, 0, 0, ";", "#X", 120, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 37598, 4, 5, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 37848, 4, 5, 0, 0, ";", "#X", 0, 64, 124, 500, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 122, 463, 1, 2, 0, 0, ";", "#X", 5, 80, 108, 417, 1, 2, 0, 0, ";", "#X", 115, 59, 66, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 37848, 4, 5, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 37848, 4, 5, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 37848, 4, 5, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 61, 123, 223, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 73, 125, 224, 1, 2, 0, 0, ";", "#X", 0, 78, 100, 234, 1, 2, 0, 0, ";", "#X", 120, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 124, 71, 117, 198, 1, 2, 0, 0, ";", "#X", 1, 52, 92, 62, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 37598, 4, 5, 0, 0, ";", "#X", 0, 59, 107, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 42, 100, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 10, 76, 100, 161, 1, 2, 0, 0, ";", "#X", 115, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 37598, 4, 5, 0, 0, ";", "#X", 0, 42, 58, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 64, 71, 1979, 5, 6, 0, 0, ";", "#X", 0, 68, 86, 0, 5, 6, 0, 0, ";", "#X", 0, 71, 80, 1979, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 80, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 37598, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 80, 125, 182, 1, 2, 0, 0, ";", "#X", 120, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 37598, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 249, 78, 125, 209, 1, 2, 0, 0, ";", "#X", 0, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 234, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 41598, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 59, 67, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 41598, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 20, 10, 10, 0, 0, ";", "#X", 124, 76, 109, 183, 1, 2, 0, 0, ";", "#X", 0, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 223, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 41848, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 59, 66, 20348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 41848, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 107, 209, 1, 2, 0, 0, ";", "#X", 0, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 42098, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 20598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 42098, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 125, 422, 1, 2, 0, 0, ";", "#X", 0, 78, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 52, 92, 244, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 42098, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 59, 68, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 64, 82, 1979, 5, 6, 0, 0, ";", "#X", 0, 68, 88, 0, 5, 6, 0, 0, ";", "#X", 0, 73, 82, 1979, 5, 6, 0, 0, ";", "#X", 0, 64, 118, 479, 6, 7, 0, 0, ";", "#X", 0, 76, 109, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 80, 115, 427, 1, 2, 0, 0, ";", "#X", 5, 76, 117, 437, 1, 2, 0, 0, ";", "#X", 240, 49, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 130, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 123, 230, 1, 2, 0, 0, ";", "#X", 0, 78, 108, 245, 1, 2, 0, 0, ";", "#X", 1, 37, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 61, 123, 234, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 249, 71, 106, 209, 1, 2, 0, 0, ";", "#X", 1, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 22348, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 0, 4, 5, 0, 0, ";", "#X", 0, 59, 92, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 108, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 94, 208, 1, 2, 0, 0, ";", "#X", 120, 49, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 22348, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 22348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 121, 520, 6, 7, 0, 0, ";", "#X", 0, 76, 111, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 115, 468, 1, 2, 0, 0, ";", "#X", 0, 80, 117, 442, 1, 2, 0, 0, ";", "#X", 120, 59, 66, 22348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 123, 240, 1, 2, 0, 0, ";", "#X", 1, 37, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 61, 123, 234, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 107, 244, 1, 2, 0, 0, ";", "#X", 244, 71, 117, 219, 1, 2, 0, 0, ";", "#X", 1, 49, 92, 67, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 59, 104, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 76, 104, 218, 1, 2, 0, 0, ";", "#X", 120, 49, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 64, 74, 1979, 5, 6, 0, 0, ";", "#X", 0, 68, 87, 0, 5, 6, 0, 0, ";", "#X", 0, 73, 87, 1979, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 80, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 80, 125, 244, 1, 2, 0, 0, ";", "#X", 120, 49, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 249, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 22348, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 123, 187, 1, 2, 0, 0, ";", "#X", 120, 59, 67, 22348, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 109, 178, 1, 2, 0, 0, ";", "#X", 0, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 37, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 22348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 59, 66, 22348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 105, 198, 1, 2, 0, 0, ";", "#X", 0, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 119, 78, 125, 391, 1, 2, 0, 0, ";", "#X", 5, 78, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 37, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 49, 92, 260, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 59, 68, 22598, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 112, 454, 1, 2, 0, 0, ";", "#X", 1, 33, 92, 166, 2, 3, 0, 0, ";", "#X", 0, 61, 86, 1979, 5, 6, 0, 0, ";", "#X", 0, 64, 89, 1979, 5, 6, 0, 0, ";", "#X", 0, 69, 78, 1979, 5, 6, 0, 0, ";", "#X", 0, 64, 107, 489, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 81, 105, 453, 1, 2, 0, 0, ";", "#X", 120, 45, 111, 114, 2, 3, 0, 0, ";", "#X", 125, 45, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 119, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 123, 224, 1, 2, 0, 0, ";", "#X", 1, 33, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 61, 120, 255, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 80, 111, 260, 1, 2, 0, 0, ";", "#X", 239, 71, 106, 219, 1, 2, 0, 0, ";", "#X", 6, 45, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 59, 94, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 94, 208, 1, 2, 0, 0, ";", "#X", 120, 45, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 117, 469, 1, 2, 0, 0, ";", "#X", 1, 33, 92, 213, 2, 3, 0, 0, ";", "#X", 0, 61, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 118, 520, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 10, 81, 104, 448, 1, 2, 0, 0, ";", "#X", 115, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 61, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 122, 235, 1, 2, 0, 0, ";", "#X", 1, 33, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 61, 123, 281, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 80, 115, 239, 1, 2, 0, 0, ";", "#X", 244, 71, 117, 198, 1, 2, 0, 0, ";", "#X", 1, 45, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 61, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 59, 107, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 78, 113, 224, 1, 2, 0, 0, ";", "#X", 120, 45, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 30, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 64, 79, 1979, 5, 6, 0, 0, ";", "#X", 0, 69, 81, 1979, 5, 6, 0, 0, ";", "#X", 0, 73, 81, 1979, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 81, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 93, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 42, 92, 67, 2, 3, 0, 0, ";", "#X", 0, 57, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 81, 125, 406, 1, 2, 0, 0, ";", "#X", 120, 42, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 57, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 30, 92, 52, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 42, 92, 104, 2, 3, 0, 0, ";", "#X", 119, 81, 117, 255, 1, 2, 0, 0, ";", "#X", 5, 81, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 93, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 30, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 57, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 57, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 80, 125, 224, 1, 2, 0, 0, ";", "#X", 0, 80, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 30, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 57, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 57, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 118, 230, 1, 2, 0, 0, ";", "#X", 0, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 30, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 57, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 42, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 57, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 119, 76, 106, 245, 1, 2, 0, 0, ";", "#X", 5, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 30, 92, 161, 2, 3, 0, 0, ";", "#X", 124, 80, 125, 277, 1, 2, 0, 0, ";", "#X", 0, 80, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 42, 92, 62, 2, 3, 0, 0, ";", "#X", 0, 57, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 42, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 57, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 61, 75, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 105, 1964, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 1964, 3, 4, 0, 0, ";", "#X", 1, 35, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 64, 82, 1979, 5, 6, 0, 0, ";", "#X", 0, 66, 97, 1979, 5, 6, 0, 0, ";", "#X", 0, 71, 85, 1979, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 10, 78, 121, 1943, 1, 2, 0, 0, ";", "#X", 240, 47, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 75, 98, 4, 5, 0, 0, ";", "#X", 0, 71, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 71, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 250, 47, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 75, 98, 4, 5, 0, 0, ";", "#X", 0, 71, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 71, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 223, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 75, 98, 4, 5, 0, 0, ";", "#X", 0, 71, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 71, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 75, 98, 4, 5, 0, 0, ";", "#X", 0, 71, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 140, 2, 3, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 71, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 411, 2, 3, 0, 0, ";", "#X", 0, 59, 93, -1, 5, 6, 0, 0, ";", "#X", 0, 63, 103, 494, 5, 6, 0, 0, ";", "#X", 0, 66, 101, 494, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 250, 71, 86, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 86, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 95, 101, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 64, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 68, 127, 0, 7, 8, 0, 0, ";", "#X", 120, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 125, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 125, 71, 86, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 86, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 95, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 66, 127, 260, 7, 8, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 125, 65, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 68, 127, 0, 7, 8, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 125, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 71, 86, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 86, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 95, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 71, 122, 291, 7, 8, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 125, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 89, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 106, 5, 10, 10, 0, 0, ";", "#X", 0, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 31, 68, 127, 0, 7, 8, 0, 0, ";", "#X", 94, 68, 79, -1, 10, 10, 0, 0, ";", "#X", 125, 71, 86, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 86, 213, 4, 5, 0, 0, ";", "#X", 0, 83, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 95, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 89, 5, 10, 10, 0, 0, ";", "#X", 0, 45, 22, 5, 10, 10, 0, 0, ";", "#X", 0, 65, 106, 5, 10, 10, 0, 0, ";", "#X", 0, 66, 85, 5, 10, 10, 0, 0, ";", "#X", 5, 66, 127, 208, 7, 8, 0, 0, ";", "#X", 239, 64, 123, 443, 7, 8, 0, 0, ";", "#X", 5, 64, 112, 511, 6, 7, 0, 0, ";", "#X", 0, 76, 100, 464, 6, 7, 0, 0, ";", "#X", 1, 40, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 64, 79, 1979, 5, 6, 0, 0, ";", "#X", 0, 68, 94, 0, 5, 6, 0, 0, ";", "#X", 0, 71, 76, 1979, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 49, 101, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 117, 458, 1, 2, 0, 0, ";", "#X", 0, 80, 117, 453, 1, 2, 0, 0, ";", "#X", 245, 52, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 166, 2, 3, 0, 0, ";", "#X", 0, 61, 120, 223, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 73, 125, 203, 1, 2, 0, 0, ";", "#X", 0, 78, 104, 229, 1, 2, 0, 0, ";", "#X", 239, 71, 112, 209, 1, 2, 0, 0, ";", "#X", 6, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 14348, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 0, 4, 5, 0, 0, ";", "#X", 0, 59, 94, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 101, 224, 1, 2, 0, 0, ";", "#X", 120, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 14348, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 118, 448, 1, 2, 0, 0, ";", "#X", 1, 40, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 14348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 124, 500, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 80, 113, 453, 1, 2, 0, 0, ";", "#X", 120, 59, 66, 14348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 125, 230, 1, 2, 0, 0, ";", "#X", 1, 40, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 61, 123, 203, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 105, 224, 1, 2, 0, 0, ";", "#X", 244, 71, 117, 214, 1, 2, 0, 0, ";", "#X", 1, 52, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 59, 107, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 76, 105, 224, 1, 2, 0, 0, ";", "#X", 120, 52, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 64, 90, 1979, 5, 6, 0, 0, ";", "#X", 0, 68, 97, 0, 5, 6, 0, 0, ";", "#X", 0, 71, 88, 1979, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 80, 125, 224, 1, 2, 0, 0, ";", "#X", 0, 80, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 62, 68, 123, 0, 7, 8, 0, 0, ";", "#X", 63, 52, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 244, 78, 125, 224, 1, 2, 0, 0, ";", "#X", 5, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 14348, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 15, 66, 127, 198, 7, 8, 0, 0, ";", "#X", 110, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 14348, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 115, 152, 1, 2, 0, 0, ";", "#X", 0, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 218, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 14348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 64, 112, 161, 7, 8, 0, 0, ";", "#X", 120, 59, 66, 14348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 854, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 119, 76, 105, 172, 1, 2, 0, 0, ";", "#X", 5, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 2729, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 10, 64, 114, 187, 7, 8, 0, 0, ";", "#X", 115, 52, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 4604, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 119, 78, 125, 417, 1, 2, 0, 0, ";", "#X", 5, 78, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 10, 66, 127, 385, 7, 8, 0, 0, ";", "#X", 240, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 10229, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 14104, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 68, 95, 0, 5, 6, 0, 0, ";", "#X", 0, 71, 91, 1979, 5, 6, 0, 0, ";", "#X", 0, 76, 85, 1979, 5, 6, 0, 0, ";", "#X", 0, 64, 127, 468, 6, 7, 0, 0, ";", "#X", 0, 76, 109, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 115, 432, 1, 2, 0, 0, ";", "#X", 0, 80, 117, 463, 1, 2, 0, 0, ";", "#X", 245, 49, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 15729, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 17604, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 123, 235, 1, 2, 0, 0, ";", "#X", 1, 37, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 61, 120, 182, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 78, 100, 0, 1, 2, 0, 0, ";", "#X", 244, 71, 109, 204, 1, 2, 0, 0, ";", "#X", 1, 49, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 14348, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 19229, 4, 5, 0, 0, ";", "#X", 0, 59, 99, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 108, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 94, 213, 1, 2, 0, 0, ";", "#X", 120, 49, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 14348, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 25104, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 14348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 121, 510, 6, 7, 0, 0, ";", "#X", 0, 76, 111, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 114, 463, 1, 2, 0, 0, ";", "#X", 0, 80, 112, 442, 1, 2, 0, 0, ";", "#X", 120, 59, 66, 14348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 124, 250, 1, 2, 0, 0, ";", "#X", 1, 37, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 61, 112, 218, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 104, 218, 1, 2, 0, 0, ";", "#X", 245, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 59, 107, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 71, 115, 229, 1, 2, 0, 0, ";", "#X", 0, 76, 101, 192, 1, 2, 0, 0, ";", "#X", 120, 49, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 68, 90, 0, 5, 6, 0, 0, ";", "#X", 0, 71, 92, 1979, 5, 6, 0, 0, ";", "#X", 0, 76, 83, 1979, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 80, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 80, 125, 172, 1, 2, 0, 0, ";", "#X", 5, 68, 127, 0, 7, 8, 0, 0, ";", "#X", 115, 49, 92, 119, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 80, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 37, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 80, 117, 224, 1, 2, 0, 0, ";", "#X", 5, 68, 126, 0, 7, 8, 0, 0, ";", "#X", 239, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 14348, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 0, 4, 5, 0, 0, ";", "#X", 0, 66, 126, 197, 7, 8, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 120, 239, 1, 2, 0, 0, ";", "#X", 120, 49, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 14348, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 114, 64, 118, 172, 7, 8, 0, 0, ";", "#X", 10, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 37, 92, 218, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 14348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 117, 161, 1, 2, 0, 0, ";", "#X", 120, 59, 66, 14348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 114, 64, 112, 99, 7, 8, 0, 0, ";", "#X", 10, 76, 105, 99, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 99, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 10, 76, 113, 0, 1, 2, 0, 0, ";", "#X", 109, 64, 116, 110, 7, 8, 0, 0, ";", "#X", 5, 76, 105, 99, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 99, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 107, 83, 1, 2, 0, 0, ";", "#X", 119, 78, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 37, 92, 182, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 125, 401, 1, 2, 0, 0, ";", "#X", 5, 66, 127, 411, 7, 8, 0, 0, ";", "#X", 240, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 33, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 64, 80, 1979, 5, 6, 0, 0, ";", "#X", 0, 69, 84, 1979, 5, 6, 0, 0, ";", "#X", 0, 73, 86, 1979, 5, 6, 0, 0, ";", "#X", 0, 64, 121, 479, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 81, 106, 432, 1, 2, 0, 0, ";", "#X", 5, 74, 115, 62, 1, 2, 0, 0, ";", "#X", 0, 76, 108, 437, 1, 2, 0, 0, ";", "#X", 240, 45, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 125, 245, 1, 2, 0, 0, ";", "#X", 0, 80, 109, 0, 1, 2, 0, 0, ";", "#X", 1, 33, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 61, 120, 208, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 244, 71, 112, 198, 1, 2, 0, 0, ";", "#X", 6, 45, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 59, 97, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 108, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 102, 198, 1, 2, 0, 0, ";", "#X", 120, 45, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 119, 76, 120, 453, 1, 2, 0, 0, ";", "#X", 6, 33, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 61, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 121, 479, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 81, 105, 442, 1, 2, 0, 0, ";", "#X", 120, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 61, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 33, 92, 166, 2, 3, 0, 0, ";", "#X", 0, 61, 123, 229, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 83, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 95, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 67, 2, 3, 0, 0, ";", "#X", 0, 61, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 15, 83, 122, 406, 1, 2, 0, 0, ";", "#X", 110, 45, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 63, 93, 1979, 5, 6, 0, 0, ";", "#X", 0, 66, 93, 1979, 5, 6, 0, 0, ";", "#X", 0, 71, 85, 1979, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 83, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 95, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 47, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 70, 12598, 4, 5, 0, 0, ";", "#X", 0, 63, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 83, 107, 166, 1, 2, 0, 0, ";", "#X", 120, 47, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 12598, 4, 5, 0, 0, ";", "#X", 0, 63, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 83, 99, 219, 1, 2, 0, 0, ";", "#X", 0, 83, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 95, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 35, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 249, 85, 125, 167, 1, 2, 0, 0, ";", "#X", 0, 85, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 97, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 12348, 4, 5, 0, 0, ";", "#X", 0, 63, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 12348, 4, 5, 0, 0, ";", "#X", 0, 63, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 80, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 35, 92, 223, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 12348, 4, 5, 0, 0, ";", "#X", 0, 63, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 10, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 79, 120, 0, 1, 2, 0, 0, ";", "#X", 120, 59, 67, 12348, 4, 5, 0, 0, ";", "#X", 0, 63, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 12598, 4, 5, 0, 0, ";", "#X", 0, 63, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 12598, 4, 5, 0, 0, ";", "#X", 0, 63, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 125, 245, 1, 2, 0, 0, ";", "#X", 0, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 35, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 76, 117, 2271, 1, 2, 0, 0, ";", "#X", 0, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 47, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 14598, 4, 5, 0, 0, ";", "#X", 0, 63, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 140, 2, 3, 0, 0, ";", "#X", 0, 59, 70, 14598, 4, 5, 0, 0, ";", "#X", 0, 63, 75, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 105, 115, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 1459, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 59, 83, -1, 5, 6, 0, 0, ";", "#X", 0, 64, 85, 1979, 5, 6, 0, 0, ";", "#X", 0, 68, 94, 0, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 119, 81, 127, 964, 7, 8, 0, 0, ";", "#X", 6, 40, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 250, 52, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 14348, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 14348, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 229, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 14348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 59, 66, 14348, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 182, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 79, 123, 99, 7, 8, 0, 0, ";", "#X", 88, 76, 116, 891, 7, 8, 0, 0, ";", "#X", 157, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 14598, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 59, 87, -1, 5, 6, 0, 0, ";", "#X", 0, 63, 91, 1979, 5, 6, 0, 0, ";", "#X", 0, 66, 94, 1979, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 47, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 59, 70, 14598, 4, 5, 0, 0, ";", "#X", 0, 63, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 83, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 95, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 14598, 4, 5, 0, 0, ";", "#X", 0, 63, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 250, 47, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 14598, 4, 5, 0, 0, ";", "#X", 0, 63, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 83, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 95, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 14598, 4, 5, 0, 0, ";", "#X", 0, 63, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 203, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 14848, 4, 5, 0, 0, ";", "#X", 0, 63, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 59, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 63, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 62, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 63, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 83, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 95, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 38, 89, 5, 10, 10, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 63, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 47, 92, 62, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 63, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 83, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 95, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 38, 91, 5, 10, 10, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 130, 2, 3, 0, 0, ";", "#X", 0, 59, 70, 0, 4, 5, 0, 0, ";", "#X", 0, 63, 75, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 64, 112, 521, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 464, 6, 7, 0, 0, ";", "#X", 1, 40, 92, 161, 2, 3, 0, 0, ";", "#X", 0, 64, 82, 1979, 5, 6, 0, 0, ";", "#X", 0, 68, 94, 0, 5, 6, 0, 0, ";", "#X", 0, 71, 84, 1979, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 49, 91, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 118, 448, 1, 2, 0, 0, ";", "#X", 0, 80, 117, 484, 1, 2, 0, 0, ";", "#X", 0, 52, 125, 474, 7, 8, 0, 0, ";", "#X", 0, 76, 125, 474, 7, 8, 0, 0, ";", "#X", 245, 52, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 145, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 197, 2, 3, 0, 0, ";", "#X", 0, 61, 123, 218, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 73, 125, 198, 1, 2, 0, 0, ";", "#X", 0, 78, 105, 239, 1, 2, 0, 0, ";", "#X", 0, 49, 126, 229, 7, 8, 0, 0, ";", "#X", 0, 73, 126, 229, 7, 8, 0, 0, ";", "#X", 244, 71, 113, 198, 1, 2, 0, 0, ";", "#X", 1, 52, 92, 67, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 0, 4, 5, 0, 0, ";", "#X", 0, 59, 101, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 47, 112, 203, 7, 8, 0, 0, ";", "#X", 0, 71, 112, 203, 7, 8, 0, 0, ";", "#X", 5, 76, 96, 213, 1, 2, 0, 0, ";", "#X", 115, 52, 92, 135, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 118, 0, 1, 2, 0, 0, ";", "#X", 1, 40, 92, 182, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 118, 494, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 80, 108, 437, 1, 2, 0, 0, ";", "#X", 0, 52, 122, 463, 7, 8, 0, 0, ";", "#X", 0, 76, 122, 463, 7, 8, 0, 0, ";", "#X", 120, 59, 66, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 135, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 101, 0, 1, 2, 0, 0, ";", "#X", 1, 40, 92, 182, 2, 3, 0, 0, ";", "#X", 0, 61, 120, 239, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 49, 125, 229, 7, 8, 0, 0, ";", "#X", 0, 73, 125, 229, 7, 8, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 73, 125, 224, 1, 2, 0, 0, ";", "#X", 244, 71, 121, 224, 1, 2, 0, 0, ";", "#X", 1, 52, 92, 0, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 59, 107, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 76, 97, 192, 1, 2, 0, 0, ";", "#X", 0, 47, 118, 229, 7, 8, 0, 0, ";", "#X", 0, 71, 118, 229, 7, 8, 0, 0, ";", "#X", 120, 52, 92, 145, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 64, 81, 1979, 5, 6, 0, 0, ";", "#X", 0, 68, 94, 0, 5, 6, 0, 0, ";", "#X", 0, 71, 79, 1979, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 80, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 80, 125, 229, 1, 2, 0, 0, ";", "#X", 0, 56, 127, 161, 7, 8, 0, 0, ";", "#X", 0, 80, 127, 161, 7, 8, 0, 0, ";", "#X", 120, 52, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 182, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 244, 78, 125, 0, 1, 2, 0, 0, ";", "#X", 5, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 54, 127, 177, 7, 8, 0, 0, ";", "#X", 0, 78, 127, 177, 7, 8, 0, 0, ";", "#X", 120, 52, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 117, 172, 1, 2, 0, 0, ";", "#X", 0, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 218, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 52, 116, 130, 7, 8, 0, 0, ";", "#X", 0, 76, 116, 130, 7, 8, 0, 0, ";", "#X", 120, 59, 66, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 119, 76, 109, 0, 1, 2, 0, 0, ";", "#X", 5, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 52, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 52, 109, 187, 7, 8, 0, 0, ";", "#X", 0, 76, 109, 187, 7, 8, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 93, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 114, 78, 125, 412, 1, 2, 0, 0, ";", "#X", 10, 78, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 54, 127, 349, 7, 8, 0, 0, ";", "#X", 0, 78, 127, 349, 7, 8, 0, 0, ";", "#X", 245, 52, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 52, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 166, 2, 3, 0, 0, ";", "#X", 0, 61, 86, 1979, 5, 6, 0, 0, ";", "#X", 0, 64, 89, 1979, 5, 6, 0, 0, ";", "#X", 0, 68, 96, 0, 5, 6, 0, 0, ";", "#X", 0, 64, 121, 473, 6, 7, 0, 0, ";", "#X", 0, 76, 109, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 121, 453, 1, 2, 0, 0, ";", "#X", 0, 80, 112, 427, 1, 2, 0, 0, ";", "#X", 0, 52, 119, 432, 7, 8, 0, 0, ";", "#X", 0, 76, 119, 432, 7, 8, 0, 0, ";", "#X", 245, 49, 92, 67, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 78, 109, 0, 1, 2, 0, 0, ";", "#X", 1, 37, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 61, 116, 223, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 73, 125, 229, 1, 2, 0, 0, ";", "#X", 0, 49, 123, 213, 7, 8, 0, 0, ";", "#X", 0, 73, 123, 213, 7, 8, 0, 0, ";", "#X", 245, 49, 92, 67, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 0, 4, 5, 0, 0, ";", "#X", 0, 59, 97, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 108, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 71, 108, 0, 1, 2, 0, 0, ";", "#X", 0, 76, 98, 192, 1, 2, 0, 0, ";", "#X", 0, 47, 112, 192, 7, 8, 0, 0, ";", "#X", 0, 71, 112, 192, 7, 8, 0, 0, ";", "#X", 120, 49, 92, 130, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 121, 494, 6, 7, 0, 0, ";", "#X", 0, 76, 111, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 121, 463, 1, 2, 0, 0, ";", "#X", 0, 80, 102, 453, 1, 2, 0, 0, ";", "#X", 0, 52, 118, 463, 7, 8, 0, 0, ";", "#X", 0, 76, 118, 463, 7, 8, 0, 0, ";", "#X", 120, 59, 66, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 6729, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 135, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 8604, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 125, 0, 1, 2, 0, 0, ";", "#X", 0, 78, 107, 235, 1, 2, 0, 0, ";", "#X", 1, 37, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 61, 116, 244, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 49, 126, 234, 7, 8, 0, 0, ";", "#X", 0, 73, 126, 234, 7, 8, 0, 0, ";", "#X", 245, 49, 92, 52, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 59, 107, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 109, 213, 6, 7, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 71, 118, 0, 1, 2, 0, 0, ";", "#X", 0, 76, 103, 130, 1, 2, 0, 0, ";", "#X", 0, 47, 115, 172, 7, 8, 0, 0, ";", "#X", 0, 71, 115, 172, 7, 8, 0, 0, ";", "#X", 120, 49, 92, 145, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 37, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 61, 90, 1979, 5, 6, 0, 0, ";", "#X", 0, 64, 90, 1979, 5, 6, 0, 0, ";", "#X", 0, 68, 99, 0, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 80, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 80, 113, 213, 1, 2, 0, 0, ";", "#X", 0, 56, 127, 135, 7, 8, 0, 0, ";", "#X", 0, 80, 127, 135, 7, 8, 0, 0, ";", "#X", 120, 49, 92, 135, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 80, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 37, 92, 187, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 80, 106, 213, 1, 2, 0, 0, ";", "#X", 0, 56, 126, 177, 7, 8, 0, 0, ";", "#X", 0, 80, 126, 177, 7, 8, 0, 0, ";", "#X", 244, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 72, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 114, 213, 1, 2, 0, 0, ";", "#X", 0, 54, 126, 151, 7, 8, 0, 0, ";", "#X", 0, 78, 126, 151, 7, 8, 0, 0, ";", "#X", 120, 49, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 37, 92, 213, 2, 3, 0, 0, ";", "#X", 0, 59, 63, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 104, 0, 1, 2, 0, 0, ";", "#X", 0, 52, 114, 140, 7, 8, 0, 0, ";", "#X", 0, 76, 114, 140, 7, 8, 0, 0, ";", "#X", 120, 59, 66, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 105, 99, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 99, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 88, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 102, 99, 1, 2, 0, 0, ";", "#X", 0, 52, 116, 99, 7, 8, 0, 0, ";", "#X", 0, 76, 116, 99, 7, 8, 0, 0, ";", "#X", 119, 76, 105, 99, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 99, 3, 4, 0, 0, ";", "#X", 1, 49, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 66, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 105, 0, 1, 2, 0, 0, ";", "#X", 104, 52, 111, 83, 7, 8, 0, 0, ";", "#X", 0, 76, 111, 83, 7, 8, 0, 0, ";", "#X", 15, 78, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 37, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 114, 474, 1, 2, 0, 0, ";", "#X", 5, 54, 127, 276, 7, 8, 0, 0, ";", "#X", 0, 78, 127, 276, 7, 8, 0, 0, ";", "#X", 240, 49, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 49, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 70, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 33, 92, 177, 2, 3, 0, 0, ";", "#X", 0, 61, 86, 1979, 5, 6, 0, 0, ";", "#X", 0, 64, 94, 1979, 5, 6, 0, 0, ";", "#X", 0, 69, 86, 1979, 5, 6, 0, 0, ";", "#X", 0, 64, 114, 473, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 76, 121, 437, 1, 2, 0, 0, ";", "#X", 0, 81, 100, 422, 1, 2, 0, 0, ";", "#X", 0, 52, 118, 396, 7, 8, 0, 0, ";", "#X", 0, 76, 118, 396, 7, 8, 0, 0, ";", "#X", 245, 45, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 125, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 73, 124, 0, 1, 2, 0, 0, ";", "#X", 1, 33, 92, 192, 2, 3, 0, 0, ";", "#X", 0, 61, 123, 218, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 49, 123, 223, 7, 8, 0, 0, ";", "#X", 0, 73, 123, 223, 7, 8, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 80, 100, 224, 1, 2, 0, 0, ";", "#X", 244, 71, 109, 0, 1, 2, 0, 0, ";", "#X", 1, 45, 92, 62, 2, 3, 0, 0, ";", "#X", 0, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 59, 99, -1, 6, 7, 0, 0, ";", "#X", 0, 71, 108, 213, 6, 7, 0, 0, ";", "#X", 0, 47, 112, 197, 7, 8, 0, 0, ";", "#X", 0, 71, 112, 197, 7, 8, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 78, 90, 208, 1, 2, 0, 0, ";", "#X", 120, 45, 92, 104, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 67, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 120, 474, 1, 2, 0, 0, ";", "#X", 1, 33, 92, 171, 2, 3, 0, 0, ";", "#X", 0, 61, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 118, 515, 6, 7, 0, 0, ";", "#X", 0, 76, 110, 463, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 5, 81, 100, 432, 1, 2, 0, 0, ";", "#X", 0, 52, 119, 385, 7, 8, 0, 0, ";", "#X", 0, 76, 119, 385, 7, 8, 0, 0, ";", "#X", 120, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 67, 2, 3, 0, 0, ";", "#X", 0, 61, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 68, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 20, 10, 10, 0, 0, ";", "#X", 125, 45, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 61, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 33, 92, 182, 2, 3, 0, 0, ";", "#X", 0, 61, 123, 244, 6, 7, 0, 0, ";", "#X", 0, 73, 111, 213, 6, 7, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 78, 105, 0, 1, 2, 0, 0, ";", "#X", 0, 83, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 95, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 45, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 61, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 10, 83, 124, 401, 1, 2, 0, 0, ";", "#X", 5, 59, 118, -1, 7, 8, 0, 0, ";", "#X", 0, 83, 118, 349, 7, 8, 0, 0, ";", "#X", 110, 45, 92, 109, 2, 3, 0, 0, ";", "#X", 0, 61, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 64, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 69, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 35, 92, 239, 2, 3, 0, 0, ";", "#X", 0, 59, 89, -1, 5, 6, 0, 0, ";", "#X", 0, 63, 96, 1979, 5, 6, 0, 0, ";", "#X", 0, 66, 94, 1979, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 249, 83, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 95, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 47, 92, 72, 2, 3, 0, 0, ";", "#X", 0, 59, 70, 0, 4, 5, 0, 0, ";", "#X", 0, 63, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 5, 83, 113, 198, 1, 2, 0, 0, ";", "#X", 0, 59, 108, -1, 7, 8, 0, 0, ";", "#X", 0, 83, 108, 151, 7, 8, 0, 0, ";", "#X", 120, 47, 92, 119, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 63, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 83, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 95, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 35, 92, 208, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 83, 102, 224, 1, 2, 0, 0, ";", "#X", 0, 59, 97, -1, 7, 8, 0, 0, ";", "#X", 0, 83, 97, 208, 7, 8, 0, 0, ";", "#X", 244, 85, 123, 183, 1, 2, 0, 0, ";", "#X", 0, 85, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 97, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 47, 92, 83, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 63, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 5, 61, 126, 140, 7, 8, 0, 0, ";", "#X", 0, 85, 126, 140, 7, 8, 0, 0, ";", "#X", 120, 47, 92, 119, 2, 3, 0, 0, ";", "#X", 0, 59, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 63, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 124, 80, 105, 464, 3, 4, 0, 0, ";", "#X", 0, 92, 105, 464, 3, 4, 0, 0, ";", "#X", 1, 35, 92, 78, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 63, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 10, 79, 118, 344, 1, 2, 0, 0, ";", "#X", 5, 54, 119, 57, 7, 8, 0, 0, ";", "#X", 0, 55, 122, 276, 7, 8, 0, 0, ";", "#X", 0, 78, 119, 57, 7, 8, 0, 0, ";", "#X", 0, 79, 122, 276, 7, 8, 0, 0, ";", "#X", 110, 47, 92, 229, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 63, 69, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 59, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 63, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 47, 92, 114, 2, 3, 0, 0, ";", "#X", 0, 59, 67, 0, 4, 5, 0, 0, ";", "#X", 0, 63, 71, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 70, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 114, 78, 125, 250, 1, 2, 0, 0, ";", "#X", 10, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 35, 92, 182, 2, 3, 0, 0, ";", "#X", 0, 54, 127, 229, 7, 8, 0, 0, ";", "#X", 0, 78, 127, 229, 7, 8, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 244, 76, 114, 2193, 1, 2, 0, 0, ";", "#X", 5, 78, 105, 214, 3, 4, 0, 0, ";", "#X", 0, 90, 105, 214, 3, 4, 0, 0, ";", "#X", 1, 47, 92, 67, 2, 3, 0, 0, ";", "#X", 0, 59, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 63, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 5, 52, 118, 1953, 7, 8, 0, 0, ";", "#X", 0, 76, 118, 1953, 7, 8, 0, 0, ";", "#X", 120, 47, 92, 98, 2, 3, 0, 0, ";", "#X", 0, 59, 70, 0, 4, 5, 0, 0, ";", "#X", 0, 63, 75, 98, 4, 5, 0, 0, ";", "#X", 0, 66, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 76, 105, 1964, 3, 4, 0, 0, ";", "#X", 0, 88, 105, 1459, 3, 4, 0, 0, ";", "#X", 1, 40, 92, 442, 2, 3, 0, 0, ";", "#X", 0, 59, 89, -1, 5, 6, 0, 0, ";", "#X", 0, 64, 89, 1979, 5, 6, 0, 0, ";", "#X", 0, 68, 95, 0, 5, 6, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 59, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 73, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 59, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 73, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 427, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 250, 59, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 74, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 59, 69, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 72, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 453, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 125, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 59, 68, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 74, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 125, 59, 70, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 73, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 73, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 125, 40, 92, 432, 2, 3, 0, 0, ";", "#X", 0, 35, 108, 5, 10, 10, 0, 0, ";", "#X", 0, 38, 90, 5, 10, 10, 0, 0, ";", "#X", 0, 42, 79, 5, 10, 10, 0, 0, ";", "#X", 0, 67, 69, 5, 10, 10, 0, 0, ";", "#X", 250, 59, 71, 0, 4, 5, 0, 0, ";", "#X", 0, 64, 74, 98, 4, 5, 0, 0, ";", "#X", 0, 68, 75, 0, 4, 5, 0, 0, ";", "#X", 0, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 0, 68, 69, -1, 10, 10, 0, 0, ";", "#X", 125, 46, 62, 5, 10, 10, 0, 0, ";", "#X", 124, 40, 127, 495, 3, 4, 0, 0, ";", "#X", 0, 71, 84, 4126, 5, 6, 0, 0, ";", "#X", 0, 76, 84, 4126, 5, 6, 0, 0, ";", "#X", 0, 80, 93, 4126, 5, 6, 0, 0, ";", "#X", 0, 88, 83, 4126, 5, 6, 0, 0, ";", "#X", 1, 40, 92, 453, 2, 3, 0, 0, ";", "#X", 0, 52, 92, 453, 2, 3, 0, 0, ";", "#X", 0, 40, 91, 494, 4, 5, 0, 0, ";", "#X", 0, 52, 91, 494, 4, 5, 0, 0, ";", "#X", 0, 64, 127, 494, 6, 7, 0, 0, ";", "#X", 0, 42, 17, 5, 10, 10, 0, 0, ";", "#X", 0, 49, 111, 447, 10, 10, 0, 0, ";", "#X", 5, 40, 101, 495, 7, 8, 0, 0, ";", "#X", 0, 52, 101, 495, 7, 8, 0, 0, ";", "#X", 0, 71, 61, 4125, 7, 8, 0, 0, ";", "#X", 0, 76, 61, 4125, 7, 8, 0, 0, ";", "#X", 0, 80, 61, 4125, 7, 8, 0, 0, ";", "#X", 0, 88, 61, 4125, 7, 8, 0, 0, ";", "#X", 494, 47, 127, 495, 3, 4, 0, 0, ";", "#X", 0, 49, 111, 448, 10, 10, 0, 0, ";", "#X", 1, 35, 92, 484, 2, 3, 0, 0, ";", "#X", 0, 47, 92, 484, 2, 3, 0, 0, ";", "#X", 0, 35, 91, 494, 4, 5, 0, 0, ";", "#X", 0, 47, 91, 494, 4, 5, 0, 0, ";", "#X", 0, 59, 127, -1, 6, 7, 0, 0, ";", "#X", 5, 35, 101, 495, 7, 8, 0, 0, ";", "#X", 0, 47, 101, 495, 7, 8, 0, 0, ";", "#X", 494, 40, 127, 495, 3, 4, 0, 0, ";", "#X", 0, 49, 111, 448, 10, 10, 0, 0, ";", "#X", 1, 40, 92, 489, 2, 3, 0, 0, ";", "#X", 0, 52, 92, 489, 2, 3, 0, 0, ";", "#X", 0, 40, 91, 494, 4, 5, 0, 0, ";", "#X", 0, 52, 91, 494, 4, 5, 0, 0, ";", "#X", 0, 64, 127, 494, 6, 7, 0, 0, ";", "#X", 5, 40, 101, 495, 7, 8, 0, 0, ";", "#X", 0, 52, 101, 495, 7, 8, 0, 0, ";", "#X", 494, 47, 127, 495, 3, 4, 0, 0, ";", "#X", 0, 49, 111, 448, 10, 10, 0, 0, ";", "#X", 1, 35, 92, 494, 2, 3, 0, 0, ";", "#X", 0, 47, 92, 500, 2, 3, 0, 0, ";", "#X", 0, 35, 91, 494, 4, 5, 0, 0, ";", "#X", 0, 47, 91, 494, 4, 5, 0, 0, ";", "#X", 0, 59, 127, -1, 6, 7, 0, 0, ";", "#X", 5, 35, 101, 495, 7, 8, 0, 0, ";", "#X", 0, 47, 101, 495, 7, 8, 0, 0, ";", "#X", 494, 40, 127, 115, 3, 4, 0, 0, ";", "#X", 0, 49, 111, 6, 10, 10, 0, 0, ";", "#X", 1, 40, 91, 2083, 2, 3, 0, 0, ";", "#X", 0, 52, 91, 2083, 2, 3, 0, 0, ";", "#X", 0, 28, 91, 2062, 4, 5, 0, 0, ";", "#X", 0, 40, 91, 2062, 4, 5, 0, 0, ";", "#X", 0, 64, 127, 2062, 6, 7, 0, 0, ";", "#X", 5, 28, 101, 2125, 7, 8, 0, 0, ";", "#X", 0, 40, 101, 2125, 7, 8, 0, 0, ";", "#X", "stop", ";" ],
+					"save" : [ "#N", "detonate", "u434001013", ";", "#X", "setparam", 0, "Time", 0, 0, 999999, 0, 1000, 200, 0, ";", "#X", "setparam", 1, "Pitch", 0, 0, 127, 60, 12, 4, 0, ";", "#X", "setparam", 2, "Vel", 0, 0, 127, 64, 12, 4, 0, ";", "#X", "setparam", 3, "Dur", 0, 1, 99999, 200, 800, 200, 0, ";", "#X", "setparam", 4, "Chan", 0, 1, 16, 1, 8, 1, 0, ";", "#X", "setparam", 5, "Track", 0, 1, 32, 1, 8, 1, 0, ";", "#X", "setparam", 6, "X1", 0, 0, 999, 0, 80, 20, 0, ";", "#X", "setparam", 7, "X2", 0, 0, 999, 0, 80, 20, 0, ";", "#X", "restore", ";", "#X", 677, 72, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 71, 100, 452, 1, 2, 0, 0, ";", "#X", 452, 72, 100, 283, 1, 2, 0, 0, ";", "#X", 226, 71, 100, 396, 1, 2, 0, 0, ";", "#X", 452, 69, 100, 283, 1, 2, 0, 0, ";", "#X", 226, 72, 100, 1130, 1, 2, 0, 0, ";", "#X", 1130, 71, 100, 1017, 1, 2, 0, 0, ";", "#X", 2260, 72, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 71, 100, 452, 1, 2, 0, 0, ";", "#X", 452, 72, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 71, 100, 452, 1, 2, 0, 0, ";", "#X", 452, 69, 100, 283, 1, 2, 0, 0, ";", "#X", 226, 76, 100, 283, 1, 2, 0, 0, ";", "#X", 339, 76, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 73, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 70, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 69, 100, 960, 1, 2, 0, 0, ";", "#X", 1695, 74, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 72, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 74, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 72, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 68, 100, -1, 1, 2, 0, 0, ";", "#X", 339, 74, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 72, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 68, 100, -1, 1, 2, 0, 0, ";", "#X", 452, 72, 100, 1243, 1, 2, 0, 0, ";", "#X", 1808, 67, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 69, 100, 508, 1, 2, 0, 0, ";", "#X", 508, 72, 100, 226, 1, 2, 0, 0, ";", "#X", 170, 74, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 75, 100, 452, 1, 2, 0, 0, ";", "#X", 678, 75, 100, 452, 1, 2, 0, 0, ";", "#X", 452, 74, 100, 1581, 1, 2, 0, 0, ";", "#X", 3728, 72, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 71, 100, 452, 1, 2, 0, 0, ";", "#X", 452, 72, 100, 283, 1, 2, 0, 0, ";", "#X", 226, 71, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 69, 100, 339, 1, 2, 0, 0, ";", "#X", 735, 72, 100, 621, 1, 2, 0, 0, ";", "#X", 621, 71, 100, 1017, 1, 2, 0, 0, ";", "#X", 2373, 72, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 71, 100, 452, 1, 2, 0, 0, ";", "#X", 452, 72, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 71, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 69, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 73, 100, 282, 1, 2, 0, 0, ";", "#X", 339, 76, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 73, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 70, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 69, 100, 960, 1, 2, 0, 0, ";", "#X", 1695, 74, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 72, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 74, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 72, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 68, 100, -1, 1, 2, 0, 0, ";", "#X", 339, 74, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 72, 100, 565, 1, 2, 0, 0, ";", "#X", 565, 68, 100, -1, 1, 2, 0, 0, ";", "#X", 452, 72, 100, 565, 1, 2, 0, 0, ";", "#X", 1356, 67, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 69, 100, 508, 1, 2, 0, 0, ";", "#X", 565, 72, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 74, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 75, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 74, 100, 508, 1, 2, 0, 0, ";", "#X", 508, 72, 100, 1977, 1, 2, 0, 0, ";", "#X", 3559, 81, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 78, 100, 396, 1, 2, 0, 0, ";", "#X", 452, 81, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 78, 100, 283, 1, 2, 0, 0, ";", "#X", 226, 76, 100, 339, 1, 2, 0, 0, ";", "#X", 396, 73, 100, 282, 1, 2, 0, 0, ";", "#X", 282, 76, 100, 339, 1, 2, 0, 0, ";", "#X", 396, 66, 100, 621, 1, 2, 0, 0, ";", "#X", 621, 68, 100, -1, 1, 2, 0, 0, ";", "#X", 1695, 81, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 78, 100, 395, 1, 2, 0, 0, ";", "#X", 395, 81, 100, 452, 1, 2, 0, 0, ";", "#X", 452, 78, 100, 509, 1, 2, 0, 0, ";", "#X", 509, 76, 100, 2090, 1, 2, 0, 0, ";", "#X", 3390, 81, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 78, 100, 395, 1, 2, 0, 0, ";", "#X", 395, 81, 100, 622, 1, 2, 0, 0, ";", "#X", 622, 78, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 76, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 73, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 76, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 66, 100, 621, 1, 2, 0, 0, ";", "#X", 621, 68, 100, -1, 1, 2, 0, 0, ";", "#X", 1751, 81, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 76, 100, 396, 1, 2, 0, 0, ";", "#X", 396, 73, 100, 960, 1, 2, 0, 0, ";", "#X", 960, 80, 100, 1356, 1, 2, 0, 0, ";", "#X", 1356, 79, 100, 1356, 1, 2, 0, 0, ";", "#X", 2034, 72, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 71, 100, 735, 1, 2, 0, 0, ";", "#X", 735, 72, 100, 296, 1, 2, 0, 0, ";", "#X", 282, 71, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 69, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 72, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 71, 100, 1017, 1, 2, 0, 0, ";", "#X", 2373, 72, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 71, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 72, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 71, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 69, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 73, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 76, 100, 1017, 1, 2, 0, 0, ";", "#X", 1017, 73, 100, 282, 1, 2, 0, 0, ";", "#X", 282, 70, 100, 396, 1, 2, 0, 0, ";", "#X", 396, 69, 100, 791, 1, 2, 0, 0, ";", "#X", 1356, 74, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 72, 100, 395, 1, 2, 0, 0, ";", "#X", 452, 74, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 72, 100, 395, 1, 2, 0, 0, ";", "#X", 452, 75, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 74, 100, 452, 1, 2, 0, 0, ";", "#X", 452, 72, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 75, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 74, 100, 338, 1, 2, 0, 0, ";", "#X", 338, 72, 100, 622, 1, 2, 0, 0, ";", "#X", 1356, 67, 100, 396, 1, 2, 0, 0, ";", "#X", 396, 69, 100, 565, 1, 2, 0, 0, ";", "#X", 565, 72, 100, 226, 1, 2, 0, 0, ";", "#X", 169, 74, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 75, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 74, 100, 452, 1, 2, 0, 0, ";", "#X", 509, 72, 100, 1525, 1, 2, 0, 0, ";", "#X", 25254, 81, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 78, 100, 395, 1, 2, 0, 0, ";", "#X", 395, 81, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 78, 100, 283, 1, 2, 0, 0, ";", "#X", 283, 81, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 78, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 81, 100, 169, 1, 2, 0, 0, ";", "#X", 169, 78, 100, 170, 1, 2, 0, 0, ";", "#X", 170, 81, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 78, 100, 508, 1, 2, 0, 0, ";", "#X", 508, 76, 100, 961, 1, 2, 0, 0, ";", "#X", 1526, 81, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 78, 100, 395, 1, 2, 0, 0, ";", "#X", 395, 81, 100, 509, 1, 2, 0, 0, ";", "#X", 565, 78, 100, 452, 1, 2, 0, 0, ";", "#X", 396, 76, 100, 2203, 1, 2, 0, 0, ";", "#X", 3389, 81, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 78, 100, 396, 1, 2, 0, 0, ";", "#X", 396, 81, 100, 621, 1, 2, 0, 0, ";", "#X", 621, 78, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 76, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 73, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 76, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 66, 100, 622, 1, 2, 0, 0, ";", "#X", 622, 68, 100, -1, 1, 2, 0, 0, ";", "#X", 1751, 81, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 76, 100, 396, 1, 2, 0, 0, ";", "#X", 396, 73, 100, 960, 1, 2, 0, 0, ";", "#X", 960, 80, 100, 1356, 1, 2, 0, 0, ";", "#X", 1356, 79, 100, 1299, 1, 2, 0, 0, ";", "#X", 2034, 72, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 71, 100, 734, 1, 2, 0, 0, ";", "#X", 734, 72, 100, 297, 1, 2, 0, 0, ";", "#X", 283, 71, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 69, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 72, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 71, 100, 1017, 1, 2, 0, 0, ";", "#X", 2373, 72, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 71, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 72, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 71, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 69, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 73, 100, 339, 1, 2, 0, 0, ";", "#X", 339, 76, 100, 904, 1, 2, 0, 0, ";", "#X", 1017, 76, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 73, 100, 225, 1, 2, 0, 0, ";", "#X", 225, 69, 100, 283, 1, 2, 0, 0, ";", "#X", 226, 70, 100, 396, 1, 2, 0, 0, ";", "#X", 396, 69, 100, 452, 1, 2, 0, 0, ";", "#X", 1412, 74, 100, 283, 1, 2, 0, 0, ";", "#X", 226, 72, 100, 339, 1, 2, 0, 0, ";", "#X", 396, 74, 100, 282, 1, 2, 0, 0, ";", "#X", 282, 72, 100, 396, 1, 2, 0, 0, ";", "#X", 396, 75, 100, 282, 1, 2, 0, 0, ";", "#X", 282, 74, 100, 452, 1, 2, 0, 0, ";", "#X", 452, 72, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 75, 100, 396, 1, 2, 0, 0, ";", "#X", 396, 74, 100, 282, 1, 2, 0, 0, ";", "#X", 282, 72, 100, 622, 1, 2, 0, 0, ";", "#X", 1356, 67, 100, 396, 1, 2, 0, 0, ";", "#X", 396, 69, 100, 565, 1, 2, 0, 0, ";", "#X", 565, 72, 100, 226, 1, 2, 0, 0, ";", "#X", 169, 74, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 75, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 74, 100, 452, 1, 2, 0, 0, ";", "#X", 452, 72, 100, 1073, 1, 2, 0, 0, ";", "#X", 1356, 72, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 71, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 72, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 71, 100, 621, 1, 2, 0, 0, ";", "#X", 678, 69, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 72, 100, 1130, 1, 2, 0, 0, ";", "#X", 1130, 71, 100, 1017, 1, 2, 0, 0, ";", "#X", 2260, 79, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 78, 100, 452, 1, 2, 0, 0, ";", "#X", 452, 75, 100, 904, 1, 2, 0, 0, ";", "#X", 904, 77, 100, 1130, 1, 2, 0, 0, ";", "#X", 1130, 74, 100, 904, 1, 2, 0, 0, ";", "#X", 904, 67, 100, 282, 1, 2, 0, 0, ";", "#X", 226, 69, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 71, 100, 225, 1, 2, 0, 0, ";", "#X", 225, 72, 100, 283, 1, 2, 0, 0, ";", "#X", 452, 76, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 79, 100, 396, 1, 2, 0, 0, ";", "#X", 452, 79, 100, 283, 1, 2, 0, 0, ";", "#X", 226, 78, 100, 283, 1, 2, 0, 0, ";", "#X", 226, 79, 100, 283, 1, 2, 0, 0, ";", "#X", 226, 78, 100, 961, 1, 2, 0, 0, ";", "#X", 1356, 77, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 74, 100, 961, 1, 2, 0, 0, ";", "#X", 2260, 72, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 71, 100, 452, 1, 2, 0, 0, ";", "#X", 452, 72, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 71, 100, 452, 1, 2, 0, 0, ";", "#X", 452, 69, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 72, 100, 1130, 1, 2, 0, 0, ";", "#X", 1130, 71, 100, 1017, 1, 2, 0, 0, ";", "#X", 2260, 72, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 71, 100, 466, 1, 2, 0, 0, ";", "#X", 452, 72, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 71, 100, 452, 1, 2, 0, 0, ";", "#X", 452, 69, 100, 282, 1, 2, 0, 0, ";", "#X", 226, 72, 100, 452, 1, 2, 0, 0, ";", "#X", 452, 74, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 72, 100, 452, 1, 2, 0, 0, ";", "#X", 452, 76, 100, 960, 1, 2, 0, 0, ";", "#X", 2260, 72, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 71, 100, 452, 1, 2, 0, 0, ";", "#X", 452, 72, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 71, 100, 452, 1, 2, 0, 0, ";", "#X", 452, 69, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 72, 100, 1129, 1, 2, 0, 0, ";", "#X", 1129, 71, 100, 1187, 1, 2, 0, 0, ";", "#X", 2260, 72, 100, 678, 1, 2, 0, 0, ";", "#X", 678, 71, 100, 452, 1, 2, 0, 0, ";", "#X", 452, 72, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 71, 100, 452, 1, 2, 0, 0, ";", "#X", 452, 69, 100, 226, 1, 2, 0, 0, ";", "#X", 226, 74, 100, 1130, 1, 2, 0, 0, ";", "#X", 1130, 71, 100, 904, 1, 2, 0, 0, ";", "#X", "stop", ";" ],
 					"text" : "detonate"
 				}
 
@@ -2517,10 +4544,82 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-154", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-149", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-153", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-151", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-153", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-151", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-152", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-153", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-153", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-151", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-154", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-151", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-154", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-155", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-157", 0 ]
 				}
 
 			}
